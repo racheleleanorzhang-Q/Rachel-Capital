@@ -2,9 +2,9 @@
 
 ## Log Index
 
-| Decision ID | Date | Category | Subject | Status | Review Due |
-| --- | --- | --- | --- | --- | --- |
-| `YYYYMMDD-01` | `YYYY-MM-DD` | `Buy / Add / Reduce / Exit / Risk / Process` | `TBD` | `Open / Reviewed` | `YYYY-MM-DD` |
+| Decision ID | Date | Decision Type | Subject | Success Criteria | Review Date | Final Result |
+| --- | --- | --- | --- | --- | --- | --- |
+| `YYYYMMDD-01` | `YYYY-MM-DD` | `Buy / Add / Reduce / Exit / Risk / Process` | `TBD` | `TBD` | `YYYY-MM-DD` | `Open / Success / Failure / Mixed` |
 
 ## Decision Entry Template
 
@@ -16,7 +16,7 @@
 
 `YYYY-MM-DD`
 
-### Category
+### Decision Type
 
 `Buy / Add / Reduce / Exit / Risk / Process`
 
@@ -28,15 +28,27 @@
 
 - `TBD`
 
-### Trigger
+### Expected Outcome
 
 - `TBD`
 
-### Expected Result
+### Success Criteria
 
 - `TBD`
 
-### Review
+### Review Date
+
+`YYYY-MM-DD`
+
+### Final Result
+
+- `TBD`
+
+### Lessons Learned
+
+- `TBD`
+
+### Review Notes
 
 | Review Date | Outcome | What Was Correct | What Was Wrong | Next Adjustment |
 | --- | --- | --- | --- | --- |
@@ -46,4 +58,5 @@
 
 - Assign one decision ID per meaningful action.
 - Record the decision before or immediately after execution.
-- Update the review section when enough time has passed to judge the result.
+- Define success criteria before the outcome is known.
+- Update the final result and lessons learned when the review date arrives.

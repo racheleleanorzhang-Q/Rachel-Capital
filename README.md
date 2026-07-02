@@ -40,12 +40,24 @@ The system is built on four ideas:
 | `thesis/` | Stock-level thesis documents with one unified template. |
 | `watchlist/` | Candidates under observation with explicit triggers. |
 | `research/` | Theme and sector research using a shared structure. |
+| `committee/` | Investment committee meeting templates and future meeting records. |
+| `releases/` | Human-written product-style release notes by sprint/version. |
 | `assets/` | Supporting files for future reports and visuals. |
 | `.ai/` | Team, workflow, and architecture guidance for AI contributors. |
 | `.github/` | Pull request and issue templates for standardized project changes. |
 | `GOVERNANCE.md` | Project rules, release discipline, and long-term standards. |
 | `CONTRIBUTING.md` | Contribution workflow for future collaborators. |
 | `ARCHITECTURE.md` | Rationale for the repository design. |
+
+## Start Here
+
+For a first-time user, the fastest way to understand Rachel Capital is:
+
+1. Open `Dashboard.md` to see where the portfolio stands now.
+2. Open `account/Current.md` to see the current account picture behind the dashboard.
+3. Open `weekly/2026/Weekly_Review_Template.md` to understand the weekly operating rhythm.
+4. Open `monthly/Monthly_Review_Template.md` to understand the monthly strategic rhythm.
+5. Open `decisions/Decision_Log.md` and `docs/Mistake_Book.md` to see how the system improves decision quality over time.
 
 ## Workflow
 
@@ -67,6 +79,17 @@ Project changes follow a separate governance workflow documented in `.ai/WORKFLO
 4. Complete review.
 5. Merge to `main`.
 6. Publish release notes.
+
+## Operating Cycle
+
+Rachel Capital runs on recurring decisions rather than one-time documentation.
+
+- `Dashboard.md` is the homepage.
+- `weekly/` is the weekly investment committee operating cadence.
+- `monthly/` is the strategic review cadence.
+- `decisions/` is the memory of what was decided and how it later performed.
+- `thesis/` is the living record of why assets are owned and what would change that view.
+- `docs/Mistake_Book.md` is the mechanism for reducing repeated errors.
 
 ## Maintenance Principles
 
@@ -95,11 +118,11 @@ This repository is intentionally conservative.
 - establish contribution and release rules
 - make GitHub the single source of truth
 
-### Sprint 2: Operating Rhythm
+### Sprint 2: Operating System
 
-- begin real weekly and monthly records
-- refine dashboard fields based on actual usage
-- sharpen thesis quality and review discipline
+- turn the repository into a living operating system
+- refine dashboard clarity and navigation
+- strengthen recurring meeting, review, and decision workflows
 
 ### Sprint 3: Knowledge Depth
 
