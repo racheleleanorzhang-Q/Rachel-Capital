@@ -1,31 +1,49 @@
 # Decision Log
 
-更新日期：2026-07-02
+## Log Index
 
-## 记录规则
+| Decision ID | Date | Category | Subject | Status | Review Due |
+| --- | --- | --- | --- | --- | --- |
+| `YYYYMMDD-01` | `YYYY-MM-DD` | `Buy / Add / Reduce / Exit / Risk / Process` | `TBD` | `Open / Reviewed` | `YYYY-MM-DD` |
 
-每一笔重大交易或组合决策，都必须记录：
+## Decision Entry Template
 
-- 日期
-- 决策
-- 决策类型：修复 / 防守 / 进攻 / 风险控制
-- 原因
-- 执行条件
-- 预期结果
-- 后续复盘
+### Decision ID
 
-## 决策记录
+`YYYYMMDD-01`
 
-| 编号 | 日期 | 决策 | 类型 | 理由 | 当前结果 |
-|---|---|---|---|---|---|
-| D001 | 2026-06 | 减仓理想汽车 | 修复 | 降低组合集中度，减少整车行业暴露 | ✅ 初步正确 |
-| D002 | 2026-06 | 增持美团 | 进攻 / 修复 | 美团确定性和资金关注度优于理想 | ✅ 初步正确，回血约 2 万 |
-| D003 | 2026-06 | 买入紫金矿业 | 防守 / 对冲 | 引入黄金资源方向，降低组合相关性 | 观察中 |
-| D004 | 2026-06 | 买入北京银行 | 防守 | 引入低波动高股息方向，稳定组合 | 观察中 |
-| D005 | 2026-07-02 | 建立 Rachel Capital 项目 | 系统建设 | 用 GitHub 记录账户、复盘、Thesis 与决策日志 | 进行中 |
+### Date
 
-## 当前最重要的未决问题
+`YYYY-MM-DD`
 
-1. 理想汽车是否应在下一次有效反弹中继续减仓？
-2. 9 万现金应该等待什么级别的机会？
-3. 美团是否能够继续作为 Phase 2 核心仓？
+### Category
+
+`Buy / Add / Reduce / Exit / Risk / Process`
+
+### Subject
+
+`TBD`
+
+### Reason
+
+- `TBD`
+
+### Trigger
+
+- `TBD`
+
+### Expected Result
+
+- `TBD`
+
+### Review
+
+| Review Date | Outcome | What Was Correct | What Was Wrong | Next Adjustment |
+| --- | --- | --- | --- | --- |
+| `YYYY-MM-DD` | `TBD` | `TBD` | `TBD` | `TBD` |
+
+## Usage Rules
+
+- Assign one decision ID per meaningful action.
+- Record the decision before or immediately after execution.
+- Update the review section when enough time has passed to judge the result.
