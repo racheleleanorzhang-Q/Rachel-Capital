@@ -1,54 +1,72 @@
 # Weekly Review Template
 
-## Review Metadata
+## Meeting Information
 
 | Field | Value |
 | --- | --- |
 | Week | `YYYY-W##` |
-| Review Date | `YYYY-MM-DD` |
+| Meeting Date | `YYYY-MM-DD` |
+| Meeting Number | `IC-YYYY-W##` |
+| Attendees | `Rachel / ChatGPT` |
 | Market Regime | `TBD` |
 | Portfolio Stage | `TBD` |
+| Chair | `Rachel` |
+| Recorder | `ChatGPT` |
 
-## Market
+## Market Review
 
-| Item | Observation | Implication |
+| Topic | Observation | Investment Implication |
 | --- | --- | --- |
 | Index / Liquidity | `TBD` | `TBD` |
 | Sector Leadership | `TBD` | `TBD` |
 | Macro Signal | `TBD` | `TBD` |
 | Event Risk | `TBD` | `TBD` |
 
-## Portfolio
+## Portfolio Review
 
-| Item | Status | Change Needed |
+| Item | Current State | Discussion |
 | --- | --- | --- |
 | Overall Exposure | `TBD` | `TBD` |
 | Cash Position | `TBD` | `TBD` |
-| Best Holding | `TBD` | `TBD` |
-| Weakest Holding | `TBD` | `TBD` |
+| Strongest Position | `TBD` | `TBD` |
+| Weakest Position | `TBD` | `TBD` |
 
-## Risks
+## Risk Review
 
-| Risk | Trigger | Response |
+| Risk | Warning Signal | Response |
 | --- | --- | --- |
 | `TBD` | `TBD` | `TBD` |
 | `TBD` | `TBD` | `TBD` |
 
-## Thesis Updates
+## Decision Review
 
-| Holding | What Changed | Action Required |
-| --- | --- | --- |
-| `TBD` | `TBD` | `TBD` |
-| `TBD` | `TBD` | `TBD` |
-
-## Decisions
-
-| Decision | Reason | Expected Result |
-| --- | --- | --- |
-| `TBD` | `TBD` | `TBD` |
-
-## Next Week Plan
-
-| Item | Priority | Owner | Deadline |
+| Decision ID | Decision | Expected Outcome | Current Assessment |
 | --- | --- | --- | --- |
-| `TBD` | `High / Medium / Low` | `Rachel / ChatGPT` | `YYYY-MM-DD` |
+| `TBD` | `TBD` | `TBD` | `TBD` |
+| `TBD` | `TBD` | `TBD` | `TBD` |
+
+## Action Items
+
+| Item | Owner | Deadline | Destination |
+| --- | --- | --- | --- |
+| `TBD` | `Rachel / ChatGPT` | `YYYY-MM-DD` | `TBD` |
+| `TBD` | `Rachel / ChatGPT` | `YYYY-MM-DD` | `TBD` |
+
+## Open Questions
+
+- `TBD`
+- `TBD`
+
+## Next Meeting
+
+| Field | Value |
+| --- | --- |
+| Date | `YYYY-MM-DD` |
+| Primary Agenda | `TBD` |
+| Required Preparation | `TBD` |
+
+## Usage Rules
+
+- This template is the weekly investment committee meeting record.
+- Every action item should point to the document that must be updated next.
+- If a decision is discussed, the related entry in `decisions/Decision_Log.md` should be reviewed or created.

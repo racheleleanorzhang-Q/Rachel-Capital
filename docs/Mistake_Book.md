@@ -6,9 +6,9 @@ It is not a trading diary and it is not a place for generic regret. Each entry s
 
 ## Active Mistake Log
 
-| Mistake ID | Date | Mistake | Category | Prevention Rule | Status |
+| Mistake ID | Date | Context | Wrong Assumption | Future Rule | Status |
 | --- | --- | --- | --- | --- | --- |
-| `M-001` | `YYYY-MM-DD` | `TBD` | `Sizing / Thesis / Timing / Risk / Process` | `TBD` | `Open / Embedded` |
+| `M-001` | `YYYY-MM-DD` | `TBD` | `TBD` | `TBD` | `Open / Embedded` |
 
 ## Mistake Entry Template
 
@@ -20,38 +20,37 @@ It is not a trading diary and it is not a place for generic regret. Each entry s
 
 `YYYY-MM-DD`
 
-### Mistake
+### Context
 
 `TBD`
 
-### What Happened
+### Wrong Assumption
 
 - `TBD`
 
-### Why It Happened
+### Real Cause
 
 - `TBD`
 
-### Root Cause Category
-
-`Sizing / Thesis / Timing / Risk / Process`
-
-### Cost
-
-- capital cost: `TBD`
-- opportunity cost: `TBD`
-- process cost: `TBD`
-
-### Prevention Rule
+### Warning Signals
 
 - `TBD`
 
-### Evidence That The Rule Was Embedded
+### How To Prevent It
 
 - `TBD`
+
+### Future Rule
+
+- `TBD`
+
+### Linked Documents
+
+- decision log: `TBD`
+- thesis / review: `TBD`
 
 ## Usage Rules
 
 - Record only mistakes that require a permanent operating change.
-- If the same type of error appears twice, the prevention rule is not strong enough.
+- If the same type of error appears twice, the future rule is not strong enough.
 - Link relevant entries in the decision log, thesis files, or review documents when needed.

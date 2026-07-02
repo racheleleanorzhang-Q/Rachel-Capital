@@ -8,11 +8,13 @@ The architecture separates documents by function:
 
 - current-state views live at the top level and in `account/`
 - recurring reviews live in `weekly/` and `monthly/`
+- committee workflows live in `committee/`
 - action records live in `decisions/`
 - stable rules live in `docs/`
 - asset-specific thinking lives in `thesis/`
 - idea pipelines live in `watchlist/`
 - non-position research lives in `research/`
+- release history lives in `releases/`
 
 This separation keeps permanent knowledge distinct from time-based records.
 
@@ -26,6 +28,8 @@ The structure is designed around future maintenance:
 - low overhead: the system works without scripts, APIs, or workflows
 
 Sprint 1.1 adds a governance layer through `.ai/`, `GOVERNANCE.md`, `CONTRIBUTING.md`, and `.github/` templates so the repository can also operate like a disciplined long-term software project.
+
+Sprint 2 adds the operating layer by making the dashboard, recurring reviews, committee meetings, release notes, thesis maintenance, and decision evaluation function as one continuous working system.
 
 ## Documentation Standards
 

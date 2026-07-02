@@ -1,55 +1,80 @@
 # Monthly Review Template
 
-## Review Metadata
+## Meeting Information
 
 | Field | Value |
 | --- | --- |
 | Month | `YYYY-MM` |
-| Review Date | `YYYY-MM-DD` |
+| Meeting Date | `YYYY-MM-DD` |
+| Meeting Number | `M-YYYY-MM` |
+| Attendees | `Rachel / ChatGPT` |
 | Market Regime | `TBD` |
 | Portfolio Stage | `TBD` |
 
-## Market Summary
+## Market Regime Review
 
-| Item | Summary | Implication |
+| Topic | Summary | Strategic Implication |
 | --- | --- | --- |
 | Index Performance | `TBD` | `TBD` |
 | Macro Drivers | `TBD` | `TBD` |
 | Sector Rotation | `TBD` | `TBD` |
 | Key Events | `TBD` | `TBD` |
 
-## Portfolio Summary
+## Capital Allocation Review
 
-| Item | Result | Comment |
+| Item | Current State | Judgment |
 | --- | --- | --- |
-| Total Return | `TBD` | `TBD` |
-| Relative Performance | `TBD` | `TBD` |
 | Cash Level | `TBD` | `TBD` |
+| Core Holdings Weight | `TBD` | `TBD` |
 | Concentration | `TBD` | `TBD` |
+| Opportunity Reserve | `TBD` | `TBD` |
 
-## Capital Flow
+## Portfolio Evolution
 
-| Item | Amount | Notes |
+| Topic | What Changed | Why It Matters |
 | --- | --- | --- |
-| Starting Assets | `TBD` | `TBD` |
-| Ending Assets | `TBD` | `TBD` |
-| Net Contribution / Withdrawal | `TBD` | `TBD` |
-| Realized Gains / Losses | `TBD` | `TBD` |
+| Holdings Mix | `TBD` | `TBD` |
+| Risk Profile | `TBD` | `TBD` |
+| Thesis Quality | `TBD` | `TBD` |
+| Cash Deployment Pattern | `TBD` | `TBD` |
 
-## Best Decision
+## Decision Quality Review
 
-| Decision | Why It Worked | What To Repeat |
-| --- | --- | --- |
-| `TBD` | `TBD` | `TBD` |
-
-## Mistakes
-
-| Mistake | Root Cause | Prevention |
-| --- | --- | --- |
-| `TBD` | `TBD` | `TBD` |
-
-## Next Month Plan
-
-| Item | Priority | Owner | Deadline |
+| Decision ID | Outcome | Process Quality | Improvement Needed |
 | --- | --- | --- | --- |
-| `TBD` | `High / Medium / Low` | `Rachel / ChatGPT` | `YYYY-MM-DD` |
+| `TBD` | `TBD` | `TBD` | `TBD` |
+| `TBD` | `TBD` | `TBD` | `TBD` |
+
+## Investment Philosophy Adjustments
+
+- `TBD`
+- `TBD`
+
+## Major Mistakes
+
+| Mistake | Root Cause | Future Rule |
+| --- | --- | --- |
+| `TBD` | `TBD` | `TBD` |
+
+## Major Successes
+
+| Success | Why It Worked | What To Repeat |
+| --- | --- | --- |
+| `TBD` | `TBD` | `TBD` |
+
+## Long-Term Direction
+
+- `TBD`
+- `TBD`
+
+## Next Month Focus
+
+| Item | Priority | Owner | Destination |
+| --- | --- | --- | --- |
+| `TBD` | `High / Medium / Low` | `Rachel / ChatGPT` | `TBD` |
+
+## Usage Rules
+
+- This document is a strategic review, not a longer weekly review.
+- Focus on direction, allocation quality, and process quality.
+- If a philosophy adjustment is made, update the relevant operating document in `docs/`.
