@@ -1,52 +1,43 @@
-# 投资驾驶舱 Dashboard
+# Dashboard
 
-更新日期：2026-07-02
+## Snapshot
 
-## 账户概况
+| Metric | Current | Notes |
+| --- | --- | --- |
+| Total Assets | `TBD` | Total investable assets across all tracked accounts. |
+| Cash | `TBD` | Include cash and cash-equivalent positions. |
+| Portfolio Score | `TBD` | Internal score for portfolio quality and alignment. |
+| Recovery Progress | `TBD` | Progress against capital recovery or target path. |
+| Current Stage | `TBD` | Example: defense, rebuild, scale, harvest. |
+| Market Theme | `TBD` | One-line description of the current market regime. |
+| Weekly Decision | `TBD` | The most important portfolio decision this week. |
 
-| 项目 | 数值 |
-|---|---:|
-| 股票市值 | 32.9 万 |
-| 可用现金 | 9.0 万 |
-| 总资产 | 41.9 万 |
-| 组合健康度 | 83 / 100 |
-| 距离 60 万回本目标 | 18.1 万 |
+## Core Holdings
 
-## 当前持仓
+| Holding | Position | Thesis Status | Action | Notes |
+| --- | --- | --- | --- | --- |
+| `TBD` | `TBD` | `TBD` | `Hold / Add / Reduce / Exit` | `TBD` |
+| `TBD` | `TBD` | `TBD` | `Hold / Add / Reduce / Exit` | `TBD` |
+| `TBD` | `TBD` | `TBD` | `Hold / Add / Reduce / Exit` | `TBD` |
 
-| 标的 | 市值 | 累计盈亏 | 当前定位 |
-|---|---:|---:|---|
-| 美团 | 14.9 万 | -6.9 万 | 核心仓 |
-| 理想汽车 | 7.0 万 | -10.4 万 | 等待优化 |
-| 三花智控 | 3.7 万 | -0.3 万 | 观察持有 |
-| 紫金矿业 | 4.8 万 | -0.05 万 | 稳定器 |
-| 北京银行 | 2.5 万 | -0.03 万 | 防御仓 |
+## Holdings Under Review
 
-## 红黄绿灯
+| Holding | Review Trigger | Risk Level | Decision Deadline | Notes |
+| --- | --- | --- | --- | --- |
+| `TBD` | `TBD` | `Low / Medium / High` | `YYYY-MM-DD` | `TBD` |
+| `TBD` | `TBD` | `Low / Medium / High` | `YYYY-MM-DD` | `TBD` |
 
-🟢 美团
+## Operating Focus
 
-🟡 三花智控、紫金矿业、北京银行
+| Area | Current Focus | Owner | Next Checkpoint |
+| --- | --- | --- | --- |
+| Portfolio Construction | `TBD` | `ChatGPT / Rachel` | `YYYY-MM-DD` |
+| Risk Control | `TBD` | `ChatGPT / Rachel` | `YYYY-MM-DD` |
+| Thesis Maintenance | `TBD` | `ChatGPT / Rachel` | `YYYY-MM-DD` |
+| Review Discipline | `TBD` | `ChatGPT / Rachel` | `YYYY-MM-DD` |
 
-🔴 理想汽车
+## Notes
 
-## 当前市场主线
-
-| 板块 | 状态 |
-|---|---|
-| 港股互联网 | 偏强 |
-| 黄金 / 资源 | 中性偏强 |
-| 银行高股息 | 稳定 |
-| 新能源整车 | 偏弱 |
-| AI 硬件 | 关注 |
-
-## 本阶段策略
-
-1. 美团继续作为第一核心仓位观察。
-2. 理想汽车不主动补仓，等待反弹或新车型销量验证。
-3. 9 万现金不轻易动用，只等待高胜率机会。
-4. 北京银行与紫金矿业继续承担稳定组合的角色。
-
-## 下一步唯一原则
-
-**让赚钱的仓位继续赚钱，让亏钱的仓位逐步变小。**
+- Keep this page short enough to scan in one minute.
+- Update numbers here only after `account/Current.md` has been revised.
+- If a holding appears in `Holdings Under Review`, the related thesis and decision log should also be updated.

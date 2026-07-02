@@ -1,42 +1,57 @@
 # Trading Rules
 
-更新日期：2026-07-02
+## Buy Rules
 
-## 交易前检查
+- Buy only when the thesis is written in `thesis/`.
+- Buy only when the position improves the portfolio, not just the idea list.
+- Buy only when the reason for entry is specific: valuation, catalyst, quality improvement, or portfolio need.
+- Do not open a position without predefined sell and thesis-broken conditions.
 
-任何交易前必须回答：
+## Add Position Rules
 
-1. 这笔交易是修复、防守，还是进攻？
-2. 它是否提高组合质量？
-3. 它是否符合当前市场主线？
-4. 如果判断错了，最大代价是什么？
-5. 是否因为情绪、亏损压力或快速回本冲动而交易？
+- Add only when the original thesis remains valid or has strengthened.
+- Add only when the portfolio still benefits from increased exposure.
+- Add only when size remains within concentration limits.
+- Do not add simply because the price fell.
 
-## 现金使用规则
+## Reduce Position Rules
 
-9 万现金不得随意动用。只有以下情况可以使用：
+- Reduce when position size exceeds intended portfolio weight.
+- Reduce when thesis quality weakens but is not fully broken.
+- Reduce when a better opportunity requires capital.
+- Reduce when portfolio correlation or risk concentration becomes too high.
 
-1. 核心资产因市场情绪回调，但 Thesis 未破坏。
-2. 出现确定性明显高于当前持仓的新机会。
-3. 系统性下跌后分批进入。
-4. 组合调整需要，而不是单纯追涨。
+## Cash Management
 
-## 理想汽车规则
+- Keep a deliberate cash target based on opportunity quality and market regime.
+- Raise cash when portfolio risk rises faster than conviction.
+- Deploy cash only into opportunities that meet written buy rules.
+- Treat idle cash as optionality, not as failure to act.
 
-- 原则上不主动补仓。
-- 若出现有效反弹，可评估是否继续降仓。
-- 只有在销量、盈利能力、产品竞争力持续超预期时，才重新评估其仓位定位。
+## Risk Management
 
-## 美团规则
+- Define maximum intended position size before entry.
+- Review downside scenarios before increasing exposure.
+- Do not let one thesis dominate portfolio outcomes.
+- If a position becomes difficult to explain clearly, it moves to review status.
 
-- 当前为核心仓。
-- 不因短期反弹轻易止盈。
-- 若平台经济、利润修复或竞争缓和逻辑被破坏，则重新评估。
+## Trade Checklist
 
-## 纪律
+| Check | Yes / No |
+| --- | --- |
+| Thesis document exists and is current. | `TBD` |
+| Entry or adjustment reason is specific. | `TBD` |
+| Position size is intentional. | `TBD` |
+| Sell conditions are defined. | `TBD` |
+| Thesis-broken conditions are defined. | `TBD` |
+| Cash impact is acceptable. | `TBD` |
+| Decision will be logged. | `TBD` |
 
-- 不加杠杆。
-- 不频繁切换主线。
-- 不为摊低成本而补仓。
-- 不因单日波动改变 Thesis。
-- 重大交易先记录 Decision，再执行。
+## Trading Is Prohibited When
+
+- the thesis is missing, stale, or unclear
+- the trade is driven by boredom, price watching, or recency bias
+- the portfolio impact is not understood
+- the cash consequence has not been considered
+- a review is already required but has not been completed
+- the trade exists mainly to fix emotions about a previous trade

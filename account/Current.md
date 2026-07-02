@@ -1,30 +1,32 @@
-# 当前账户 Current Account
+# Current Account
 
-更新日期：2026-07-02
+## Account Summary
 
-## 总资产
+| Item | Value | Notes |
+| --- | --- | --- |
+| Total Assets | `TBD` | Total investable assets. |
+| Cash | `TBD` | Cash plus cash equivalents. |
+| Equity Exposure | `TBD` | Percentage of assets currently invested. |
+| Number of Holdings | `TBD` | Count of active positions. |
+| Last Updated | `YYYY-MM-DD` | Latest full refresh date. |
 
-- 股票市值：32.9 万
-- 可用现金：9.0 万
-- 总资产：41.9 万
+## Position Overview
 
-## 持仓明细
+| Holding | Cost Basis | Current Weight | Thesis Status | Next Action |
+| --- | --- | --- | --- | --- |
+| `TBD` | `TBD` | `TBD` | `Active / Under Review / Broken` | `TBD` |
+| `TBD` | `TBD` | `TBD` | `Active / Under Review / Broken` | `TBD` |
 
-| 标的 | 当前市值 | 累计盈亏 | 仓位占股票市值 | 仓位占总资产 |
-|---|---:|---:|---:|---:|
-| 美团 | 14.9 万 | -6.9 万 | 45.3% | 35.6% |
-| 理想汽车 | 7.0 万 | -10.4 万 | 21.3% | 16.7% |
-| 三花智控 | 3.7 万 | -0.3 万 | 11.2% | 8.8% |
-| 紫金矿业 | 4.8 万 | -0.05 万 | 14.6% | 11.5% |
-| 北京银行 | 2.5 万 | -0.03 万 | 7.6% | 6.0% |
-| 现金 | 9.0 万 | - | - | 21.5% |
+## Cash Plan
 
-## 当前状态
+| Scenario | Cash Target | Trigger | Notes |
+| --- | --- | --- | --- |
+| Base Case | `TBD` | `TBD` | `TBD` |
+| Defensive Case | `TBD` | `TBD` | `TBD` |
+| Opportunity Case | `TBD` | `TBD` | `TBD` |
 
-组合已经从高度集中在理想汽车与美团，转向以美团为核心、理想汽车降为观察优化仓、紫金和银行承担稳定器功能的结构。
+## Open Follow-Ups
 
-## 关键约束
-
-- 不加杠杆。
-- 不为快速回本追涨。
-- 现金不因为“觉得便宜”而动用，只因为出现高胜率机会而动用。
+| Item | Reason | Deadline | Status |
+| --- | --- | --- | --- |
+| `TBD` | `TBD` | `YYYY-MM-DD` | `Open / Closed` |

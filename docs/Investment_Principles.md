@@ -1,36 +1,55 @@
 # Investment Principles
 
-更新日期：2026-07-02
+## Core Principles
 
-## 核心信念
+### 1. Portfolio First, Stock Second
 
-Rachel Capital 的目标不是预测市场，而是持续提升投资决策质量。
+- Every position must justify its place in the total portfolio.
+- A good stock can still be a bad position if sizing, timing, or correlation is wrong.
 
-## 原则
+### 2. Cash Is a Position
 
-1. **组合优先，个股其次**  
-   先判断组合是否健康，再讨论单只股票是否值得买卖。
+- Cash level must reflect opportunity quality and portfolio risk.
+- Holding cash is valid when expected return does not justify exposure.
 
-2. **现金也是仓位**  
-   现金不是闲置资产，而是等待高胜率机会的选择权。
+### 3. Thesis Determines Holding
 
-3. **不让亏损仓位主导账户**  
-   亏损最多的股票不应该自动获得更多资源。
+- A position is held because the thesis remains valid, not because of entry price or prior effort.
+- If the thesis weakens materially, the holding must be reviewed.
 
-4. **Thesis 决定持有，不是股价波动决定持有**  
-   买入逻辑没有变化，不因短期波动行动；买入逻辑破坏，不因亏损而犹豫。
+### 4. Sizing Is a Decision
 
-5. **先定义成功标准，再交易**  
-   每笔交易必须回答：它是为了修复结构、防守，还是进攻？
+- Position size must match conviction, downside tolerance, and diversification needs.
+- No position should become oversized through neglect.
 
-6. **不为快速回本牺牲组合质量**  
-   回本是结果，不是交易理由。
+### 5. Repeated Mistakes Must Be Systematically Reduced
 
-7. **减少重复错误，就是 Alpha**  
-   投资系统的长期价值来自错误率下降。
+- Any recurring error belongs in `docs/Mistake_Book.md`.
+- A documented mistake without a prevention rule is incomplete work.
 
-## 当前阶段原则
+### 6. Losing Positions Must Not Dominate the Portfolio
 
-当前处于 Phase 2：净值修复与组合优化。
+- A losing position must earn the right to remain through evidence, not hope.
+- Capital trapped in weak holdings carries an opportunity cost.
 
-目标：让赚钱的仓位继续赚钱，让亏钱的仓位逐步变小。
+### 7. Research Must Lead to Actionable Monitoring
+
+- Every thesis and research note should produce watch items, risk checks, or decision triggers.
+- If a document cannot influence future decisions, it should be simplified or removed.
+
+### 8. Review Quality Matters More Than Activity
+
+- Decisions should be evaluated on process quality and evidence, not on trading frequency.
+- Inactive periods still require explicit review and dashboard maintenance.
+
+## Operating Standard
+
+Before capital is committed, the answer to these questions should be clear:
+
+| Question | Standard |
+| --- | --- |
+| Why own this? | Thesis is explicit and written. |
+| Why now? | Trigger or valuation reason is specific. |
+| Why this size? | Position fits portfolio construction rules. |
+| What breaks it? | Sell or review conditions are defined. |
+| What is the alternative? | Cash or another position has been considered. |
