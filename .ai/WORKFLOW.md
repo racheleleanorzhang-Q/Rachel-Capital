@@ -6,6 +6,17 @@ Issue -> Sprint -> Pull Request -> Review -> Merge -> Release
 
 This workflow exists to keep repository history reliable, reviewable, and maintainable over multiple years.
 
+## ChatGPT owns the knowledge. Codex owns the implementation. GitHub Issues connect the two.
+
+也就是说：
+
+Rich ：决定做什么（What）
+Investment Committee：决定需要沉淀什么知识，并把它拆解成可执行的工作项（Why & What to change）
+Issue：把知识变成明确任务（Work Item）
+Codex：负责如何实现（How）
+PR：交付实现
+Rich ：Review & Merge
+
 ## Workflow Stages
 
 | Stage | Purpose | Required Output | Primary Owner |
