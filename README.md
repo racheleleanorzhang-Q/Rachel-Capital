@@ -38,7 +38,7 @@ The system is built on four ideas:
 | `decisions/` | Decision log and reusable decision format. |
 | `docs/` | Stable operating rules, principles, and mistake management. |
 | `thesis/` | Stock-level thesis documents with one unified template. |
-| `watchlist/` | Candidates under observation with explicit triggers. |
+| `watchlist/` | Continuous investment universe coverage, including held and non-held names. |
 | `research/` | Theme and sector research using a shared structure. |
 | `committee/` | Live ad hoc investment committee meeting records. |
 | `templates/` | Reusable source templates for operating documents. |
@@ -90,6 +90,7 @@ Rachel Capital runs on recurring decisions rather than one-time documentation.
 - `monthly/` stores real strategic review records.
 - `decisions/` is the memory of what was decided and how it later performed.
 - `thesis/` is the living record of why assets are owned and what would change that view.
+- `watchlist/` is the long-term coverage universe; current holdings should be a subset of it.
 - `docs/Mistake_Book.md` is the mechanism for reducing repeated errors.
 - `templates/` is the source of reusable operating document structures.
 

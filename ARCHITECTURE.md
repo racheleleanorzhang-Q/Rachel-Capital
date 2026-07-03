@@ -12,12 +12,20 @@ The architecture separates documents by function:
 - action records live in `decisions/`
 - stable rules live in `docs/`
 - asset-specific thinking lives in `thesis/`
-- idea pipelines live in `watchlist/`
+- coverage universe and idea pipelines live in `watchlist/`
 - non-position research lives in `research/`
 - reusable structures live in `templates/`
 - release history lives in `releases/`
 
 This separation keeps permanent knowledge distinct from time-based records.
+
+The watchlist is intentionally broader than the live portfolio:
+
+- the investment universe narrows into the watchlist
+- the watchlist narrows into active research and thesis work
+- the current portfolio is a subset of the watchlist, not a replacement for it
+
+This prevents research continuity from being destroyed when positions are exited or when a name is temporarily not held.
 
 ## Why This Works Long Term
 
