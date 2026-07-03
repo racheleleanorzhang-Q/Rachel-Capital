@@ -1,225 +1,205 @@
 # Decision Log
 
+## Purpose
+
+This log is the canonical record of Rachel Capital decisions. Investment decisions come first, risk decisions come second, and process decisions remain supplementary.
+
 ## Log Index
 
-| Decision ID | Date | Decision Type | Subject | Success Criteria | Review Date | Final Result |
-| --- | --- | --- | --- | --- | --- | --- |
-| `20260703-01` | `2026-07-03` | `Process` | `Establish first live portfolio baseline` | `Dashboard, account, and review documents use one portfolio baseline.` | `2026-08-01` | `Open` |
-| `20260703-02` | `2026-07-03` | `Risk` | `Maintain ¥90,000 cash as a strategic reserve` | `Cash remains deliberate and is not deployed without a written decision.` | `2026-08-01` | `Open` |
-| `20260703-03` | `2026-07-03` | `Risk` | `Keep Li Auto under review and prohibit adds` | `No averaging down before the thesis improves or an exit path is chosen.` | `2026-07-10` | `Open` |
-
-## Live Decision Entries
-
-### Decision ID
-
-`20260703-01`
-
-### Date
-
-`2026-07-03`
-
-### Decision Type
-
-`Process`
-
-### Subject
-
-`Establish first live portfolio baseline`
-
-### Reason
-
-- Rachel Capital moved from template documents to live operating records.
-- Future decisions cannot be reviewed unless the repository starts from one explicit asset baseline.
-- Dashboard, account, thesis, and review documents must reference the same portfolio state.
-
-### Expected Outcome
-
-- `Dashboard.md` and `account/Current.md` become the live homepage and live source of account truth.
-- Weekly and monthly reviews can evaluate changes against a dated starting point.
-- Future trading decisions can be judged against one auditable baseline.
-
-### Success Criteria
-
-- Total assets, stock assets, cash, and live holdings are recorded once and referenced consistently.
-- Portfolio roles are explicit for all confirmed holdings.
-- No conflicting live baseline exists elsewhere in the repository.
-
-### Review Date
-
-`2026-08-01`
-
-### Final Result
-
-- `Open`
-
-### Lessons Learned
-
-- A live investment system requires a recorded baseline before it requires new trades.
-- Documentation lag is itself a portfolio risk because it weakens decision review quality.
-
-### Review Notes
-
-| Review Date | Outcome | What Was Correct | What Was Wrong | Next Adjustment |
-| --- | --- | --- | --- | --- |
-| `2026-07-03` | `Open` | `The first live baseline is now explicit.` | `Thesis and watchlist files were still incomplete at baseline creation.` | `Complete Sprint 2.1 live documents before the next weekly review.` |
-
-### Decision ID
-
-`20260703-02`
-
-### Date
-
-`2026-07-03`
-
-### Decision Type
-
-`Risk`
-
-### Subject
-
-`Maintain ¥90,000 cash as a strategic reserve`
-
-### Reason
-
-- Cash is 21.5% of total assets and remains a valid position under the current operating rules.
-- Portfolio quality is still being improved, especially because Li Auto remains under review.
-- No current watchlist trigger justifies immediate deployment.
-
-### Expected Outcome
-
-- Cash preserves optionality while portfolio roles and thesis files are being tightened.
-- Capital will not be committed simply to reduce idle cash.
-- Future deployment decisions will require explicit triggers and written justification.
-
-### Success Criteria
-
-- Cash stays deliberate rather than drifting down through unplanned trades.
-- Any deployment is preceded or followed immediately by a logged decision.
-- The next monthly review can explain why cash changed or why it remained unchanged.
-
-### Review Date
-
-`2026-08-01`
-
-### Final Result
-
-- `Open`
-
-### Lessons Learned
-
-- Cash only helps if it is paired with a clear watchlist and deployment rules.
-- Optionality is more valuable than forced activity when conviction is uneven.
-
-### Review Notes
-
-| Review Date | Outcome | What Was Correct | What Was Wrong | Next Adjustment |
-| --- | --- | --- | --- | --- |
-| `2026-07-03` | `Open` | `Cash is explicitly treated as a strategic reserve.` | `Deployment triggers were not yet written in the live watchlist.` | `Complete the watchlist so cash policy becomes actionable.` |
-
-### Decision ID
-
-`20260703-03`
-
-### Date
-
-`2026-07-03`
-
-### Decision Type
-
-`Risk`
-
-### Subject
-
-`Keep Li Auto under review and prohibit adds`
-
-### Reason
-
-- Li Auto has the largest accumulated loss in the portfolio at `-¥104,000`.
-- The dashboard's current market map treats EV as the weakest live theme.
-- A losing position must earn the right to remain through evidence, not through sunk-cost bias.
-
-### Expected Outcome
-
-- The portfolio avoids averaging down into a weak role without stronger evidence.
-- The next weekly review will force a clearer keep / reduce / exit discussion.
-- Capital allocation quality improves by separating review status from active conviction.
-
-### Success Criteria
-
-- No additional capital is allocated to Li Auto before the review status changes.
-- The next weekly review records a clearer thesis update or an action path.
-- Li Auto remains in the portfolio only if a fresh case can be written clearly.
-
-### Review Date
-
-`2026-07-10`
-
-### Final Result
-
-- `Open`
-
-### Lessons Learned
-
-- Large losing positions need dated review checkpoints.
-- "Do not add" is a valid risk decision when conviction quality is below portfolio standards.
-
-### Review Notes
-
-| Review Date | Outcome | What Was Correct | What Was Wrong | Next Adjustment |
-| --- | --- | --- | --- | --- |
-| `2026-07-03` | `Open` | `Li Auto is now explicitly under review rather than passively held.` | `The full live thesis had not yet been written.` | `Use the next weekly review to decide whether the position still deserves capital.` |
+| Decision ID | Date | Category | Decision Type | Asset / Scope | Decision | Review Trigger | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `20260702-01` | `2026-07-02` | `Investment` | `Reduce` | `理想汽车` | `Reduce Li Auto exposure` | `Reassess only if the EV thesis improves materially or concentration falls to an acceptable level.` | `Active` |
+| `20260702-02` | `2026-07-02` | `Investment` | `Buy` | `美团` | `Buy Meituan` | `Review if operating evidence weakens or the internet-platform thesis deteriorates.` | `Active` |
+| `20260702-03` | `2026-07-02` | `Investment` | `Rebalance` | `美团 / Portfolio` | `Reframe Meituan as the core recovery position` | `Review if Meituan no longer deserves to be the highest-conviction holding.` | `Active` |
+| `20260703-01` | `2026-07-03` | `Investment` | `Hold` | `三花智控 / 紫金矿业 / 北京银行` | `Continue holding support positions during optimization` | `Review if any holding no longer improves portfolio balance or thesis quality changes materially.` | `Active` |
+| `20260703-02` | `2026-07-03` | `Risk` | `Risk` | `Cash` | `Keep ¥90,000 cash after the July 2 / July 3 update` | `Reassess when a high-conviction opportunity appears or defensive liquidity is needed.` | `Active` |
+| `20260703-03` | `2026-07-03` | `Risk` | `Risk` | `美团` | `Do not chase Meituan after the rebound` | `Review only if price resets or new evidence improves the risk-reward enough to justify action.` | `Active` |
+| `20260703-04` | `2026-07-03` | `Risk` | `Risk` | `理想汽车` | `Maintain no-add discipline on Li Auto` | `Reassess only after a formal thesis improvement and portfolio review.` | `Active` |
+| `20260703-90` | `2026-07-03` | `Process` | `Process` | `Repository` | `Establish the first live portfolio baseline` | `Review if dashboard, account, and review files drift out of sync.` | `Active` |
+| `20260703-91` | `2026-07-03` | `Process` | `Process` | `Watchlist` | `Restore watchlist architecture as the long-term investment universe` | `Review if watchlist entries disappear when positions are exited.` | `Active` |
+
+## 1. Investment Decisions
+
+### 20260702-01
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260702-01` |
+| Date | `2026-07-02` |
+| Category | `Investment` |
+| Decision Type | `Reduce` |
+| Affected Asset | `理想汽车` |
+| What We Decided | Reduce Li Auto exposure to lower concentration in a weakening conviction position. |
+| Why We Decided It | Li Auto had become too large relative to current confidence, the EV theme was weaker than the internet-platform opportunity set, and capital needed to be reallocated toward a better recovery candidate. |
+| Position Impact | Capital was released from Li Auto and concentration risk was reduced. |
+| Success Criteria | Position size no longer dominates the portfolio relative to conviction quality, and future allocation decisions are not trapped by sunk-cost bias. |
+| Review Trigger | Review only if operating evidence and thesis quality improve materially or if portfolio concentration changes enough to justify a new allocation decision. |
+| Final Result | `Open` |
+| Lessons Learned | Large losing positions should be reduced when conviction falls below their portfolio weight. |
+
+### 20260702-02
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260702-02` |
+| Date | `2026-07-02` |
+| Category | `Investment` |
+| Decision Type | `Buy` |
+| Affected Asset | `美团` |
+| What We Decided | Buy Meituan as a higher-quality recovery candidate for the portfolio. |
+| Why We Decided It | Internet-platform exposure offered better thesis clarity than additional EV exposure, and Meituan provided a stronger operating path for rebuilding portfolio quality. |
+| Position Impact | Meituan entered the live portfolio and became a major allocation. |
+| Success Criteria | The position improves portfolio quality, earns a core role through thesis strength, and outperforms lower-conviction capital alternatives over the review period. |
+| Review Trigger | Review if operating evidence weakens, the industry structure deteriorates, or the thesis no longer supports a large position. |
+| Final Result | `Open` |
+| Lessons Learned | New capital should go to the clearest thesis, not to the most painful legacy loss. |
+
+### 20260702-03
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260702-03` |
+| Date | `2026-07-02` |
+| Category | `Investment` |
+| Decision Type | `Rebalance` |
+| Affected Asset | `美团 / Portfolio` |
+| What We Decided | Reframe Meituan as the portfolio's core recovery position. |
+| Why We Decided It | The recovery strategy required one genuine core holding with clearer evidence, better business quality, and stronger relative conviction than legacy positions. |
+| Position Impact | Meituan became the largest holding and the main expression of the recovery thesis. |
+| Success Criteria | The portfolio gains a clear core holding, and subsequent reviews can judge the recovery strategy against one explicit lead position. |
+| Review Trigger | Review if Meituan loses its highest-conviction status or if portfolio concentration becomes unjustified by thesis quality. |
+| Final Result | `Open` |
+| Lessons Learned | A recovery portfolio works better when one deliberate core position is defined explicitly. |
+
+### 20260703-01
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260703-01` |
+| Date | `2026-07-03` |
+| Category | `Investment` |
+| Decision Type | `Hold` |
+| Affected Asset | `三花智控 / 紫金矿业 / 北京银行` |
+| What We Decided | Continue holding Sanhua, Zijin Mining, and Bank of Beijing while the portfolio optimization process continues. |
+| Why We Decided It | These positions still serve clear roles: Sanhua as monitored industrial upside, Zijin as a stabilizer linked to gold/resources, and Bank of Beijing as defensive yield exposure. None currently require forced exit or aggressive expansion. |
+| Position Impact | The portfolio keeps diversification support around the core Meituan position and the reviewed Li Auto position. |
+| Success Criteria | These positions continue to improve balance, stability, or optional upside without crowding out higher-conviction capital. |
+| Review Trigger | Review if any of the three holdings no longer improves portfolio balance, if thesis quality weakens materially, or if capital is needed for a higher-conviction opportunity. |
+| Final Result | `Open` |
+| Lessons Learned | Not every non-core position should be sold; some should be held because they still perform a defined portfolio role. |
+
+## 2. Risk Decisions
+
+### 20260703-02
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260703-02` |
+| Date | `2026-07-03` |
+| Category | `Risk` |
+| Decision Type | `Risk` |
+| Affected Asset | `Cash` |
+| What We Decided | Keep `¥90,000` cash after the July 2 / July 3 live update. |
+| Why We Decided It | The portfolio is still in optimization, not every holding has equal conviction, and cash preserves optionality for future entries or defense. |
+| Position Impact | Cash remains `¥90,000`, or about `21.3%` of total assets. |
+| Success Criteria | Cash remains deliberate rather than drifting lower through unplanned trades, and any deployment is tied to a written thesis and decision. |
+| Review Trigger | Reassess if a high-conviction thesis becomes actionable, if drawdown risk rises, or if concentration changes require different liquidity. |
+| Final Result | `Open` |
+| Lessons Learned | Cash is only useful when it is protected from forced activity. |
+
+### 20260703-03
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260703-03` |
+| Date | `2026-07-03` |
+| Category | `Risk` |
+| Decision Type | `Risk` |
+| Affected Asset | `美团` |
+| What We Decided | Do not chase Meituan after the rebound. |
+| Why We Decided It | Meituan is already the largest holding, and adding after a rebound would weaken entry discipline and increase concentration without better evidence. |
+| Position Impact | The position stays large, but no additional capital is deployed at the current level. |
+| Success Criteria | Position sizing stays disciplined and new capital is not committed at a worse risk-reward point just because the initial decision worked. |
+| Review Trigger | Review only if price resets to a better entry level or if new evidence improves the risk-reward enough to justify a different sizing decision. |
+| Final Result | `Open` |
+| Lessons Learned | Correct decisions should not automatically lead to larger positions at worse prices. |
+
+### 20260703-04
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260703-04` |
+| Date | `2026-07-03` |
+| Category | `Risk` |
+| Decision Type | `Risk` |
+| Affected Asset | `理想汽车` |
+| What We Decided | Maintain no-add discipline on Li Auto. |
+| Why We Decided It | Current conviction does not justify increasing a position that already caused large drawdown and still carries unresolved thesis risk. |
+| Position Impact | Li Auto remains capped at the current size and stays under formal review. |
+| Success Criteria | No additional capital is allocated until evidence improves enough to justify a new investment decision. |
+| Review Trigger | Reassess only after a documented thesis improvement, a better operating trend, and a portfolio review that supports renewed sizing. |
+| Final Result | `Open` |
+| Lessons Learned | "Do not add" is a valid decision when evidence quality is below portfolio standards. |
+
+## 3. Process Decisions
+
+### 20260703-90
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260703-90` |
+| Date | `2026-07-03` |
+| Category | `Process` |
+| Decision Type | `Process` |
+| Affected Asset | `Repository` |
+| What We Decided | Establish the first live portfolio baseline across dashboard, account, and review files. |
+| Why We Decided It | Weekly review, monthly review, thesis maintenance, and risk control are meaningless without a stable live starting point. |
+| Position Impact | No direct trade impact. The repository became the live operating record. |
+| Success Criteria | Dashboard, account, and operating documents reference one current portfolio baseline. |
+| Review Trigger | Review if dashboard, account, and linked operating documents fall out of sync. |
+| Final Result | `Open` |
+| Lessons Learned | Repository clarity is a portfolio-control issue, not a cosmetic issue. |
+
+### 20260703-91
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260703-91` |
+| Date | `2026-07-03` |
+| Category | `Process` |
+| Decision Type | `Process` |
+| Affected Asset | `Watchlist` |
+| What We Decided | Restore the watchlist as the long-term investment universe instead of a mirror of current holdings. |
+| Why We Decided It | Research continuity must survive position exits. Current holdings are a subset of the watchlist, not the definition of it. |
+| Position Impact | No direct trade impact. Research continuity and future idea coverage are preserved. |
+| Success Criteria | Exited names remain covered when they still belong in the investment universe. |
+| Review Trigger | Review if exited names disappear from the watchlist or if the watchlist stops functioning as the coverage universe. |
+| Final Result | `Open` |
+| Lessons Learned | Portfolio memory depends on keeping the watchlist broader than the current account. |
 
 ## Decision Entry Template
 
-### Decision ID
+### YYYYMMDD-XX
 
-`YYYYMMDD-01`
-
-### Date
-
-`YYYY-MM-DD`
-
-### Decision Type
-
-`Buy / Add / Reduce / Exit / Risk / Process`
-
-### Subject
-
-`TBD`
-
-### Reason
-
-- `TBD`
-
-### Expected Outcome
-
-- `TBD`
-
-### Success Criteria
-
-- `TBD`
-
-### Review Date
-
-`YYYY-MM-DD`
-
-### Final Result
-
-- `TBD`
-
-### Lessons Learned
-
-- `TBD`
-
-### Review Notes
-
-| Review Date | Outcome | What Was Correct | What Was Wrong | Next Adjustment |
-| --- | --- | --- | --- | --- |
-| `YYYY-MM-DD` | `TBD` | `TBD` | `TBD` | `TBD` |
+| Field | Content |
+| --- | --- |
+| Decision ID | `YYYYMMDD-XX` |
+| Date | `YYYY-MM-DD` |
+| Category | `Investment` / `Risk` / `Process` |
+| Decision Type | `Buy` / `Add` / `Reduce` / `Hold` / `Exit` / `Rebalance` / `Risk` / `Process` |
+| Affected Asset |  |
+| What We Decided |  |
+| Why We Decided It |  |
+| Position Impact |  |
+| Success Criteria |  |
+| Review Trigger |  |
+| Final Result | `Open` / `Successful` / `Partially Successful` / `Unsuccessful` |
+| Lessons Learned |  |
 
 ## Usage Rules
 
-- Assign one decision ID per meaningful action.
-- Record the decision before or immediately after execution.
-- Define success criteria before the outcome is known.
-- Update the final result and lessons learned when the review date arrives.
+- Record actual portfolio decisions before process notes.
+- Use `Investment` for buy, add, reduce, hold, exit, and rebalance actions that affect capital allocation.
+- Use `Risk` for cash discipline, prohibition rules, and guardrails that constrain future actions.
+- Use `Process` only for repository or operating-system decisions that materially improve portfolio memory or operating reliability.
+- Keep `Dashboard.md` as the live state, and keep this file as the historical decision trail behind that state.
