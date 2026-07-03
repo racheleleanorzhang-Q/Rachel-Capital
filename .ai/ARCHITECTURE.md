@@ -50,6 +50,7 @@ It exists so roles, standards, reviews, and architectural constraints remain sta
 
 - Each layer should have a clear purpose.
 - Documents should not duplicate responsibilities across layers.
+- Every document must either guide a decision or preserve investment memory. Otherwise, it should not exist.
 - Changes to one layer should not force unnecessary change in another layer.
 - Governance and workflow should remain understandable without reading chat history.
 - Engineering should support the knowledge system, not dominate it.

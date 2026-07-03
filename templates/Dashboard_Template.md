@@ -9,7 +9,7 @@ Do not treat this file as the live operating state. The live dashboard always li
 | Field | Value |
 | --- | --- |
 | Last Updated | `YYYY-MM-DD` |
-| Updated By | `Rachel / ChatGPT` |
+| Updated By | `Codex` |
 | Source Documents | `account/Current.md`, latest weekly review, latest decision updates |
 | Next Weekly Review | `YYYY-MM-DD` |
 | Next Monthly Review | `YYYY-MM-DD` |

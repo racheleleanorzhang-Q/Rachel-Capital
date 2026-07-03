@@ -1,49 +1,41 @@
 # Current Account
 
-## Account Summary
+This file holds the verified portfolio baseline used by `Dashboard.md`.
 
-| Item | Value | Notes |
-| --- | ---: | --- |
-| Total Assets | ¥422,500 | Current Rachel Capital baseline after the latest holding mark update. |
-| Stock Assets | ¥332,500 | Sum of confirmed live holdings. |
-| Cash | ¥90,000 | Available cash. |
-| Cash Ratio | 21.3% | Cash / total assets. |
-| Equity Exposure | 78.7% | Stock assets / total assets. |
-| Number of Holdings | 5 | Confirmed live holdings. |
-| Last Updated | 2026-07-03 | First live portfolio baseline entered. |
+## Verification Status
 
-## Position Overview
+| Field | Value | Note |
+| --- | --- | --- |
+| As Of | `2026-07-03` | Latest structural review date. |
+| Baseline Recorded | `No` | Actual assets and cash are still missing. |
+| Holdings Confirmed | `1` | Meituan is now preserved as an active holding thesis. |
+| Cash Policy Defined | `No` | A cash rule cannot be justified before the baseline exists. |
 
-| Holding | Market Value | Accumulated P/L | Weight In Total Assets | Role | Thesis Status | Next Action |
-| --- | ---: | ---: | ---: | --- | --- | --- |
-| 理想汽车 | ¥70,000 | -¥100,000 | 16.6% | Optimization Candidate | Under Review | Do not add; wait for better review or exit window. |
-| 美团 | ¥149,000 | -¥69,000 | 35.3% | Core Holding | Active | Continue holding and monitor thesis. |
-| 三花智控 | ¥38,500 | -¥1,000 | 9.1% | Observation | Active | Continue holding and monitor AI manufacturing thesis. |
-| 紫金矿业 | ¥50,000 | +¥2,000 | 11.8% | Portfolio Stabilizer | Active | Continue holding as gold / resource stabilizer. |
-| 北京银行 | ¥25,000 | +¥100 | 5.9% | Defensive Holding | Active | Continue holding as low-volatility defensive allocation. |
+## Verified Snapshot
 
-## Portfolio Stage
+| Item | Value | Note |
+| --- | --- | --- |
+| Total Assets | `Not recorded` | The repository does not yet contain a verified total asset figure. |
+| Cash | `Not recorded` | The repository does not yet contain a verified cash balance. |
+| Equity Exposure | `Not recorded` | Exposure cannot be derived until holdings and cash are both entered. |
+| Number of Holdings | `1 confirmed` | One active holding thesis is now preserved for Meituan. |
 
-| Field | Value |
-| --- | --- |
-| Current Stage | Phase 2 — Portfolio Optimization |
-| Primary Objective | Improve portfolio quality rather than pursue short-term recovery. |
-| Core Holding | 美团 |
-| Main Optimization Candidate | 理想汽车 |
-| Cash Policy | Cash should only be deployed into high-conviction opportunities. |
+## Confirmed Holdings
 
-## Cash Plan
+| Holding | Cost Basis | Weight | Thesis Link | Last Review |
+| --- | --- | --- | --- | --- |
+| 美团 | `Not recorded` | `Not recorded` | `thesis/美团.md` | `2026-07-03` |
 
-| Scenario | Cash Target | Trigger | Notes |
-| --- | ---: | --- | --- |
-| Base Case | ¥90,000 | Maintain current cash unless a high-conviction opportunity appears. | Cash remains a strategic position. |
-| Defensive Case | ≥ ¥90,000 | Market conditions deteriorate or holdings thesis weakens. | Do not force deployment. |
-| Opportunity Case | Partial deployment only | Core asset pullback without thesis damage, or stronger new opportunity appears. | Any deployment must be documented in `decisions/Decision_Log.md`. |
+## Missing Inputs Before Real Portfolio Decisions
 
-## Open Follow-Ups
+- The actual total asset figure.
+- The actual cash balance.
+- The live weight for Meituan.
+- Cost basis or another documented reference point for Meituan.
+- Any additional holdings that should be confirmed alongside Meituan.
 
-| Item | Reason | Deadline | Status |
-| --- | --- | --- | --- |
-| Create first live weekly investment committee record | Establish operating rhythm. | 2026-07-10 | Open |
-| Update each thesis with live holding logic | Make current ownership auditable. | 2026-07-10 | Open |
-| Convert Dashboard from intake state to live numeric state | Dashboard should reflect this account baseline. | 2026-07-03 | In progress |
+## Update Rule
+
+- Update this file after a full reconciliation or a material capital change.
+- Keep only verified facts here; uncertainty should be stated as unknown, not guessed.
+- Add a thesis link only when a real thesis exists and supports a future decision.
