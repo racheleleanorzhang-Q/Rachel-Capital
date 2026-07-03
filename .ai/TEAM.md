@@ -13,6 +13,8 @@ The repository is designed so that each contributor has a clear scope, clear lim
 | Codex | Chief Technology Officer (CTO) | Own repository systems, engineering, and documentation quality. |
 | Future AI | Specialized Contributors | Extend the system without breaking governance or structure. |
 
+## Research first. Documentation second. Engineering last.
+
 ## Rachel
 
 | Field | Description |
