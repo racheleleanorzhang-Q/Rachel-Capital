@@ -1,6 +1,20 @@
 # Dashboard
 
-## Current Position
+This file is the live operating dashboard for Rachel Capital.
+
+It should always reflect the current real state. It is not a reusable template.
+
+## Dashboard Status
+
+| Field | Value |
+| --- | --- |
+| Last Updated | `YYYY-MM-DD` |
+| Updated By | `Rachel / ChatGPT` |
+| Source Documents | `account/Current.md`, latest weekly review, latest decision updates |
+| Next Weekly Review | `YYYY-MM-DD` |
+| Next Monthly Review | `YYYY-MM-DD` |
+
+## Where We Are
 
 | Metric | Current | Notes |
 | --- | --- | --- |
@@ -41,19 +55,9 @@
 | `TBD` | `TBD` | `decisions/Decision_Log.md` |
 | `TBD` | `TBD` | `thesis/` |
 
-## Navigation
-
-| Need | Document |
-| --- | --- |
-| Current account state | `account/Current.md` |
-| Weekly investment committee meeting | `weekly/2026/Weekly_Review_Template.md` |
-| Monthly strategic review | `monthly/Monthly_Review_Template.md` |
-| Decision review | `decisions/Decision_Log.md` |
-| Mistake prevention | `docs/Mistake_Book.md` |
-| Committee process | `committee/Meeting_Template.md` |
-
 ## Notes
 
 - This page should answer four questions in one minute: where are we, what changed, what deserves attention, and what happens next.
 - Update this page after `account/Current.md`, the latest weekly review, and any material decision change.
 - If an item appears in `What Deserves Attention`, the related thesis, decision log, or review document should also be updated.
+- Reusable structure belongs in `templates/Dashboard_Template.md`, not here.
