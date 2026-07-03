@@ -37,10 +37,9 @@ The system is built on four ideas:
 | `monthly/` | Live monthly strategic review records. |
 | `decisions/` | Decision log and reusable decision format. |
 | `docs/` | Stable operating rules, principles, and mistake management. |
-| `thesis/` | Stock-level thesis documents with one unified template. |
-| `watchlist/` | Continuous investment universe coverage, including held and non-held names. |
-| `research/` | Theme and sector research using a shared structure. |
-| `committee/` | Live ad hoc investment committee meeting records. |
+| `thesis/` | Stock-level thesis documents created only when a real ownership case exists. |
+| `watchlist/` | Candidates under observation with explicit triggers. |
+| `research/` | Theme and sector research notes created only when they can influence decisions. |
 | `templates/` | Reusable source templates for operating documents. |
 | `releases/` | Human-written product-style release notes by sprint/version. |
 | `assets/` | Supporting files for future reports and visuals. |
@@ -90,7 +89,6 @@ Rachel Capital runs on recurring decisions rather than one-time documentation.
 - `monthly/` stores real strategic review records.
 - `decisions/` is the memory of what was decided and how it later performed.
 - `thesis/` is the living record of why assets are owned and what would change that view.
-- `watchlist/` is the long-term coverage universe; current holdings should be a subset of it.
 - `docs/Mistake_Book.md` is the mechanism for reducing repeated errors.
 - `templates/` is the source of reusable operating document structures.
 
@@ -99,6 +97,7 @@ Rachel Capital runs on recurring decisions rather than one-time documentation.
 This repository is intentionally conservative.
 
 - One document should have one job.
+- Every document must either guide a decision or preserve durable investment memory. Otherwise, it should not exist.
 - Stable rules live in `docs/`; time-based records live in `weekly/`, `monthly/`, and `decisions/`.
 - Reusable templates should be copied, not rewritten from scratch.
 - Tables should remain compact and easy to scan.
