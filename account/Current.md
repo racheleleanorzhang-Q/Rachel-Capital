@@ -4,11 +4,11 @@
 
 | Item | Value | Notes |
 | --- | ---: | --- |
-| Total Assets | ¥419,000 | Current Rachel Capital baseline. |
-| Stock Assets | ¥329,000 | Sum of confirmed live holdings. |
+| Total Assets | ¥422,500 | Current Rachel Capital baseline after the latest holding mark update. |
+| Stock Assets | ¥332,500 | Sum of confirmed live holdings. |
 | Cash | ¥90,000 | Available cash. |
-| Cash Ratio | 21.5% | Cash / total assets. |
-| Equity Exposure | 78.5% | Stock assets / total assets. |
+| Cash Ratio | 21.3% | Cash / total assets. |
+| Equity Exposure | 78.7% | Stock assets / total assets. |
 | Number of Holdings | 5 | Confirmed live holdings. |
 | Last Updated | 2026-07-03 | First live portfolio baseline entered. |
 
@@ -16,11 +16,11 @@
 
 | Holding | Market Value | Accumulated P/L | Weight In Total Assets | Role | Thesis Status | Next Action |
 | --- | ---: | ---: | ---: | --- | --- | --- |
-| 美团 | ¥149,000 | -¥69,000 | 35.6% | Core Holding | Active | Continue holding and monitor thesis. |
-| 理想汽车 | ¥70,000 | -¥104,000 | 16.7% | Optimization Candidate | Under Review | Do not add; wait for better review or exit window. |
-| 三花智控 | ¥37,000 | -¥3,000 | 8.8% | Observation | Active | Continue holding and monitor AI manufacturing thesis. |
-| 紫金矿业 | ¥48,000 | -¥500 | 11.5% | Portfolio Stabilizer | Active | Continue holding as gold / resource stabilizer. |
-| 北京银行 | ¥25,000 | -¥300 | 6.0% | Defensive Holding | Active | Continue holding as low-volatility defensive allocation. |
+| 理想汽车 | ¥70,000 | -¥100,000 | 16.6% | Optimization Candidate | Under Review | Do not add; wait for better review or exit window. |
+| 美团 | ¥149,000 | -¥69,000 | 35.3% | Core Holding | Active | Continue holding and monitor thesis. |
+| 三花智控 | ¥38,500 | -¥1,000 | 9.1% | Observation | Active | Continue holding and monitor AI manufacturing thesis. |
+| 紫金矿业 | ¥50,000 | +¥2,000 | 11.8% | Portfolio Stabilizer | Active | Continue holding as gold / resource stabilizer. |
+| 北京银行 | ¥25,000 | +¥100 | 5.9% | Defensive Holding | Active | Continue holding as low-volatility defensive allocation. |
 
 ## Portfolio Stage
 
