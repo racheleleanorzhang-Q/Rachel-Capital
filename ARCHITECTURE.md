@@ -14,6 +14,7 @@ The architecture separates documents by function:
 - asset-specific thinking lives in `thesis/`
 - idea pipelines live in `watchlist/`
 - non-position research lives in `research/`
+- reusable structures live in `templates/`
 - release history lives in `releases/`
 
 This separation keeps permanent knowledge distinct from time-based records.
@@ -30,6 +31,8 @@ The structure is designed around future maintenance:
 Sprint 1.1 adds a governance layer through `.ai/`, `GOVERNANCE.md`, `CONTRIBUTING.md`, and `.github/` templates so the repository can also operate like a disciplined long-term software project.
 
 Sprint 2 adds the operating layer by making the dashboard, recurring reviews, committee meetings, release notes, thesis maintenance, and decision evaluation function as one continuous working system.
+
+Issue #001 further clarifies that live state and reusable structure must remain separate: `Dashboard.md` is permanently live, while reusable formats belong in `templates/`.
 
 ## Documentation Standards
 
