@@ -18,11 +18,11 @@ It should always reflect the current real state. It is not a reusable template.
 
 | Metric | Current | Notes |
 | --- | ---: | --- |
-| Total Assets | ¥419,000 | Rachel Capital live baseline. |
-| Stock Assets | ¥329,000 | Confirmed holdings total. |
+| Total Assets | ¥422,500 | Rachel Capital live baseline after the latest holding mark update. |
+| Stock Assets | ¥332,500 | Confirmed holdings total after the latest holding mark update. |
 | Cash | ¥90,000 | Available cash. |
-| Cash Ratio | 21.5% | Cash remains a strategic position. |
-| Equity Exposure | 78.5% | Stock assets / total assets. |
+| Cash Ratio | 21.3% | Cash remains a strategic position. |
+| Equity Exposure | 78.7% | Stock assets / total assets. |
 | Portfolio Score | 83 / 100 | Current qualitative score from the investment committee framework. |
 | Current Stage | Phase 2 — Portfolio Optimization | Improve portfolio quality before pursuing aggressive recovery. |
 
@@ -31,19 +31,19 @@ It should always reflect the current real state. It is not a reusable template.
 | Item | Value |
 | --- | ---: |
 | Reference Capital | ¥600,000 |
-| Current Assets | ¥419,000 |
-| Remaining To Recover | ¥181,000 |
-| Recovery Status | 69.8% of reference capital |
+| Current Assets | ¥422,500 |
+| Remaining To Recover | ¥177,500 |
+| Recovery Status | 70.4% of reference capital |
 
 ## Portfolio
 
 | Holding | Market Value | Accumulated P/L | Weight | Role | Status |
 | --- | ---: | ---: | ---: | --- | --- |
-| 美团 | ¥149,000 | -¥69,000 | 35.6% | Core Holding | 🟢 Active |
-| 理想汽车 | ¥70,000 | -¥104,000 | 16.7% | Optimization Candidate | 🔴 Under Review |
-| 三花智控 | ¥37,000 | -¥3,000 | 8.8% | Observation | 🟡 Active |
-| 紫金矿业 | ¥48,000 | -¥500 | 11.5% | Portfolio Stabilizer | 🟡 Active |
-| 北京银行 | ¥25,000 | -¥300 | 6.0% | Defensive Holding | 🟡 Active |
+| 理想汽车 | ¥70,000 | -¥100,000 | 21.1% | Optimization Candidate | 🔴 Under Review |
+| 美团 | ¥149,000 | -¥69,000 | 44.8% | Core Holding | 🟢 Active |
+| 三花智控 | ¥38,500 | -¥1,000 | 11.6% | Observation | 🟡 Active |
+| 紫金矿业 | ¥50,000 | +¥2,000 | 15.0% | Portfolio Stabilizer | 🟡 Active |
+| 北京银行 | ¥25,000 | +¥100 | 7.5% | Defensive Holding | 🟡 Active |
 
 ## Market View
 
@@ -59,7 +59,7 @@ It should always reflect the current real state. It is not a reusable template.
 
 | Item | Change | Why It Matters |
 | --- | --- | --- |
-| Account baseline | Live portfolio data entered into `account/Current.md`. | Dashboard can now operate as a real portfolio view. |
+| Portfolio marks | Holdings were refreshed to the latest market values and cumulative P/L. | Dashboard now reflects the current live position set rather than the prior baseline marks. |
 | Core holding | 美团 confirmed as current core holding. | Portfolio direction is no longer centered on Li Auto. |
 | Cash position | ¥90,000 cash confirmed. | Cash gives the portfolio optionality and should not be deployed casually. |
 
