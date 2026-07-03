@@ -33,14 +33,15 @@ The system is built on four ideas:
 | --- | --- |
 | `Dashboard.md` | One-page operating view of the current portfolio. |
 | `account/` | Current account state and capital history. |
-| `weekly/` | Weekly review templates and future weekly records by year. |
-| `monthly/` | Monthly review templates and future monthly records. |
+| `weekly/` | Live weekly meeting records grouped by year. |
+| `monthly/` | Live monthly strategic review records. |
 | `decisions/` | Decision log and reusable decision format. |
 | `docs/` | Stable operating rules, principles, and mistake management. |
 | `thesis/` | Stock-level thesis documents with one unified template. |
 | `watchlist/` | Candidates under observation with explicit triggers. |
 | `research/` | Theme and sector research using a shared structure. |
-| `committee/` | Investment committee meeting templates and future meeting records. |
+| `committee/` | Live ad hoc investment committee meeting records. |
+| `templates/` | Reusable source templates for operating documents. |
 | `releases/` | Human-written product-style release notes by sprint/version. |
 | `assets/` | Supporting files for future reports and visuals. |
 | `.ai/` | Team, workflow, and architecture guidance for AI contributors. |
@@ -55,8 +56,8 @@ For a first-time user, the fastest way to understand Rachel Capital is:
 
 1. Open `Dashboard.md` to see where the portfolio stands now.
 2. Open `account/Current.md` to see the current account picture behind the dashboard.
-3. Open `weekly/2026/Weekly_Review_Template.md` to understand the weekly operating rhythm.
-4. Open `monthly/Monthly_Review_Template.md` to understand the monthly strategic rhythm.
+3. Open `templates/Weekly_Review_Template.md` to understand the weekly operating rhythm.
+4. Open `templates/Monthly_Review_Template.md` to understand the monthly strategic rhythm.
 5. Open `decisions/Decision_Log.md` and `docs/Mistake_Book.md` to see how the system improves decision quality over time.
 
 ## Workflow
@@ -84,12 +85,13 @@ Project changes follow a separate governance workflow documented in `.ai/WORKFLO
 
 Rachel Capital runs on recurring decisions rather than one-time documentation.
 
-- `Dashboard.md` is the homepage.
-- `weekly/` is the weekly investment committee operating cadence.
-- `monthly/` is the strategic review cadence.
+- `Dashboard.md` is the live homepage.
+- `weekly/` stores real weekly investment committee records.
+- `monthly/` stores real strategic review records.
 - `decisions/` is the memory of what was decided and how it later performed.
 - `thesis/` is the living record of why assets are owned and what would change that view.
 - `docs/Mistake_Book.md` is the mechanism for reducing repeated errors.
+- `templates/` is the source of reusable operating document structures.
 
 ## Maintenance Principles
 
