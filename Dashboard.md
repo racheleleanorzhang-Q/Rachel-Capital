@@ -1,43 +1,88 @@
 # Dashboard
 
-This file is the one-page decision surface for Rachel Capital.
+This file is the live operating dashboard for Rachel Capital.
+
+It should always reflect the current real state. It is not a reusable template.
+
+## Dashboard Status
 
 | Field | Value |
 | --- | --- |
-| As Of | `2026-07-03` |
-| Account Baseline | `Not yet recorded in repository` |
-| Confirmed Holdings | `1` |
-| Active Theses | `1` |
-| Active Watch Candidates | `0` |
-| Open Logged Decisions | `0` |
+| Last Updated | `2026-07-03` |
+| Updated By | `ChatGPT` |
+| Source Documents | `account/Current.md`, current portfolio baseline, current investment committee records |
+| Next Weekly Review | `2026-07-10` |
+| Next Monthly Review | `2026-08-01` |
 
-## Verified Facts
+## Where We Are
 
-- No verified total asset figure has been preserved in the repository.
-- No verified cash balance has been preserved in the repository.
-- One holding has been confirmed in `account/Current.md`: `美团`.
-- One active thesis has been preserved in `thesis/`: `美团`.
-- No active watch candidate has been preserved in `watchlist/Watchlist.md`.
-- No material portfolio or process decision has been logged in `decisions/Decision_Log.md`.
+| Metric | Current | Notes |
+| --- | ---: | --- |
+| Total Assets | ¥422,500 | Rachel Capital live baseline after the latest holding mark update. |
+| Stock Assets | ¥332,500 | Confirmed holdings total after the latest holding mark update. |
+| Cash | ¥90,000 | Available cash. |
+| Cash Ratio | 21.3% | Cash remains a strategic position. |
+| Equity Exposure | 78.7% | Stock assets / total assets. |
+| Portfolio Score | 83 / 100 | Current qualitative score from the investment committee framework. |
+| Current Stage | Phase 2 — Portfolio Optimization | Improve portfolio quality before pursuing aggressive recovery. |
 
-## Decisions Currently Blocked
+## Recovery Progress
 
-| Decision Area | Why It Is Blocked | Required Document |
+| Item | Value |
+| --- | ---: |
+| Reference Capital | ¥600,000 |
+| Current Assets | ¥422,500 |
+| Remaining To Recover | ¥177,500 |
+| Recovery Status | 70.4% of reference capital |
+
+## Portfolio
+
+| Holding | Market Value | Accumulated P/L | Weight | Role | Status |
+| --- | ---: | ---: | ---: | --- | --- |
+| 理想汽车 | ¥70,000 | -¥100,000 | 21.1% | Optimization Candidate | 🔴 Under Review |
+| 美团 | ¥149,000 | -¥69,000 | 44.8% | Core Holding | 🟢 Active |
+| 三花智控 | ¥38,500 | -¥1,000 | 11.6% | Observation | 🟡 Active |
+| 紫金矿业 | ¥50,000 | +¥2,000 | 15.0% | Portfolio Stabilizer | 🟡 Active |
+| 北京银行 | ¥25,000 | +¥100 | 7.5% | Defensive Holding | 🟡 Active |
+
+## Market View
+
+| Theme | Status | Portfolio Relevance |
 | --- | --- | --- |
-| Sizing and exposure judgment | `The repository does not yet contain a live asset and cash baseline.` | `account/Current.md` |
-| Holding-level sizing review | `The Meituan thesis exists, but weight, cost basis, and full account context are still missing.` | `account/Current.md` |
-| Process review | `No material action has been logged with success criteria and review dates.` | `decisions/Decision_Log.md` |
+| Internet Platform | ↑ Positive | Supports Meituan as current core holding. |
+| Gold / Resources | → Neutral | Supports Zijin as stabilizer rather than primary return driver. |
+| High Dividend | → Stable | Supports Bank of Beijing as defensive allocation. |
+| EV | ↓ Weak | Keeps Li Auto under review. |
+| AI Manufacturing | ↑ Watch | Relevant to Sanhua. |
 
-## Next Required Updates
+## What Changed
 
-| Action | Owner | Destination | Why It Matters |
+| Item | Change | Why It Matters |
+| --- | --- | --- |
+| Portfolio marks | Holdings were refreshed to the latest market values and cumulative P/L. | Dashboard now reflects the current live position set rather than the prior baseline marks. |
+| Core holding | 美团 confirmed as current core holding. | Portfolio direction is no longer centered on Li Auto. |
+| Cash position | ¥90,000 cash confirmed. | Cash gives the portfolio optionality and should not be deployed casually. |
+
+## What Deserves Attention
+
+| Item | Trigger | Owner | Deadline |
 | --- | --- | --- | --- |
-| `Enter the actual account baseline` | `Rachel` | `account/Current.md` | `Without it, the dashboard cannot support real allocation decisions.` |
-| `Add Meituan weight, cost basis, and review context` | `Rachel` | `account/Current.md` | `The thesis exists, but position sizing cannot be reviewed without live portfolio facts.` |
-| `Log the first material portfolio or process decision` | `Rachel / ChatGPT` | `decisions/Decision_Log.md` | `Decision quality cannot be reviewed from memory alone.` |
+| First weekly investment committee record | Needed to establish operating rhythm. | ChatGPT / Rachel | 2026-07-10 |
+| Thesis updates for all confirmed holdings | Thesis files should reflect actual ownership and current logic. | ChatGPT | 2026-07-10 |
+| Li Auto review | Largest accumulated loss and weakest current role. | Investment Committee | Ongoing |
 
-## Update Rule
+## What Happens Next
 
-- Update this page only with verified facts or explicitly stated unknowns.
-- Every line on this page should either drive the next decision or point to preserved investment memory.
-- If a section stops doing either job, remove it.
+| Action | Reason | Destination |
+| --- | --- | --- |
+| Create first live weekly committee record | Start recurring operating cadence. | `weekly/2026/` |
+| Update thesis files with current holding logic | Make ownership logic auditable. | `thesis/` |
+| Record future actions before trading | Keep decision process disciplined. | `decisions/Decision_Log.md` |
+
+## Current Action
+
+Hold.
+
+No immediate portfolio adjustment.
+
+Cash remains available for high-conviction opportunities only.
