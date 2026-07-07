@@ -27,6 +27,14 @@ The system is built on four ideas:
 3. Review quality matters more than activity level.
 4. A repository should accumulate judgment, not just records.
 
+## Portfolio Architecture
+
+- Equities
+- Gold (Accumulation)
+- Cash
+
+Rachel Capital now treats gold accumulation as a separate long-term asset bucket rather than as a synonym for resource equities.
+
 ## Repository Structure
 
 | Path | Purpose |
@@ -37,8 +45,10 @@ The system is built on four ideas:
 | `monthly/` | Live monthly strategic review records. |
 | `decisions/` | Decision log and reusable decision format. |
 | `docs/` | Stable operating rules, principles, and mistake management. |
+| `strategy/` | Asset-allocation rules and cross-position portfolio architecture. |
 | `thesis/` | Stock-level thesis documents created only when a real ownership case exists. |
 | `watchlist/` | Candidates under observation with explicit triggers. |
+| `institution-tracker/` | Institutional-capital tracking used as supporting evidence rather than copy-trading. |
 | `research/` | Theme and sector research notes created only when they can influence decisions. |
 | `templates/` | Reusable source templates for operating documents. |
 | `releases/` | Human-written product-style release notes by sprint/version. |
@@ -91,6 +101,12 @@ Rachel Capital runs on recurring decisions rather than one-time documentation.
 - `thesis/` is the living record of why assets are owned and what would change that view.
 - `docs/Mistake_Book.md` is the mechanism for reducing repeated errors.
 - `templates/` is the source of reusable operating document structures.
+
+## Institution Tracker
+
+Track long-term institutional capital flows, including Social Security Fund, Central Huijin, Berkshire Hathaway, public funds and other long-term investors.
+
+This module is used as supporting evidence for watchlist updates, portfolio allocation and decision logs. It is not a signal-following or copy-trading system.
 
 ## Maintenance Principles
 
