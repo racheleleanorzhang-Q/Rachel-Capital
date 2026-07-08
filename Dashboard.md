@@ -37,7 +37,7 @@ Last Updated: `2026-07-08`
 | Technology | 24.6% | 30.0% | -5.4% |
 | Consumer Internet | 36.8% | 30.0% | +6.8% |
 | Resource Equities | 14.5% | 15.0% | -0.5% |
-| Gold (`积存金` / Gold ETF) | 0.0% | 10.0% | -10.0% |
+| Gold (`积存金` / Gold ETF) | 3.4% | 10.0% | -6.6% |
 | Banks / High Dividend | 5.7% | 10.0% | -4.3% |
 | Cash | 18.4% | 5.0% | +13.4% |
 
