@@ -69,6 +69,14 @@ For a first-time user, the fastest way to understand Rachel Capital is:
 4. Open `templates/Monthly_Review_Template.md` to understand the monthly strategic rhythm.
 5. Open `decisions/Decision_Log.md` and `docs/Mistake_Book.md` to see how the system improves decision quality over time.
 
+| Path | Purpose |
+| --- | --- |
+| `当前持仓`| `Dashboard + Holdings` |
+| `买卖决策`| `Decision Log` |
+| `长期投资逻辑`| `Thesis` |
+| `机构观察`| `Institution Tracker` |
+| `资产配置`| `Asset Allocation` |
+
 ## Workflow
 
 The intended operating loop is simple:
