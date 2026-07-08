@@ -17,7 +17,7 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | `20260703-04` | `2026-07-03` | `Risk` | `Risk` | `理想汽车` | `Maintain no-add discipline on Li Auto` | `Reassess only after a formal thesis improvement and portfolio review.` | `Active` |
 | `20260703-90` | `2026-07-03` | `Process` | `Process` | `Repository` | `Establish the first live portfolio baseline` | `Review if dashboard, account, and review files drift out of sync.` | `Active` |
 | `20260703-91` | `2026-07-03` | `Process` | `Process` | `Watchlist` | `Restore watchlist architecture as the long-term investment universe` | `Review if watchlist entries disappear when positions are exited.` | `Active` |
-| `20260707-01` | `2026-07-07` | `Investment` | `Add` | `紫金矿业` | `Evaluate a probe add in Zijin Mining` | `Review if the add rises 10%, falls 5%-8%, or if gold / copper logic changes materially.` | `Active` |
+| `20260707-01` | `2026-07-07` | `Investment` | `Add` | `紫金矿业` | `Evaluate a probe add in Zijin Mining` | `Review if the add rises 10%, falls 5%-8%, or if gold / copper logic changes materially.` | `Executed` |
 
 ## 1. Investment Decisions
 
@@ -101,12 +101,15 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | Background | The account still has about `¥90,000` available cash. Zijin Mining is being evaluated as a 2026-2028 core resource allocation candidate tied to gold, copper, and portfolio defense. |
 | What We Decided | A probe add in Zijin Mining is acceptable, but not a full-size aggressive chase. |
 | Proposed Buy Amount | `¥10,000-¥20,000`, with `¥15,000` as the preferred first step. |
+| Execution Status | `Executed` |
+| Execution Date | `2026-07-08` |
+| Executed Amount | `¥15,000` |
 | Why We Decided It | Zijin is not only a gold proxy; it is a gold + copper + diversified resource equity. Gold still has a long-term role under central-bank buying, high-debt conditions, and geopolitical risk. Copper has a stronger structural demand case through AI data centers, power grid build-out, EVs, and robotics. A moderate Zijin add can improve diversification versus the portfolio's existing concentration in growth assets such as Meituan and Li Auto. |
-| Position Impact | Increase resource-equity exposure modestly while keeping most cash available for later resource adds or for technology / consumer-internet opportunities such as Meituan, Xiaomi, and Shenan Circuit. |
+| Position Impact | Resource-equity exposure increased from about `11.8%` to about `15.4%` of total assets, while cash fell from `¥90,000` to `¥75,000`. |
 | Risk Notes | A short-term gold correction can create larger Zijin volatility. A more hawkish Fed or higher real rates could pressure gold logic temporarily. Resource equities remain cyclical and should be added in batches rather than through emotional momentum chasing. |
 | Success Criteria | The first add improves portfolio balance without forcing an oversized resource bet, and leaves enough cash for a second decision if the stock pulls back or the thesis strengthens. |
 | Review Trigger | Review if the first add rises `10%`, if it falls `5%-8%`, or if gold / copper prices or the broader resource thesis change materially. |
-| Final Result | `Open` |
+| Final Result | `Executed` |
 | Lessons Learned | Gold allocation and Zijin Mining equity allocation must remain separate decisions even when both benefit from parts of the same macro regime. |
 
 ## 2. Risk Decisions
