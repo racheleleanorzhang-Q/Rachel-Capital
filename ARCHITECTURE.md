@@ -55,3 +55,26 @@ The repository should evolve slowly.
 - keep manual operation possible at every stage
 
 The result is a foundation that can support years of review, research, and decision logging without becoming brittle.
+
+## Main Branch Merge Method
+
+When changes must reach `main`, do not assume the current local branch is reliable.
+
+Use this order:
+
+1. verify the current branch and working tree state first
+2. do not treat a dirty feature branch as the source of truth for `main`
+3. fetch `origin/main` and compare the target files against the remote main branch
+4. if the current worktree is messy, create a clean temporary worktree from `origin/main`
+5. apply only the intended file changes in that clean worktree
+6. attempt a normal push only if local GitHub authentication is working
+7. if HTTPS push requires a PAT or SSH push fails, use the GitHub connector to update `main` directly
+8. for connector-based updates, first fetch each target file's current `sha`, then replace the full file content on `main`
+9. fetch `origin/main` again and verify the remote content after the update
+
+This is the fallback merge path that has already worked for Rachel Capital:
+
+- local branch state may be ahead, behind, dirty, or otherwise unsuitable for direct merge
+- a clean worktree based on `origin/main` is safer than forcing local branch history
+- GitHub connector updates are preferred over repeated failed `git push` attempts when local credentials are unavailable
+- verification after remote update is mandatory
