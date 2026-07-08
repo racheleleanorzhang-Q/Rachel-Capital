@@ -103,9 +103,9 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | Proposed Buy Amount | `¥10,000-¥20,000`, with `¥15,000` as the preferred first step. |
 | Execution Status | `Executed` |
 | Execution Date | `2026-07-08` |
-| Executed Amount | `¥15,000` |
+| Executed Amount | `¥10,000` |
 | Why We Decided It | Zijin is not only a gold proxy; it is a gold + copper + diversified resource equity. Gold still has a long-term role under central-bank buying, high-debt conditions, and geopolitical risk. Copper has a stronger structural demand case through AI data centers, power grid build-out, EVs, and robotics. A moderate Zijin add can improve diversification versus the portfolio's existing concentration in growth assets such as Meituan and Li Auto. |
-| Position Impact | Resource-equity exposure increased from about `11.8%` to about `15.4%` of total assets, while cash fell from `¥90,000` to `¥75,000`. |
+| Position Impact | Resource-equity exposure increased from about `11.8%` to about `14.5%` of total assets, while cash fell from `¥90,000` to `¥80,000`. |
 | Risk Notes | A short-term gold correction can create larger Zijin volatility. A more hawkish Fed or higher real rates could pressure gold logic temporarily. Resource equities remain cyclical and should be added in batches rather than through emotional momentum chasing. |
 | Success Criteria | The first add improves portfolio balance without forcing an oversized resource bet, and leaves enough cash for a second decision if the stock pulls back or the thesis strengthens. |
 | Review Trigger | Review if the first add rises `10%`, if it falls `5%-8%`, or if gold / copper prices or the broader resource thesis change materially. |
