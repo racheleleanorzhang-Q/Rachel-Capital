@@ -35,23 +35,23 @@ As of `2026-07-08`, the current portfolio is approximately:
 
 | Asset Class | Current Weight | Current Expression |
 | --- | ---: | --- |
-| Technology | 25.7% | `理想汽车` + `三花智控` |
-| Consumer Internet | 35.3% | `美团` |
-| Resource Equities | 15.4% | `紫金矿业` |
+| Technology | 24.6% | `理想汽车` + `三花智控` |
+| Consumer Internet | 36.8% | `美团` |
+| Resource Equities | 14.5% | `紫金矿业` |
 | Gold (`积存金` / Gold ETF) | 0.0% | Not yet started as a direct allocation bucket. |
-| Banks / High Dividend | 5.9% | `北京银行` |
-| Cash | 17.8% | Remaining deployable cash after the first Zijin add. |
+| Banks / High Dividend | 5.7% | `北京银行` |
+| Cash | 18.4% | Remaining deployable cash after the first Zijin add. |
 
 ## Allocation Gap
 
 | Asset Class | Target | Current | Gap | Direction |
 | --- | ---: | ---: | ---: | --- |
-| Technology | 30.0% | 25.7% | -4.3% | Below target |
-| Consumer Internet | 30.0% | 35.3% | +5.3% | Above target |
-| Resource Equities | 15.0% | 15.4% | +0.4% | Near target |
+| Technology | 30.0% | 24.6% | -5.4% | Below target |
+| Consumer Internet | 30.0% | 36.8% | +6.8% | Above target |
+| Resource Equities | 15.0% | 14.5% | -0.5% | Slightly below target |
 | Gold (`积存金` / Gold ETF) | 10.0% | 0.0% | -10.0% | Materially below target |
-| Banks / High Dividend | 10.0% | 5.9% | -4.1% | Below target |
-| Cash | 5.0% | 17.8% | +12.8% | Above target |
+| Banks / High Dividend | 10.0% | 5.7% | -4.3% | Below target |
+| Cash | 5.0% | 18.4% | +13.4% | Above target |
 
 The key conclusion is unchanged: the Zijin Mining add improved resource-equity exposure, but it did not solve the direct gold allocation gap.
 
