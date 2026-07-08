@@ -8,36 +8,36 @@ Last Updated: `2026-07-08`
 
 | Field | Value | Notes |
 | --- | ---: | --- |
-| Total Assets | ¥422,500 | Latest synchronized portfolio baseline. |
-| Cash | ¥75,000 | Cash after the first executed Zijin Mining add. |
-| Stock Assets | ¥347,500 | Sum of live holdings. |
-| Cash Ratio | 17.8% | Cash / total assets. |
-| Equity Exposure | 82.2% | Stock assets / total assets. |
+| Total Assets | ¥435,000 | Latest synchronized portfolio baseline from the July 8 holdings snapshot. |
+| Cash | ¥80,000 | Available cash from the latest portfolio snapshot. |
+| Stock Assets | ¥355,000 | Sum of live holdings. |
+| Cash Ratio | 18.4% | Cash / total assets. |
+| Equity Exposure | 81.6% | Stock assets / total assets. |
 | Number of Holdings | 5 | Current live holdings. |
-| Largest Position | 美团 (`35.3%` of total assets) | Still the portfolio core. |
-| Biggest Unrealized Loss | 理想汽车 (`-¥100,000`) | Still the largest unresolved drawdown. |
-| Best Performer | 紫金矿业 (`+¥2,000`) | Best absolute unrealized gain. |
+| Largest Position | 美团 (`36.8%` of total assets) | Still the portfolio core. |
+| Biggest Unrealized Loss | 理想汽车 (`-¥105,000`) | Still the largest unresolved drawdown. |
+| Best Performer | 紫金矿业 (`+¥1,000`) | Best absolute unrealized gain. |
 
 ## Holdings
 
 | Holding | Market Value | Accumulated P/L | Weight In Total Assets | Role | Current View |
 | --- | ---: | ---: | ---: | --- | --- |
-| 理想汽车 | ¥70,000 | -¥100,000 | 16.6% | Optimization Candidate | Hold only; no add until thesis improves. |
-| 美团 | ¥149,000 | -¥69,000 | 35.3% | Core Holding | Continue holding as the highest-conviction core position. |
-| 三花智控 | ¥38,500 | -¥1,000 | 9.1% | Observation | Hold and monitor AI-manufacturing evidence. |
-| 紫金矿业 | ¥65,000 | +¥2,000 | 15.4% | Portfolio Stabilizer | First add executed; review against post-add triggers. |
-| 北京银行 | ¥25,000 | +¥100 | 5.9% | Defensive Holding | Continue holding as a defensive balance position. |
+| 理想汽车 | ¥70,000 | -¥105,000 | 16.1% | Optimization Candidate | Hold only; no add until thesis improves. |
+| 美团 | ¥160,000 | -¥56,000 | 36.8% | Core Holding | Continue holding as the highest-conviction core position. |
+| 紫金矿业 | ¥63,000 | +¥1,000 | 14.5% | Portfolio Stabilizer | First add executed; review against post-add triggers. |
+| 三花智控 | ¥37,000 | -¥3,000 | 8.5% | Observation | Hold and monitor AI-manufacturing evidence. |
+| 北京银行 | ¥25,000 | +¥400 | 5.7% | Defensive Holding | Continue holding as a defensive balance position. |
 
 ## Current Allocation
 
 | Asset Class | Current Weight | Target Weight | Gap |
 | --- | ---: | ---: | ---: |
-| Technology | 25.7% | 30.0% | -4.3% |
-| Consumer Internet | 35.3% | 30.0% | +5.3% |
-| Resource Equities | 15.4% | 15.0% | +0.4% |
+| Technology | 24.6% | 30.0% | -5.4% |
+| Consumer Internet | 36.8% | 30.0% | +6.8% |
+| Resource Equities | 14.5% | 15.0% | -0.5% |
 | Gold (`积存金` / Gold ETF) | 0.0% | 10.0% | -10.0% |
-| Banks / High Dividend | 5.9% | 10.0% | -4.1% |
-| Cash | 17.8% | 5.0% | +12.8% |
+| Banks / High Dividend | 5.7% | 10.0% | -4.3% |
+| Cash | 18.4% | 5.0% | +13.4% |
 
 ## Pending Decisions
 
