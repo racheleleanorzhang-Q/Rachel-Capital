@@ -4,11 +4,11 @@
 
 | Item | Value | Notes |
 | --- | ---: | --- |
-| Total Assets | ¥422,500 | Current Rachel Capital baseline after the July 8 portfolio sync. |
-| Stock Assets | ¥347,500 | Sum of confirmed live holdings after the Zijin Mining add. |
-| Cash | ¥75,000 | Available cash after the first Zijin Mining add. |
-| Cash Ratio | 17.8% | Cash / total assets. |
-| Equity Exposure | 82.2% | Stock assets / total assets. |
+| Total Assets | ¥435,000 | Current Rachel Capital baseline after the July 8 portfolio sync. |
+| Stock Assets | ¥355,000 | Sum of confirmed live holdings after the latest mark update. |
+| Cash | ¥80,000 | Available cash from the latest portfolio snapshot. |
+| Cash Ratio | 18.4% | Cash / total assets. |
+| Equity Exposure | 81.6% | Stock assets / total assets. |
 | Number of Holdings | 5 | Confirmed live holdings. |
 | Last Updated | 2026-07-08 | Synchronized after the Zijin Mining add execution. |
 
@@ -16,11 +16,11 @@
 
 | Holding | Market Value | Accumulated P/L | Weight In Total Assets | Role | Thesis Status | Next Action |
 | --- | ---: | ---: | ---: | --- | --- | --- |
-| 理想汽车 | ¥70,000 | -¥100,000 | 16.6% | Optimization Candidate | Under Review | Do not add; wait for better review or exit window. |
-| 美团 | ¥149,000 | -¥69,000 | 35.3% | Core Holding | Active | Continue holding and monitor thesis. |
-| 三花智控 | ¥38,500 | -¥1,000 | 9.1% | Observation | Active | Continue holding and monitor AI manufacturing thesis. |
-| 紫金矿业 | ¥65,000 | +¥2,000 | 15.4% | Portfolio Stabilizer | Active | Hold the executed first add and review against the new trigger set. |
-| 北京银行 | ¥25,000 | +¥100 | 5.9% | Defensive Holding | Active | Continue holding as low-volatility defensive allocation. |
+| 理想汽车 | ¥70,000 | -¥105,000 | 16.1% | Optimization Candidate | Under Review | Do not add; wait for better review or exit window. |
+| 美团 | ¥160,000 | -¥56,000 | 36.8% | Core Holding | Active | Continue holding and monitor thesis. |
+| 紫金矿业 | ¥63,000 | +¥1,000 | 14.5% | Portfolio Stabilizer | Active | Hold the executed first add and review against the new trigger set. |
+| 三花智控 | ¥37,000 | -¥3,000 | 8.5% | Observation | Active | Continue holding and monitor AI manufacturing thesis. |
+| 北京银行 | ¥25,000 | +¥400 | 5.7% | Defensive Holding | Active | Continue holding as low-volatility defensive allocation. |
 
 ## Portfolio Stage
 
@@ -37,8 +37,8 @@
 
 | Scenario | Cash Target | Trigger | Notes |
 | --- | ---: | --- | --- |
-| Base Case | ¥75,000 | Maintain current cash unless a higher-conviction setup appears. | Cash remains a strategic position even after the Zijin add. |
-| Defensive Case | ≥ ¥75,000 | Market conditions deteriorate or holdings thesis weakens. | Do not force deployment. |
+| Base Case | ¥80,000 | Maintain current cash unless a higher-conviction setup appears. | Cash remains a strategic position even after the Zijin add. |
+| Defensive Case | ≥ ¥80,000 | Market conditions deteriorate or holdings thesis weakens. | Do not force deployment. |
 | Opportunity Case | Partial deployment only | Direct gold allocation, core asset pullback without thesis damage, or stronger new opportunity appears. | Any deployment must be documented in `decisions/Decision_Log.md`. |
 
 ## Open Follow-Ups
