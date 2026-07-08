@@ -18,6 +18,7 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | `20260703-90` | `2026-07-03` | `Process` | `Process` | `Repository` | `Establish the first live portfolio baseline` | `Review if dashboard, account, and review files drift out of sync.` | `Active` |
 | `20260703-91` | `2026-07-03` | `Process` | `Process` | `Watchlist` | `Restore watchlist architecture as the long-term investment universe` | `Review if watchlist entries disappear when positions are exited.` | `Active` |
 | `20260707-01` | `2026-07-07` | `Investment` | `Add` | `紫金矿业` | `Evaluate a probe add in Zijin Mining` | `Review if the add rises 10%, falls 5%-8%, or if gold / copper logic changes materially.` | `Executed` |
+| `20260708-01` | `2026-07-08` | `Investment` | `Hold` | `美团-W` | `Hold` | `仓位已达核心仓位，未突破81–82压力区，继续持有等待更优买点` | `Active` |
 
 ## 1. Investment Decisions
 
