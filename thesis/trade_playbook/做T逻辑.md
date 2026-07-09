@@ -1,50 +1,62 @@
-# Meituan Trade Playbook
+# Trade Playbook
 
-## Target Position
+# 美团（03690）
 
-| Field | Value |
-| --- | --- |
-| Name | `Meituan-W` |
-| Core Target Weight | `30%-40% of total assets` |
-| Current Reference Position | `¥160,000` |
-| Objective | Maintain Meituan as a core holding without turning execution into emotional chasing. |
+## 定位
+核心长期持仓
 
-## Position Structure
+## 仓位策略
+- 核心仓：75%
+- 交易仓：25%
 
-| Bucket | Purpose | Guideline |
-| --- | --- | --- |
-| Core Position | Express the long-term investment thesis. | Do not trade frequently. Size should remain the majority of total Meituan exposure. |
-| Trading Position | Improve execution around volatility. | Use only a smaller sleeve for tactical adds, trims, and cost management. |
+## 做T原则
+- 仅使用交易仓做T，不动核心仓。
+- 大涨（3%~5%）可分批卖出交易仓。
+- 回调（3%~5%）分批买回交易仓。
+- 财报周、重大政策、重大公告期间暂停做T。
+- 若投资逻辑发生变化，以 Thesis 为准，不做机械T。
 
-## Buy Rules
+---
 
-- Below `75 HKD`: prioritize phased adds.
-- `75-82 HKD`: hold and observe; do not chase strength.
-- Above `82 HKD`: wait for breakout confirmation before adding.
-- Any add should preserve Meituan's role as a disciplined core holding rather than an oversized impulse position.
+# 理想汽车（LI）
 
-## Sell Rules
+## 定位
+成长观察仓
 
-- Do not reduce only because of a routine rebound inside the existing range.
-- Consider partial trimming only after a confirmed breakout and a subsequent review of valuation and position size.
-- Above `90 HKD`: reassess valuation, upside, and whether position size remains justified.
-- If the long-term thesis weakens materially, defer to `thesis/美团.md` and reassess the core position first.
+## 仓位策略
+- 不设固定交易仓。
 
-## Cost Reduction / T Strategy
+## 做T原则
+- 原则上不做T。
+- 重点依据财报、销量、新车型等基本面决策。
+- 若长期逻辑减弱，优先减仓，而非反复做T。
+- 若长期逻辑增强，可择机加仓。
 
-- Use a trading sleeve only when price action is range-bound and liquidity conditions are normal.
-- Prefer low-risk T trades rather than aggressive directional bets.
-- Buy tactical size on meaningful pullbacks and release tactical size into strength near resistance.
-- Do not use T trading to hide thesis uncertainty or to defend a poor add.
+---
 
-## Suspend Trading
+# 紫金矿业（601899）
 
-- Suspend T trading during high-volatility event windows or major company news.
-- Suspend T trading when the position is already near the upper end of the target range.
-- Suspend T trading if price breaks out but confirmation is still unclear.
-- Suspend T trading if the long-term thesis enters formal review.
+## 定位
+资源周期核心仓
 
-## Review History
+## 仓位策略
+- 核心仓：80%
+- 交易仓：20%
+
+## 做T原则
+- 黄金、有色板块快速上涨时，可减交易仓。
+- 板块回调时，再逐步买回交易仓。
+- 不因日内波动频繁做T。
+- 重点关注金价、铜价及美元走势，不追涨杀跌。
+
+---
+
+# 通用交易纪律
+
+- 做T仅用于降低持仓成本，不以短线盈利为目标。
+- 核心仓原则上不参与交易。
+- 每次交易后更新 Dashboard 和 Decision Log。
+- 所有交易必须符合 Thesis，不因情绪操作。
 
 | Date | Update |
 | --- | --- |
