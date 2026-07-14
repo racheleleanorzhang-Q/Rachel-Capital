@@ -4,6 +4,8 @@ Rachel Capital is a personal investment operating system.
 
 It is designed to improve decision quality over time through disciplined review, explicit rules, and durable knowledge capture. It is not designed to predict markets, chase activity, or optimize for frequent trading.
 
+**Issue（发现机会） → Playbook（按规则执行） → Trade（交易） → Review（复盘）**
+
 ## Vision
 
 Build a better investor.
