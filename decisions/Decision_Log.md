@@ -8,87 +8,54 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 
 | Decision ID | Date | Category | Decision Type | Asset / Scope | Decision | Review Trigger | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `20260702-01` | `2026-07-02` | `Investment` | `Reduce` | `理想汽车` | `Reduce Li Auto exposure` | `Reassess only if the EV thesis improves materially or concentration falls to an acceptable level.` | `Active` |
-| `20260702-02` | `2026-07-02` | `Investment` | `Buy` | `美团` | `Buy Meituan` | `Review if operating evidence weakens or the internet-platform thesis deteriorates.` | `Active` |
-| `20260702-03` | `2026-07-02` | `Investment` | `Rebalance` | `美团 / Portfolio` | `Reframe Meituan as the core recovery position` | `Review if Meituan no longer deserves to be the highest-conviction holding.` | `Active` |
-| `20260703-01` | `2026-07-03` | `Investment` | `Hold` | `三花智控 / 紫金矿业 / 北京银行` | `Continue holding support positions during optimization` | `Review if any holding no longer improves portfolio balance or thesis quality changes materially.` | `Active` |
-| `20260703-02` | `2026-07-03` | `Risk` | `Risk` | `Cash` | `Keep ¥90,000 cash after the July 2 / July 3 update` | `Reassess when a high-conviction opportunity appears or defensive liquidity is needed.` | `Active` |
-| `20260703-03` | `2026-07-03` | `Risk` | `Risk` | `美团` | `Do not chase Meituan after the rebound` | `Review only if price resets or new evidence improves the risk-reward enough to justify action.` | `Active` |
-| `20260703-04` | `2026-07-03` | `Risk` | `Risk` | `理想汽车` | `Maintain no-add discipline on Li Auto` | `Reassess only after a formal thesis improvement and portfolio review.` | `Active` |
-| `20260703-90` | `2026-07-03` | `Process` | `Process` | `Repository` | `Establish the first live portfolio baseline` | `Review if dashboard, account, and review files drift out of sync.` | `Active` |
-| `20260703-91` | `2026-07-03` | `Process` | `Process` | `Watchlist` | `Restore watchlist architecture as the long-term investment universe` | `Review if watchlist entries disappear when positions are exited.` | `Active` |
-| `20260707-01` | `2026-07-07` | `Investment` | `Add` | `紫金矿业` | `Evaluate a probe add in Zijin Mining` | `Review if the add rises 10%, falls 5%-8%, or if gold / copper logic changes materially.` | `Executed` |
 | `20260715-01` | `2026-07-15` | `Investment` | `Trade` | `美团-W（03690）` | `美团 做T（正T）` | `等待82.5~83.0附近出现止跌信号接回；若继续强势突破85，不追高，等待下一次机会。` | `Executed` |
+| `20260708-01` | `2026-07-08` | `Investment` | `Hold` | `美团-W` | `Hold` | `仓位已达核心仓位，未突破81–82压力区，继续持有等待更优买点` | `Active` |
+| `20260707-01` | `2026-07-07` | `Investment` | `Add` | `紫金矿业` | `Evaluate a probe add in Zijin Mining` | `Review if the add rises 10%, falls 5%-8%, or if gold / copper logic changes materially.` | `Executed` |
+| `20260703-91` | `2026-07-03` | `Process` | `Process` | `Watchlist` | `Restore watchlist architecture as the long-term investment universe` | `Review if watchlist entries disappear when positions are exited.` | `Active` |
+| `20260703-90` | `2026-07-03` | `Process` | `Process` | `Repository` | `Establish the first live portfolio baseline` | `Review if dashboard, account, and review files drift out of sync.` | `Active` |
+| `20260703-04` | `2026-07-03` | `Risk` | `Risk` | `理想汽车` | `Maintain no-add discipline on Li Auto` | `Reassess only after a formal thesis improvement and portfolio review.` | `Active` |
+| `20260703-03` | `2026-07-03` | `Risk` | `Risk` | `美团` | `Do not chase Meituan after the rebound` | `Review only if price resets or new evidence improves the risk-reward enough to justify action.` | `Active` |
+| `20260703-02` | `2026-07-03` | `Risk` | `Risk` | `Cash` | `Keep ¥90,000 cash after the July 2 / July 3 update` | `Reassess when a high-conviction opportunity appears or defensive liquidity is needed.` | `Active` |
+| `20260703-01` | `2026-07-03` | `Investment` | `Hold` | `三花智控 / 紫金矿业 / 北京银行` | `Continue holding support positions during optimization` | `Review if any holding no longer improves portfolio balance or thesis quality changes materially.` | `Active` |
+| `20260702-03` | `2026-07-02` | `Investment` | `Rebalance` | `美团 / Portfolio` | `Reframe Meituan as the core recovery position` | `Review if Meituan no longer deserves to be the highest-conviction holding.` | `Active` |
+| `20260702-02` | `2026-07-02` | `Investment` | `Buy` | `美团` | `Buy Meituan` | `Review if operating evidence weakens or the internet-platform thesis deteriorates.` | `Active` |
+| `20260702-01` | `2026-07-02` | `Investment` | `Reduce` | `理想汽车` | `Reduce Li Auto exposure` | `Reassess only if the EV thesis improves materially or concentration falls to an acceptable level.` | `Active` |
 
 ## 1. Investment Decisions
 
-### 20260702-01
+### 20260715-01
 
 | Field | Content |
 | --- | --- |
-| Decision ID | `20260702-01` |
-| Date | `2026-07-02` |
+| Decision ID | `20260715-01` |
+| Date | `2026-07-15` |
 | Category | `Investment` |
-| Decision Type | `Reduce` |
-| Affected Asset | `理想汽车` |
-| What We Decided | Reduce Li Auto exposure to lower concentration in a weakening conviction position. |
-| Why We Decided It | Li Auto had become too large relative to current confidence, the EV theme was weaker than the internet-platform opportunity set, and capital needed to be reallocated toward a better recovery candidate. |
-| Position Impact | Capital was released from Li Auto and concentration risk was reduced. |
-| Success Criteria | Position size no longer dominates the portfolio relative to conviction quality, and future allocation decisions are not trapped by sunk-cost bias. |
-| Review Trigger | Review only if operating evidence and thesis quality improve materially or if portfolio concentration changes enough to justify a new allocation decision. |
-| Final Result | `Open` |
-| Lessons Learned | Large losing positions should be reduced when conviction falls below their portfolio weight. |
+| Decision Type | `Trade` |
+| Affected Asset | `美团-W（03690）` |
+| What We Decided | `## 2026-07-15 美团 做T（正T）`：卖出`300股`，成交价`84.00港元`。 |
+| Why We Decided It | 日内放量上涨约`5%`，突破近期平台；按交易计划卖出交易仓，锁定部分利润。 |
+| Position Impact | 卖出`300股`后，交易仓位下降，回收约`25,200港元`现金（未扣除费用），核心判断保留，等待更优价格接回。 |
+| Success Criteria | 在不破坏原有持仓框架的前提下，通过高抛低吸提升持仓效率，并避免在放量突破后的短线高位继续追价。 |
+| Review Trigger | 等待`82.5~83.0`附近出现止跌信号接回；若继续强势突破`85`，不追高，等待下一次机会。 |
+| Final Result | `待补充` |
+| Lessons Learned | 做T必须基于预设交易计划与价量条件执行，卖出后不因踏空焦虑追高，接回同样需要等待明确信号。 |
 
-### 20260702-02
-
-| Field | Content |
-| --- | --- |
-| Decision ID | `20260702-02` |
-| Date | `2026-07-02` |
-| Category | `Investment` |
-| Decision Type | `Buy` |
-| Affected Asset | `美团` |
-| What We Decided | Buy Meituan as a higher-quality recovery candidate for the portfolio. |
-| Why We Decided It | Internet-platform exposure offered better thesis clarity than additional EV exposure, and Meituan provided a stronger operating path for rebuilding portfolio quality. |
-| Position Impact | Meituan entered the live portfolio and became a major allocation. |
-| Success Criteria | The position improves portfolio quality, earns a core role through thesis strength, and outperforms lower-conviction capital alternatives over the review period. |
-| Review Trigger | Review if operating evidence weakens, the industry structure deteriorates, or the thesis no longer supports a large position. |
-| Final Result | `Open` |
-| Lessons Learned | New capital should go to the clearest thesis, not to the most painful legacy loss. |
-
-### 20260702-03
+### 20260708-01
 
 | Field | Content |
 | --- | --- |
-| Decision ID | `20260702-03` |
-| Date | `2026-07-02` |
-| Category | `Investment` |
-| Decision Type | `Rebalance` |
-| Affected Asset | `美团 / Portfolio` |
-| What We Decided | Reframe Meituan as the portfolio's core recovery position. |
-| Why We Decided It | The recovery strategy required one genuine core holding with clearer evidence, better business quality, and stronger relative conviction than legacy positions. |
-| Position Impact | Meituan became the largest holding and the main expression of the recovery thesis. |
-| Success Criteria | The portfolio gains a clear core holding, and subsequent reviews can judge the recovery strategy against one explicit lead position. |
-| Review Trigger | Review if Meituan loses its highest-conviction status or if portfolio concentration becomes unjustified by thesis quality. |
-| Final Result | `Open` |
-| Lessons Learned | A recovery portfolio works better when one deliberate core position is defined explicitly. |
-
-### 20260703-01
-
-| Field | Content |
-| --- | --- |
-| Decision ID | `20260703-01` |
-| Date | `2026-07-03` |
+| Decision ID | `20260708-01` |
+| Date | `2026-07-08` |
 | Category | `Investment` |
 | Decision Type | `Hold` |
-| Affected Asset | `三花智控 / 紫金矿业 / 北京银行` |
-| What We Decided | Continue holding Sanhua, Zijin Mining, and Bank of Beijing while the portfolio optimization process continues. |
-| Why We Decided It | These positions still serve clear roles: Sanhua as monitored industrial upside, Zijin as a stabilizer linked to gold/resources, and Bank of Beijing as defensive yield exposure. None currently require forced exit or aggressive expansion. |
-| Position Impact | The portfolio keeps diversification support around the core Meituan position and the reviewed Li Auto position. |
-| Success Criteria | These positions continue to improve balance, stability, or optional upside without crowding out higher-conviction capital. |
-| Review Trigger | Review if any of the three holdings no longer improves portfolio balance, if thesis quality weakens materially, or if capital is needed for a higher-conviction opportunity. |
+| Affected Asset | `美团-W` |
+| What We Decided | Continue holding Meituan and make no add / no reduce decision while price remains below confirmed breakout territory. |
+| Why We Decided It | The rebound had improved price action, but the move was still judged as repair rather than trend reversal. Intraday price approached `81 HKD`, yet there was still no effective breakout above the `81-82 HKD` resistance zone, and the position was already at core size. |
+| Position Impact | No trade was executed. The Meituan core position was maintained while preserving flexibility for a later add on weakness or a reassessment on confirmed breakout. |
+| Success Criteria | The portfolio avoids chasing an unconfirmed rebound, keeps exposure to the intact Meituan thesis, and waits for a cleaner risk-reward setup before changing size. |
+| Review Trigger | Review if the `81-82 HKD` resistance zone breaks with confirmation, or if price resets below `75 HKD` and a phased add becomes attractive again. |
 | Final Result | `Open` |
-| Lessons Learned | Not every non-core position should be sold; some should be held because they still perform a defined portfolio role. |
+| Lessons Learned | Core holdings should be managed by predefined price zones and thesis quality, not by emotional reaction to a short-term rebound. |
 
 ### 20260707-01
 
@@ -113,41 +80,92 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | Final Result | `Executed` |
 | Lessons Learned | Gold allocation and Zijin Mining equity allocation must remain separate decisions even when both benefit from parts of the same macro regime. |
 
-### 20260715-01
+### 20260703-01
 
 | Field | Content |
 | --- | --- |
-| Decision ID | `20260715-01` |
-| Date | `2026-07-15` |
+| Decision ID | `20260703-01` |
+| Date | `2026-07-03` |
 | Category | `Investment` |
-| Decision Type | `Trade` |
-| Affected Asset | `美团-W（03690）` |
-| What We Decided | `## 2026-07-15 美团 做T（正T）`：卖出`300股`，成交价`84.00港元`。 |
-| Why We Decided It | 日内放量上涨约`5%`，突破近期平台；按交易计划卖出交易仓，锁定部分利润。 |
-| Position Impact | 卖出`300股`后，交易仓位下降，回收约`25,200港元`现金（未扣除费用），核心判断保留，等待更优价格接回。 |
-| Success Criteria | 在不破坏原有持仓框架的前提下，通过高抛低吸提升持仓效率，并避免在放量突破后的短线高位继续追价。 |
-| Review Trigger | 等待`82.5~83.0`附近出现止跌信号接回；若继续强势突破`85`，不追高，等待下一次机会。 |
-| Final Result | `待补充` |
-| Lessons Learned | 做T必须基于预设交易计划与价量条件执行，卖出后不因踏空焦虑追高，接回同样需要等待明确信号。 |
+| Decision Type | `Hold` |
+| Affected Asset | `三花智控 / 紫金矿业 / 北京银行` |
+| What We Decided | Continue holding Sanhua, Zijin Mining, and Bank of Beijing while the portfolio optimization process continues. |
+| Why We Decided It | These positions still serve clear roles: Sanhua as monitored industrial upside, Zijin as a stabilizer linked to gold/resources, and Bank of Beijing as defensive yield exposure. None currently require forced exit or aggressive expansion. |
+| Position Impact | The portfolio keeps diversification support around the core Meituan position and the reviewed Li Auto position. |
+| Success Criteria | These positions continue to improve balance, stability, or optional upside without crowding out higher-conviction capital. |
+| Review Trigger | Review if any of the three holdings no longer improves portfolio balance, if thesis quality weakens materially, or if capital is needed for a higher-conviction opportunity. |
+| Final Result | `Open` |
+| Lessons Learned | Not every non-core position should be sold; some should be held because they still perform a defined portfolio role. |
+
+### 20260702-03
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260702-03` |
+| Date | `2026-07-02` |
+| Category | `Investment` |
+| Decision Type | `Rebalance` |
+| Affected Asset | `美团 / Portfolio` |
+| What We Decided | Reframe Meituan as the portfolio's core recovery position. |
+| Why We Decided It | The recovery strategy required one genuine core holding with clearer evidence, better business quality, and stronger relative conviction than legacy positions. |
+| Position Impact | Meituan became the largest holding and the main expression of the recovery thesis. |
+| Success Criteria | The portfolio gains a clear core holding, and subsequent reviews can judge the recovery strategy against one explicit lead position. |
+| Review Trigger | Review if Meituan loses its highest-conviction status or if portfolio concentration becomes unjustified by thesis quality. |
+| Final Result | `Open` |
+| Lessons Learned | A recovery portfolio works better when one deliberate core position is defined explicitly. |
+
+### 20260702-02
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260702-02` |
+| Date | `2026-07-02` |
+| Category | `Investment` |
+| Decision Type | `Buy` |
+| Affected Asset | `美团` |
+| What We Decided | Buy Meituan as a higher-quality recovery candidate for the portfolio. |
+| Why We Decided It | Internet-platform exposure offered better thesis clarity than additional EV exposure, and Meituan provided a stronger operating path for rebuilding portfolio quality. |
+| Position Impact | Meituan entered the live portfolio and became a major allocation. |
+| Success Criteria | The position improves portfolio quality, earns a core role through thesis strength, and outperforms lower-conviction capital alternatives over the review period. |
+| Review Trigger | Review if operating evidence weakens, the industry structure deteriorates, or the thesis no longer supports a large position. |
+| Final Result | `Open` |
+| Lessons Learned | New capital should go to the clearest thesis, not to the most painful legacy loss. |
+
+### 20260702-01
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260702-01` |
+| Date | `2026-07-02` |
+| Category | `Investment` |
+| Decision Type | `Reduce` |
+| Affected Asset | `理想汽车` |
+| What We Decided | Reduce Li Auto exposure to lower concentration in a weakening conviction position. |
+| Why We Decided It | Li Auto had become too large relative to current confidence, the EV theme was weaker than the internet-platform opportunity set, and capital needed to be reallocated toward a better recovery candidate. |
+| Position Impact | Capital was released from Li Auto and concentration risk was reduced. |
+| Success Criteria | Position size no longer dominates the portfolio relative to conviction quality, and future allocation decisions are not trapped by sunk-cost bias. |
+| Review Trigger | Review only if operating evidence and thesis quality improve materially or if portfolio concentration changes enough to justify a new allocation decision. |
+| Final Result | `Open` |
+| Lessons Learned | Large losing positions should be reduced when conviction falls below their portfolio weight. |
 
 ## 2. Risk Decisions
 
-### 20260703-02
+### 20260703-04
 
 | Field | Content |
 | --- | --- |
-| Decision ID | `20260703-02` |
+| Decision ID | `20260703-04` |
 | Date | `2026-07-03` |
 | Category | `Risk` |
 | Decision Type | `Risk` |
-| Affected Asset | `Cash` |
-| What We Decided | Keep `¥90,000` cash after the July 2 / July 3 live update. |
-| Why We Decided It | The portfolio is still in optimization, not every holding has equal conviction, and cash preserves optionality for future entries or defense. |
-| Position Impact | Cash remains `¥90,000`, or about `21.3%` of total assets. |
-| Success Criteria | Cash remains deliberate rather than drifting lower through unplanned trades, and any deployment is tied to a written thesis and decision. |
-| Review Trigger | Reassess if a high-conviction thesis becomes actionable, if drawdown risk rises, or if concentration changes require different liquidity. |
+| Affected Asset | `理想汽车` |
+| What We Decided | Maintain no-add discipline on Li Auto. |
+| Why We Decided It | Current conviction does not justify increasing a position that already caused large drawdown and still carries unresolved thesis risk. |
+| Position Impact | Li Auto remains capped at the current size and stays under formal review. |
+| Success Criteria | No additional capital is allocated until evidence improves enough to justify a new investment decision. |
+| Review Trigger | Reassess only after a documented thesis improvement, a better operating trend, and a portfolio review that supports renewed sizing. |
 | Final Result | `Open` |
-| Lessons Learned | Cash is only useful when it is protected from forced activity. |
+| Lessons Learned | "Do not add" is a valid decision when evidence quality is below portfolio standards. |
 
 ### 20260703-03
 
@@ -166,22 +184,22 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | Final Result | `Open` |
 | Lessons Learned | Correct decisions should not automatically lead to larger positions at worse prices. |
 
-### 20260703-04
+### 20260703-02
 
 | Field | Content |
 | --- | --- |
-| Decision ID | `20260703-04` |
+| Decision ID | `20260703-02` |
 | Date | `2026-07-03` |
 | Category | `Risk` |
 | Decision Type | `Risk` |
-| Affected Asset | `理想汽车` |
-| What We Decided | Maintain no-add discipline on Li Auto. |
-| Why We Decided It | Current conviction does not justify increasing a position that already caused large drawdown and still carries unresolved thesis risk. |
-| Position Impact | Li Auto remains capped at the current size and stays under formal review. |
-| Success Criteria | No additional capital is allocated until evidence improves enough to justify a new investment decision. |
-| Review Trigger | Reassess only after a documented thesis improvement, a better operating trend, and a portfolio review that supports renewed sizing. |
+| Affected Asset | `Cash` |
+| What We Decided | Keep `¥90,000` cash after the July 2 / July 3 live update. |
+| Why We Decided It | The portfolio is still in optimization, not every holding has equal conviction, and cash preserves optionality for future entries or defense. |
+| Position Impact | Cash remains `¥90,000`, or about `21.3%` of total assets. |
+| Success Criteria | Cash remains deliberate rather than drifting lower through unplanned trades, and any deployment is tied to a written thesis and decision. |
+| Review Trigger | Reassess if a high-conviction thesis becomes actionable, if drawdown risk rises, or if concentration changes require different liquidity. |
 | Final Result | `Open` |
-| Lessons Learned | "Do not add" is a valid decision when evidence quality is below portfolio standards. |
+| Lessons Learned | Cash is only useful when it is protected from forced activity. |
 
 ## 3. Process Decisions
 
