@@ -18,7 +18,7 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | `20260703-90` | `2026-07-03` | `Process` | `Process` | `Repository` | `Establish the first live portfolio baseline` | `Review if dashboard, account, and review files drift out of sync.` | `Active` |
 | `20260703-91` | `2026-07-03` | `Process` | `Process` | `Watchlist` | `Restore watchlist architecture as the long-term investment universe` | `Review if watchlist entries disappear when positions are exited.` | `Active` |
 | `20260707-01` | `2026-07-07` | `Investment` | `Add` | `紫金矿业` | `Evaluate a probe add in Zijin Mining` | `Review if the add rises 10%, falls 5%-8%, or if gold / copper logic changes materially.` | `Executed` |
-| `20260708-01` | `2026-07-08` | `Investment` | `Hold` | `美团-W` | `Hold` | `仓位已达核心仓位，未突破81–82压力区，继续持有等待更优买点` | `Active` |
+| `20260715-01` | `2026-07-15` | `Investment` | `Trade` | `美团-W（03690）` | `美团 做T（正T）` | `等待82.5~83.0附近出现止跌信号接回；若继续强势突破85，不追高，等待下一次机会。` | `Executed` |
 
 ## 1. Investment Decisions
 
@@ -112,6 +112,23 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | Review Trigger | Review if the first add rises `10%`, if it falls `5%-8%`, or if gold / copper prices or the broader resource thesis change materially. |
 | Final Result | `Executed` |
 | Lessons Learned | Gold allocation and Zijin Mining equity allocation must remain separate decisions even when both benefit from parts of the same macro regime. |
+
+### 20260715-01
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260715-01` |
+| Date | `2026-07-15` |
+| Category | `Investment` |
+| Decision Type | `Trade` |
+| Affected Asset | `美团-W（03690）` |
+| What We Decided | `## 2026-07-15 美团 做T（正T）`：卖出`300股`，成交价`84.00港元`。 |
+| Why We Decided It | 日内放量上涨约`5%`，突破近期平台；按交易计划卖出交易仓，锁定部分利润。 |
+| Position Impact | 卖出`300股`后，交易仓位下降，回收约`25,200港元`现金（未扣除费用），核心判断保留，等待更优价格接回。 |
+| Success Criteria | 在不破坏原有持仓框架的前提下，通过高抛低吸提升持仓效率，并避免在放量突破后的短线高位继续追价。 |
+| Review Trigger | 等待`82.5~83.0`附近出现止跌信号接回；若继续强势突破`85`，不追高，等待下一次机会。 |
+| Final Result | `待补充` |
+| Lessons Learned | 做T必须基于预设交易计划与价量条件执行，卖出后不因踏空焦虑追高，接回同样需要等待明确信号。 |
 
 ## 2. Risk Decisions
 
