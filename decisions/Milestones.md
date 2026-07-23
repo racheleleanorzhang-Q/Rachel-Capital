@@ -11,50 +11,6 @@
 
 ---
 
-# Milestone 001
-
-## 2026-07｜建立 Thesis Driven Investment Framework
-
-### 背景
-
-Rachel Capital 建立完整的 Thesis Driven Investment Framework，将投资框架、Dashboard、Decision Log、Trade Playbook 等全部沉淀到 GitHub，实现持续迭代。
-
-### 标志事件
-
-完成投资知识体系建设。
-
-### 为什么重要
-
-Rachel Capital 从聊天式投资升级为知识驱动投资。
-
-### 对 Rachel Capital 的影响
-
-所有投资开始围绕 Thesis 演进，而不是围绕聊天记录。
-
----
-
-# Milestone 002
-
-## 2026-07｜Recovery Engine（做T体系）建立
-
-### 背景
-
-由于理想汽车造成较大浮亏，Rachel Capital 将阶段目标调整为在未来3-5个月内，通过优质资产和做T修复组合收益。
-
-### 标志事件
-
-建立以美团、紫金矿业等核心资产为基础的 Recovery Engine，并开始持续执行系统化做T。
-
-### 为什么重要
-
-组合开始依靠交易能力，而不是依赖单次择时。
-
-### 对 Rachel Capital 的影响
-
-Recovery Engine 成为组合第一收益来源，也是未来长期保留的投资模块。
-
----
-
 # Milestone 003
 
 ## 2026-07-23｜Growth Engine 正式启动
@@ -89,6 +45,50 @@ Growth Engine 第一笔正式建仓：
 未来新增资金将主要配置到 Growth Engine。
 
 Growth Engine 的目标不是单纯获取股价上涨收益，而是在上涨趋势中持续进行做T，实现「趋势收益 + T收益」双重收益来源。
+
+---
+
+# Milestone 002
+
+## 2026-07｜Recovery Engine（做T体系）建立
+
+### 背景
+
+由于理想汽车造成较大浮亏，Rachel Capital 将阶段目标调整为在未来3-5个月内，通过优质资产和做T修复组合收益。
+
+### 标志事件
+
+建立以美团、紫金矿业等核心资产为基础的 Recovery Engine，并开始持续执行系统化做T。
+
+### 为什么重要
+
+组合开始依靠交易能力，而不是依赖单次择时。
+
+### 对 Rachel Capital 的影响
+
+Recovery Engine 成为组合第一收益来源，也是未来长期保留的投资模块。
+
+---
+
+# Milestone 001
+
+## 2026-07｜建立 Thesis Driven Investment Framework
+
+### 背景
+
+Rachel Capital 建立完整的 Thesis Driven Investment Framework，将投资框架、Dashboard、Decision Log、Trade Playbook 等全部沉淀到 GitHub，实现持续迭代。
+
+### 标志事件
+
+完成投资知识体系建设。
+
+### 为什么重要
+
+Rachel Capital 从聊天式投资升级为知识驱动投资。
+
+### 对 Rachel Capital 的影响
+
+所有投资开始围绕 Thesis 演进，而不是围绕聊天记录。
 
 ---
 
