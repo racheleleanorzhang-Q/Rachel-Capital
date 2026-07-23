@@ -1,99 +1,99 @@
-# Asset Allocation
+# 资产配置
 
-This document defines the long-term asset allocation framework for Rachel Capital.
+本文定义 Rachel Capital 的长期资产配置框架。
 
-It exists to keep asset-class decisions separate from single-stock decisions.
+其目的，是将资产类别层面的决策与个股层面的决策明确区分开来。
 
-## Role
+## 定位
 
-Rachel Capital remains a personal real-account long-term investment decision system.
+Rachel Capital 仍然是一个个人真实资金的长期投资决策系统。
 
-The portfolio is no longer treated as equities-only. It now includes:
+当前的组合不再被视为“仅有股票”的组合，而是包括：
 
-- equities
-- gold accumulation
-- cash
+- 股票
+- 黄金积累
+- 现金
 
-Asset allocation decisions should be made before individual position sizing decisions whenever the two are in tension.
+当资产配置与单一个股仓位决策发生张力时，应优先做出资产配置层面的判断。
 
-## Long-Term Target Allocation
+## 长期目标配置
 
-| Asset Class | Target Weight | Role |
+| 资产类别 | 目标权重 | 角色 |
 | --- | ---: | --- |
-| Technology | 30% | Long-term growth engine tied to AI, software, hardware, and industrial upgrading. |
-| Consumer Internet | 30% | Core compounder bucket for high-quality platform and consumption assets. |
-| Resource Equities | 15% | Cyclical and structural resource exposure through listed companies. |
-| Gold (`积存金` / Gold ETF) | 10% | Portfolio stabilizer and macro hedge. |
-| Banks / High Dividend | 10% | Defensive income and balance to growth concentration. |
-| Cash | 5% | Optionality, defense, and rebalancing reserve. |
+| 科技 | 30% | 作为长期增长引擎，承接 AI、软件、硬件与产业升级带来的长期机会。 |
+| 消费互联网 | 30% | 作为高质量平台型与消费型资产的核心复利仓位。 |
+| 资源股 | 15% | 通过上市公司获取周期性与结构性的资源品敞口。 |
+| 黄金（`积存金` / Gold ETF） | 10% | 作为组合稳定器与宏观对冲工具。 |
+| 银行 / 高股息 | 10% | 提供防御性收益，并平衡成长集中度。 |
+| 现金 | 5% | 提供选择权、防御能力与再平衡储备。 |
 
-This is a long-term target architecture, not a requirement to force immediate one-step implementation.
+这是一个长期目标架构，并不意味着必须立刻一步到位完成配置。
 
-## Current Allocation Snapshot
+## 当前配置快照
 
-As of `2026-07-08`, the current portfolio is approximately:
+截至 `2026-07-08`，当前组合大致如下：
 
-| Asset Class | Current Weight | Current Expression |
+| 资产类别 | 当前权重 | 当前体现 |
 | --- | ---: | --- |
-| Technology | 24.6% | `理想汽车` + `三花智控` |
-| Consumer Internet | 36.8% | `美团` |
-| Resource Equities | 14.5% | `紫金矿业` |
-| Gold (`积存金` / Gold ETF) | 0.0% | Not yet started as a direct allocation bucket. |
-| Banks / High Dividend | 5.7% | `北京银行` |
-| Cash | 18.4% | Remaining deployable cash after the first Zijin add. |
+| 科技 | 24.6% | `理想汽车` + `三花智控` |
+| 消费互联网 | 36.8% | `美团` |
+| 资源股 | 14.5% | `紫金矿业` |
+| 黄金（`积存金` / Gold ETF） | 0.0% | 尚未作为独立配置桶开始建立。 |
+| 银行 / 高股息 | 5.7% | `北京银行` |
+| 现金 | 18.4% | 首次增持紫金后剩余的可部署现金。 |
 
-## Allocation Gap
+## 配置缺口
 
-| Asset Class | Target | Current | Gap | Direction |
+| 资产类别 | 目标 | 当前 | 缺口 | 方向 |
 | --- | ---: | ---: | ---: | --- |
-| Technology | 30.0% | 24.6% | -5.4% | Below target |
-| Consumer Internet | 30.0% | 36.8% | +6.8% | Above target |
-| Resource Equities | 15.0% | 14.5% | -0.5% | Slightly below target |
-| Gold (`积存金` / Gold ETF) | 10.0% | 0.0% | -10.0% | Materially below target |
-| Banks / High Dividend | 10.0% | 5.7% | -4.3% | Below target |
-| Cash | 5.0% | 18.4% | +13.4% | Above target |
+| 科技 | 30.0% | 24.6% | -5.4% | 低于目标 |
+| 消费互联网 | 30.0% | 36.8% | +6.8% | 高于目标 |
+| 资源股 | 15.0% | 14.5% | -0.5% | 略低于目标 |
+| 黄金（`积存金` / Gold ETF） | 10.0% | 0.0% | -10.0% | 明显低于目标 |
+| 银行 / 高股息 | 10.0% | 5.7% | -4.3% | 低于目标 |
+| 现金 | 5.0% | 18.4% | +13.4% | 高于目标 |
 
-The key conclusion is unchanged: the Zijin Mining add improved resource-equity exposure, but it did not solve the direct gold allocation gap.
+核心结论没有变化：增持紫金矿业改善了资源股敞口，但并没有解决直接黄金配置不足的问题。
 
-## Gold Is A Separate Asset
+## 黄金是独立资产
 
-Gold accumulation and Zijin Mining must not be merged into one bucket.
+黄金积累与紫金矿业不能合并为同一个配置桶。
 
-| Asset | Classification | Why It Is Separate |
+| 资产 | 分类 | 为什么必须分开 |
 | --- | --- | --- |
-| Gold (`积存金` / Gold ETF) | Non-equity allocation asset | Used for hedging, stability, and long-term reserve behavior. |
-| Zijin Mining | Equity position | Still depends on company execution, capital allocation, and commodity-cycle equity beta. |
+| 黄金（`积存金` / Gold ETF） | 非权益类配置资产 | 用于对冲、稳定，以及提供长期储备属性。 |
+| 紫金矿业 | 权益仓位 | 仍然取决于公司执行力、资本配置能力，以及商品周期带来的股票 Beta。 |
 
-Gold performance and Zijin Mining performance should be recorded, evaluated, and rebalanced separately.
+黄金的表现与紫金矿业的表现应分别记录、评估与再平衡。
 
-## Gold Investment Rules
+## 黄金投资规则
 
-- Use long-term accumulation as the default approach.
-- Add on meaningful pullbacks rather than on short-term upside spikes.
-- Do not chase gold after rapid short-term rallies.
-- Do not treat gold as a short-term trading instrument.
-- Gold should primarily serve as a portfolio stabilizer and risk hedge.
+- 以长期积累作为默认方式。
+- 在有意义的回撤中增持，而不是在短期上涨冲高时追入。
+- 黄金短期快速上涨后，不要追高。
+- 不要把黄金当作短线交易工具。
+- 黄金的主要作用应是组合稳定器和风险对冲工具。
 
-## Rebalancing Rules
+## 再平衡规则
 
-- Rebalancing should respond to material drift, not to noise.
-- A rebalance is justified when asset-class weights drift far enough to distort portfolio role clarity.
-- Rebalancing can also be triggered when thesis quality changes more than price changes.
-- Any material asset-allocation change should be recorded in `decisions/Decision_Log.md`.
+- 再平衡应对实质性偏移，而不是对噪音做反应。
+- 当资产类别权重偏离到足以扭曲组合角色时，就有理由进行再平衡。
+- 当逻辑质量的变化大于价格变化时，也可以触发再平衡。
+- 任何实质性的资产配置变化，都应记录在 `decisions/Decision_Log.md`。
 
-## Deployment Rules
+## 部署规则
 
-- New cash should first be evaluated at the asset-class level, then at the individual-asset level.
-- A strong single-stock thesis does not override the need for asset-class balance.
-- Gold accumulation should be paced over time unless a clear macro dislocation justifies a larger buy.
-- Cash should remain available when no asset class offers acceptable risk-adjusted deployment.
-- A Zijin Mining add can reduce the resource-equity gap, but it does not count as filling the direct gold allocation bucket.
+- 新增现金应先在资产类别层面评估，再进入具体资产层面评估。
+- 单一个股逻辑再强，也不能覆盖资产类别平衡的要求。
+- 黄金积累应分阶段推进，除非出现明确的宏观错位，足以支持更大规模买入。
+- 当没有任何资产类别提供可接受的风险回报比时，应保留现金。
+- 增持紫金矿业可以缩小资源股缺口，但不能被视为填补了直接黄金配置桶。
 
-## Operating Rule
+## 操作规则
 
-Before adding to any position, confirm:
+在增持任何仓位之前，先确认：
 
-1. Which asset class is being increased.
-2. Whether that asset class is below, near, or above target weight.
-3. Whether the move improves or weakens overall portfolio balance.
-4. Whether the decision belongs in `Decision_Log.md`.
+1. 本次增加的是哪一个资产类别。
+2. 该资产类别当前是低于、接近还是高于目标权重。
+3. 这次动作会改善还是削弱整体组合平衡。
+4. 这项决策是否应记录进 `Decision_Log.md`.
