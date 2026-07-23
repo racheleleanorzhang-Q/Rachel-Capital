@@ -4,42 +4,49 @@ This file now routes current portfolio review to the dedicated portfolio dashboa
 
 This is the single entry point for current portfolio review in Rachel Capital.
 
-Last Updated: `2026-07-10`
+Last Updated: `2026-07-23`
 
 ## Summary
 
 | Field | Value | Notes |
 | --- | ---: | --- |
-| Total Assets | ¥447,400 | Latest synchronized portfolio baseline from the July 10 holdings snapshot. |
-| Cash | ¥85,000 | Available cash from the latest portfolio snapshot. |
-| Stock Assets | ¥362,400 | Sum of live holdings. |
-| Cash Ratio | 19.0% | Cash / total assets. |
-| Equity Exposure | 81.0% | Stock assets / total assets. |
+| Total Assets | ¥456,000 | Latest synchronized portfolio baseline from the July 23 holdings snapshot. |
+| Cash | ¥100,000 | Available cash from the latest portfolio snapshot. |
+| Stock Assets | ¥356,000 | Sum of live holdings. |
+| Cash Ratio | 21.9% | Cash / total assets. |
+| Equity Exposure | 78.1% | Stock assets / total assets. |
 | Number of Holdings | 5 | Current live holdings. |
-| Largest Position | 美团 (`36.9%` of total assets) | Still the portfolio core. |
+| Largest Position | 美团 (`36.6%` of total assets) | Continues as the first portfolio repair engine. |
 | Biggest Unrealized Loss | 理想汽车 (`-¥104,000`) | Still the largest unresolved drawdown. |
-| Best Performer | 紫金矿业 (`+¥2,400`) | Best absolute unrealized gain. |
+| Best Performer | 紫金矿业 (`+¥11,500`) | Largest current profit contributor. |
 
 ## Holdings
 
 | Holding | Market Value | Accumulated P/L | Weight In Total Assets | Role | Current View |
 | --- | ---: | ---: | ---: | --- | --- |
-| 理想汽车 | ¥70,000 | -¥104,000 | 15.6% | Optimization Candidate | Hold only; no add until thesis improves. |
-| 美团 | ¥165,000 | -¥52,000 | 36.9% | Core Holding | Continue holding as the highest-conviction core position. |
-| 紫金矿业 | ¥64,900 | +¥2,400 | 14.5% | Portfolio Stabilizer | Thesis strengthened after the half-year earnings pre-announcement. |
-| 三花智控 | ¥38,000 | -¥2,000 | 8.5% | Observation | Hold and monitor AI-manufacturing evidence. |
-| 北京银行 | ¥24,500 | +¥700 | 5.5% | Defensive Holding | Continue holding as a defensive balance position. |
+| 美团 | ¥167,000 | -¥43,000 | 36.6% | 核心修复仓 | Continue holding as the first repair engine and keep using T-trading to lower cost. |
+| 理想汽车 | ¥70,000 | -¥104,000 | 15.4% | 观察修复仓 | Hold only; no active averaging down until thesis quality improves. |
+| 紫金矿业 | ¥61,000 | +¥11,500 | 13.4% | 资源配置仓 | Continue holding as the portfolio stabilizer; add only if thesis stays intact and pullback improves entry. |
+| 三花智控 | ¥33,000 | -¥7,000 | 7.2% | 制造成长仓 | Position size is lower; no thesis change. |
+| 北京银行 | ¥25,000 | +¥1,500 | 5.5% | 防御收益仓 | Continue holding as a defensive yield balance position. |
 
 ## Current Allocation
 
 | Asset Class | Current Weight | Target Weight | Gap |
 | --- | ---: | ---: | ---: |
-| Technology | 24.1% | 30.0% | -5.9% |
-| Consumer Internet | 36.9% | 30.0% | +6.9% |
-| Resource Equities | 14.5% | 15.0% | -0.5% |
+| Technology | 22.6% | 30.0% | -7.4% |
+| Consumer Internet | 36.6% | 30.0% | +6.6% |
+| Resource Equities | 13.4% | 15.0% | -1.6% |
 | Gold (`积存金` / Gold ETF) | 0.0% | 10.0% | -10.0% |
 | Banks / High Dividend | 5.5% | 10.0% | -4.5% |
-| Cash | 19.0% | 5.0% | +14.0% |
+| Cash | 21.9% | 5.0% | +16.9% |
+
+## Investment Committee Comment
+
+- 美团继续承担组合第一修复引擎。
+- 紫金矿业成为当前最大的盈利来源。
+- 现金提升至 `¥100,000`，提高了组合灵活性。
+- 理想汽车仍然是组合最大的风险仓位。
 
 ## Pending Decisions
 
@@ -47,12 +54,13 @@ Last Updated: `2026-07-10`
 | --- | --- | --- |
 | Direct gold accumulation first entry | Open | Gold target remains unfilled even after the latest portfolio repair. |
 | Li Auto review | Open | It remains the biggest unrealized loss and weakest current role. |
-| Meituan range resolution | Open | The core holding remains below confirmed breakout levels and should not be chased inside the range. |
-| Post-earnings-preannouncement Zijin review | Open | The improved mark and stronger earnings signal need follow-through review against target size. |
+| Meituan T-trading execution | Open | The core holding should keep lowering cost without weakening the base position. |
+| Second growth engine selection | Open | Future incremental capital should go to a qualified second growth engine rather than to more Li Auto cost averaging. |
 
 ## Source Documents
 
 - `account/Current.md`
+- `weekly/2026/W30.md`
 - `decisions/Decision_Log.md`
 - `strategy/Asset_Allocation.md`
 - `watchlist/Watchlist.md`
