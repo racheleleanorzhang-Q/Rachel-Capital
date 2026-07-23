@@ -8,6 +8,7 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 
 | Decision ID | Date | Category | Decision Type | Asset / Scope | Decision | Review Trigger | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| `20260723-02` | `2026-07-23` | `Investment` | `Buy` | `腾讯控股（00700.HK）` | `Growth Engine 首次正式建仓：买入腾讯100股` | `Review if price reaches the planned add zones, breaks the first resistance zone with confirmation, or Tencent no longer meets the Growth Engine criteria.` | `Executed` |
 | `20260723-01` | `2026-07-23` | `Investment` | `Rebalance` | `Portfolio` | `2026-07 组合策略升级` | `Review if cash falls materially below the strategic reserve, Li Auto thesis improves enough to justify fresh capital, or a qualified second growth engine becomes allocation-ready.` | `Active` |
 | `20260715-01` | `2026-07-15` | `Investment` | `Trade` | `美团-W（03690）` | `美团 做T（正T）` | `等待82.5~83.0附近出现止跌信号接回；若继续强势突破85，不追高，等待下一次机会。` | `Executed` |
 | `20260708-01` | `2026-07-08` | `Investment` | `Hold` | `美团-W` | `Hold` | `仓位已达核心仓位，未突破81–82压力区，继续持有等待更优买点` | `Active` |
@@ -23,6 +24,24 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | `20260702-01` | `2026-07-02` | `Investment` | `Reduce` | `理想汽车` | `Reduce Li Auto exposure` | `Reassess only if the EV thesis improves materially or concentration falls to an acceptable level.` | `Active` |
 
 ## 1. Investment Decisions
+
+### 20260723-02
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260723-02` |
+| Date | `2026-07-23` |
+| Category | `Investment` |
+| Decision Type | `Buy` |
+| Affected Asset | `腾讯控股（00700.HK）` |
+| Background | Rachel Capital 已在 `20260723-01` 中正式明确“核心仓 + 做T + 第二增长引擎”的组合策略。当前阶段需要将第二增长引擎从候选研究推进到实际执行，并在保留足够现金用于现有持仓做T的前提下，建立第一笔新增长资产底仓。 |
+| What We Decided | 以 `446.2港元` 买入腾讯控股 `100股`，作为 Growth Engine（第二增长引擎）的第一笔正式建仓。 |
+| Why We Decided It | 腾讯在候选资产中兼具业务质量、趋势稳定性、流动性和区间波动。成交价 `446.2港元` 位于此前设定的可接受建仓区附近，风险收益比优于追高泡泡玛特或在深南电路快速上涨后介入。腾讯的游戏、广告、AI及云业务为未来 `3-5个月` 提供潜在催化，同时其波动特征适合在保留底仓的基础上进行区间做T。采用 `100股` 轻仓建仓，是为了先验证 Growth Engine 的执行逻辑，并为美团、紫金矿业等现有持仓的做T及腾讯后续分批加仓保留现金。 |
+| Position Impact | 新增腾讯控股 `100股`，交易金额约 `44,620港元`，未计交易费用。腾讯被正式纳入 Growth Engine，而不是 Recovery Engine。组合由“主要管理存量修复仓”进入“存量修复与新增增长并行”的实际执行阶段。现金余额应以 Dashboard 中交易后的实际数据为准，不在本记录中估算人民币余额。 |
+| Success Criteria | 未来 `3-5个月` 内，腾讯能够保持中期趋势稳定，并通过股价上涨及至少一次符合纪律的做T，为组合贡献新增收益；同时该持仓不得明显挤压 Recovery Engine 所需的交易现金。 |
+| Review Trigger | 当股价回落至 `440-442港元` 第一加仓观察区、进一步回落至 `435-438港元` 第二加仓观察区、有效突破 `455港元` 附近第一压力区，或腾讯不再符合“趋势向上、基本面稳定、具备做T空间”的 Growth Engine 标准时复盘。 |
+| Final Result | `Executed` |
+| Lessons Learned | Growth Engine 的启动应从可控仓位和明确执行区间开始，而不是一次性重仓。第二增长引擎并不替代现有持仓做T，而是在保留 Recovery Engine 的基础上，为组合建立独立的新收益来源。 |
 
 ### 20260723-01
 
