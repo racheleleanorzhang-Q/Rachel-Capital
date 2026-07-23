@@ -8,6 +8,7 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 
 | Decision ID | Date | Category | Decision Type | Asset / Scope | Decision | Review Trigger | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| `20260723-01` | `2026-07-23` | `Investment` | `Rebalance` | `Portfolio` | `2026-07 组合策略升级` | `Review if cash falls materially below the strategic reserve, Li Auto thesis improves enough to justify fresh capital, or a qualified second growth engine becomes allocation-ready.` | `Active` |
 | `20260715-01` | `2026-07-15` | `Investment` | `Trade` | `美团-W（03690）` | `美团 做T（正T）` | `等待82.5~83.0附近出现止跌信号接回；若继续强势突破85，不追高，等待下一次机会。` | `Executed` |
 | `20260708-01` | `2026-07-08` | `Investment` | `Hold` | `美团-W` | `Hold` | `仓位已达核心仓位，未突破81–82压力区，继续持有等待更优买点` | `Active` |
 | `20260707-01` | `2026-07-07` | `Investment` | `Add` | `紫金矿业` | `Evaluate a probe add in Zijin Mining` | `Review if the add rises 10%, falls 5%-8%, or if gold / copper logic changes materially.` | `Executed` |
@@ -22,6 +23,23 @@ This log is the canonical record of Rachel Capital decisions. Investment decisio
 | `20260702-01` | `2026-07-02` | `Investment` | `Reduce` | `理想汽车` | `Reduce Li Auto exposure` | `Reassess only if the EV thesis improves materially or concentration falls to an acceptable level.` | `Active` |
 
 ## 1. Investment Decisions
+
+### 20260723-01
+
+| Field | Content |
+| --- | --- |
+| Decision ID | `20260723-01` |
+| Date | `2026-07-23` |
+| Category | `Investment` |
+| Decision Type | `Rebalance` |
+| Affected Asset | `Portfolio` |
+| What We Decided | 《2026-07 组合策略升级》：组合正式进入 `"核心仓 + 做T + 第二增长引擎"` 三层策略。 |
+| Why We Decided It | 美团仍然是组合中最清晰的第一核心修复仓，做T可以继续降低持仓成本，`¥100,000` 现金提高了组合灵活性，而理想汽车不再值得继续主动摊低成本。后续新增资金应优先布局新的增长来源，而不是继续向弱势旧仓投入。 |
+| Position Impact | 组合不做被动全面切换，但未来执行框架被正式明确：美团继续作为第一核心修复仓；做T成为降低成本的持续工具；现金维持约 `20%` 作为战略储备；理想汽车继续观察、不再主动补仓；新增资金优先布局第二增长引擎。 |
+| Success Criteria | 美团成本继续通过纪律化做T下降，现金保持战略缓冲，理想汽车不再吞噬新增资本，组合能逐步建立独立于美团之外的第二增长引擎。 |
+| Review Trigger | Review if cash falls materially below the strategic reserve, Li Auto thesis improves enough to justify fresh capital, or a qualified second growth engine becomes allocation-ready. |
+| Final Result | `Open` |
+| Lessons Learned | 组合修复不能只依赖被动等待或对最弱仓位继续摊低成本，必须同时推进成本优化和新增长引擎建设。 |
 
 ### 20260715-01
 
