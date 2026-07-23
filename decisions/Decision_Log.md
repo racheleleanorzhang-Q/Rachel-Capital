@@ -1,302 +1,302 @@
-# Decision Log
+# 决策日志
 
-## Purpose
+## 用途
 
-This log is the canonical record of Rachel Capital decisions. Investment decisions come first, risk decisions come second, and process decisions remain supplementary.
+本日志是 Rachel Capital 决策的标准记录。投资决策优先，其次是风险决策，流程决策作为补充。
 
-## Log Index
+## 决策索引
 
-| Decision ID | Date | Category | Decision Type | Asset / Scope | Decision | Review Trigger | Status |
+| 决策 ID | 日期 | 类别 | 决策类型 | 资产 / 范围 | 决策 | 复盘触发条件 | 状态 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `20260723-02` | `2026-07-23` | `Investment` | `Buy` | `腾讯控股（00700.HK）` | `Growth Engine 首次正式建仓：买入腾讯100股` | `Review if price reaches the planned add zones, breaks the first resistance zone with confirmation, or Tencent no longer meets the Growth Engine criteria.` | `Executed` |
-| `20260723-01` | `2026-07-23` | `Investment` | `Rebalance` | `Portfolio` | `2026-07 组合策略升级` | `Review if cash falls materially below the strategic reserve, Li Auto thesis improves enough to justify fresh capital, or a qualified second growth engine becomes allocation-ready.` | `Active` |
-| `20260715-01` | `2026-07-15` | `Investment` | `Trade` | `美团-W（03690）` | `美团 做T（正T）` | `等待82.5~83.0附近出现止跌信号接回；若继续强势突破85，不追高，等待下一次机会。` | `Executed` |
-| `20260708-01` | `2026-07-08` | `Investment` | `Hold` | `美团-W` | `Hold` | `仓位已达核心仓位，未突破81–82压力区，继续持有等待更优买点` | `Active` |
-| `20260707-01` | `2026-07-07` | `Investment` | `Add` | `紫金矿业` | `Evaluate a probe add in Zijin Mining` | `Review if the add rises 10%, falls 5%-8%, or if gold / copper logic changes materially.` | `Executed` |
-| `20260703-91` | `2026-07-03` | `Process` | `Process` | `Watchlist` | `Restore watchlist architecture as the long-term investment universe` | `Review if watchlist entries disappear when positions are exited.` | `Active` |
-| `20260703-90` | `2026-07-03` | `Process` | `Process` | `Repository` | `Establish the first live portfolio baseline` | `Review if dashboard, account, and review files drift out of sync.` | `Active` |
-| `20260703-04` | `2026-07-03` | `Risk` | `Risk` | `理想汽车` | `Maintain no-add discipline on Li Auto` | `Reassess only after a formal thesis improvement and portfolio review.` | `Active` |
-| `20260703-03` | `2026-07-03` | `Risk` | `Risk` | `美团` | `Do not chase Meituan after the rebound` | `Review only if price resets or new evidence improves the risk-reward enough to justify action.` | `Active` |
-| `20260703-02` | `2026-07-03` | `Risk` | `Risk` | `Cash` | `Keep ¥90,000 cash after the July 2 / July 3 update` | `Reassess when a high-conviction opportunity appears or defensive liquidity is needed.` | `Active` |
-| `20260703-01` | `2026-07-03` | `Investment` | `Hold` | `三花智控 / 紫金矿业 / 北京银行` | `Continue holding support positions during optimization` | `Review if any holding no longer improves portfolio balance or thesis quality changes materially.` | `Active` |
-| `20260702-03` | `2026-07-02` | `Investment` | `Rebalance` | `美团 / Portfolio` | `Reframe Meituan as the core recovery position` | `Review if Meituan no longer deserves to be the highest-conviction holding.` | `Active` |
-| `20260702-02` | `2026-07-02` | `Investment` | `Buy` | `美团` | `Buy Meituan` | `Review if operating evidence weakens or the internet-platform thesis deteriorates.` | `Active` |
-| `20260702-01` | `2026-07-02` | `Investment` | `Reduce` | `理想汽车` | `Reduce Li Auto exposure` | `Reassess only if the EV thesis improves materially or concentration falls to an acceptable level.` | `Active` |
+| `20260723-02` | `2026-07-23` | `投资` | `买入` | `腾讯控股（00700.HK）` | `第二增长引擎首次正式建仓：买入腾讯100股` | `当价格进入计划加仓区、确认突破第一阻力区，或腾讯不再符合第二增长引擎标准时复盘。` | `已执行` |
+| `20260723-01` | `2026-07-23` | `投资` | `再平衡` | `组合` | `2026-07 组合策略升级` | `当现金明显低于战略储备、理想汽车投资逻辑改善到足以支持新增资金，或合格的第二增长引擎已具备实际配置条件时复盘。` | `生效中` |
+| `20260715-01` | `2026-07-15` | `投资` | `交易` | `美团-W（03690）` | `美团 做T（正T）` | `等待82.5~83.0附近出现止跌信号接回；若继续强势突破85，不追高，等待下一次机会。` | `已执行` |
+| `20260708-01` | `2026-07-08` | `投资` | `持有` | `美团-W` | `继续持有` | `仓位已达核心仓位，未突破81–82压力区，继续持有等待更优买点` | `生效中` |
+| `20260707-01` | `2026-07-07` | `投资` | `加仓` | `紫金矿业` | `评估对紫金矿业进行试探性加仓` | `当首笔加仓上涨10%、下跌5%-8%，或黄金 / 铜逻辑发生明显变化时复盘。` | `已执行` |
+| `20260703-91` | `2026-07-03` | `流程` | `流程` | `观察池` | `恢复观察池架构，使其重新成为长期投资覆盖池` | `如果持仓退出后观察池条目也随之消失，则复盘。` | `生效中` |
+| `20260703-90` | `2026-07-03` | `流程` | `流程` | `仓库` | `建立首个实时组合基线` | `如果仪表盘、账户和复盘文件之间出现不同步，则复盘。` | `生效中` |
+| `20260703-04` | `2026-07-03` | `风险` | `风险` | `理想汽车` | `维持理想汽车禁止加仓纪律` | `只有在正式投资逻辑改善并完成组合复盘后才重新评估。` | `生效中` |
+| `20260703-03` | `2026-07-03` | `风险` | `风险` | `美团` | `美团反弹后不追高` | `只有当价格回到更优位置，或新证据明显改善风险收益比时复盘。` | `生效中` |
+| `20260703-02` | `2026-07-03` | `风险` | `风险` | `现金` | `在 7 月 2 日 / 7 月 3 日更新后保留 ¥90,000 现金` | `当出现高确定性机会或需要防御性流动性时重新评估。` | `生效中` |
+| `20260703-01` | `2026-07-03` | `投资` | `持有` | `三花智控 / 紫金矿业 / 北京银行` | `在组合优化阶段继续持有支撑型仓位` | `如果任一持仓不再改善组合平衡，或投资逻辑质量发生明显变化，则复盘。` | `生效中` |
+| `20260702-03` | `2026-07-02` | `投资` | `再平衡` | `美团 / 组合` | `将美团重定义为组合核心修复仓` | `如果美团不再值得成为最高信念持仓，则复盘。` | `生效中` |
+| `20260702-02` | `2026-07-02` | `投资` | `买入` | `美团` | `买入美团` | `如果经营证据走弱或互联网平台投资逻辑恶化，则复盘。` | `生效中` |
+| `20260702-01` | `2026-07-02` | `投资` | `减仓` | `理想汽车` | `降低理想汽车仓位` | `只有在电动车投资逻辑明显改善，或集中度下降到可接受水平后才重新评估。` | `生效中` |
 
-## 1. Investment Decisions
+## 1. 投资决策
 
 ### 20260723-02
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260723-02` |
-| Date | `2026-07-23` |
-| Category | `Investment` |
-| Decision Type | `Buy` |
-| Affected Asset | `腾讯控股（00700.HK）` |
-| Background | Rachel Capital 已在 `20260723-01` 中正式明确“核心仓 + 做T + 第二增长引擎”的组合策略。当前阶段需要将第二增长引擎从候选研究推进到实际执行，并在保留足够现金用于现有持仓做T的前提下，建立第一笔新增长资产底仓。 |
-| What We Decided | 以 `446.2港元` 买入腾讯控股 `100股`，作为 Growth Engine（第二增长引擎）的第一笔正式建仓。 |
-| Why We Decided It | 腾讯在候选资产中兼具业务质量、趋势稳定性、流动性和区间波动。成交价 `446.2港元` 位于此前设定的可接受建仓区附近，风险收益比优于追高泡泡玛特或在深南电路快速上涨后介入。腾讯的游戏、广告、AI及云业务为未来 `3-5个月` 提供潜在催化，同时其波动特征适合在保留底仓的基础上进行区间做T。采用 `100股` 轻仓建仓，是为了先验证 Growth Engine 的执行逻辑，并为美团、紫金矿业等现有持仓的做T及腾讯后续分批加仓保留现金。 |
-| Position Impact | 新增腾讯控股 `100股`，交易金额约 `44,620港元`，未计交易费用。腾讯被正式纳入 Growth Engine，而不是 Recovery Engine。组合由“主要管理存量修复仓”进入“存量修复与新增增长并行”的实际执行阶段。现金余额应以 Dashboard 中交易后的实际数据为准，不在本记录中估算人民币余额。 |
-| Success Criteria | 未来 `3-5个月` 内，腾讯能够保持中期趋势稳定，并通过股价上涨及至少一次符合纪律的做T，为组合贡献新增收益；同时该持仓不得明显挤压 Recovery Engine 所需的交易现金。 |
-| Review Trigger | 当股价回落至 `440-442港元` 第一加仓观察区、进一步回落至 `435-438港元` 第二加仓观察区、有效突破 `455港元` 附近第一压力区，或腾讯不再符合“趋势向上、基本面稳定、具备做T空间”的 Growth Engine 标准时复盘。 |
-| Final Result | `Executed` |
-| Lessons Learned | Growth Engine 的启动应从可控仓位和明确执行区间开始，而不是一次性重仓。第二增长引擎并不替代现有持仓做T，而是在保留 Recovery Engine 的基础上，为组合建立独立的新收益来源。 |
+| 决策 ID | `20260723-02` |
+| 日期 | `2026-07-23` |
+| 类别 | `投资` |
+| 决策类型 | `买入` |
+| 影响资产 | `腾讯控股（00700.HK）` |
+| 背景 | Rachel Capital 已在 `20260723-01` 中正式明确“核心仓 + 做T + 第二增长引擎”的组合策略。当前阶段需要将第二增长引擎从候选研究推进到实际执行，并在保留足够现金用于现有持仓做T的前提下，建立第一笔新增长资产底仓。 |
+| 决策内容 | 以 `446.2港元` 买入腾讯控股 `100股`，作为第二增长引擎的第一笔正式建仓。 |
+| 决策原因 | 腾讯在候选资产中兼具业务质量、趋势稳定性、流动性和区间波动。成交价 `446.2港元` 位于此前设定的可接受建仓区附近，风险收益比优于追高泡泡玛特或在深南电路快速上涨后介入。腾讯的游戏、广告、人工智能及云业务为未来 `3-5个月` 提供潜在催化，同时其波动特征适合在保留底仓的基础上进行区间做T。采用 `100股` 轻仓建仓，是为了先验证第二增长引擎的执行逻辑，并为美团、紫金矿业等现有持仓的做T及腾讯后续分批加仓保留现金。 |
+| 仓位影响 | 新增腾讯控股 `100股`，交易金额约 `44,620港元`，未计交易费用。腾讯被正式纳入第二增长引擎，而不是修复引擎。组合由“主要管理存量修复仓”进入“存量修复与新增增长并行”的实际执行阶段。现金余额应以仪表盘中的交易后实际数据为准，不在本记录中估算人民币余额。 |
+| 成功标准 | 未来 `3-5个月` 内，腾讯能够保持中期趋势稳定，并通过股价上涨及至少一次符合纪律的做T，为组合贡献新增收益；同时该持仓不得明显挤压修复引擎所需的交易现金。 |
+| 复盘触发条件 | 当股价回落至 `440-442港元` 第一加仓观察区、进一步回落至 `435-438港元` 第二加仓观察区、有效突破 `455港元` 附近第一压力区，或腾讯不再符合“趋势向上、基本面稳定、具备做T空间”的第二增长引擎标准时复盘。 |
+| 最终结果 | `已执行` |
+| 经验总结 | 第二增长引擎的启动应从可控仓位和明确执行区间开始，而不是一次性重仓。第二增长引擎并不替代现有持仓做T，而是在保留修复引擎的基础上，为组合建立独立的新收益来源。 |
 
 ### 20260723-01
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260723-01` |
-| Date | `2026-07-23` |
-| Category | `Investment` |
-| Decision Type | `Rebalance` |
-| Affected Asset | `Portfolio` |
-| What We Decided | 《2026-07 组合策略升级》：组合正式进入 `"核心仓 + 做T + 第二增长引擎"` 三层策略。 |
-| Why We Decided It | 美团仍然是组合中最清晰的第一核心修复仓，做T可以继续降低持仓成本，`¥100,000` 现金提高了组合灵活性，而理想汽车不再值得继续主动摊低成本。后续新增资金应优先布局新的增长来源，而不是继续向弱势旧仓投入。 |
-| Position Impact | 组合不做被动全面切换，但未来执行框架被正式明确：美团继续作为第一核心修复仓；做T成为降低成本的持续工具；现金维持约 `20%` 作为战略储备；理想汽车继续观察、不再主动补仓；新增资金优先布局第二增长引擎。 |
-| Success Criteria | 美团成本继续通过纪律化做T下降，现金保持战略缓冲，理想汽车不再吞噬新增资本，组合能逐步建立独立于美团之外的第二增长引擎。 |
-| Review Trigger | Review if cash falls materially below the strategic reserve, Li Auto thesis improves enough to justify fresh capital, or a qualified second growth engine becomes allocation-ready. |
-| Final Result | `Open` |
-| Lessons Learned | 组合修复不能只依赖被动等待或对最弱仓位继续摊低成本，必须同时推进成本优化和新增长引擎建设。 |
+| 决策 ID | `20260723-01` |
+| 日期 | `2026-07-23` |
+| 类别 | `投资` |
+| 决策类型 | `再平衡` |
+| 影响资产 | `组合` |
+| 决策内容 | 《2026-07 组合策略升级》：组合正式进入 `"核心仓 + 做T + 第二增长引擎"` 三层策略。 |
+| 决策原因 | 美团仍然是组合中最清晰的第一核心修复仓，做T可以继续降低持仓成本，`¥100,000` 现金提高了组合灵活性，而理想汽车不再值得继续主动摊低成本。后续新增资金应优先布局新的增长来源，而不是继续向弱势旧仓投入。 |
+| 仓位影响 | 组合不做被动全面切换，但未来执行框架被正式明确：美团继续作为第一核心修复仓；做T成为降低成本的持续工具；现金维持约 `20%` 作为战略储备；理想汽车继续观察、不再主动补仓；新增资金优先布局第二增长引擎。 |
+| 成功标准 | 美团成本继续通过纪律化做T下降，现金保持战略缓冲，理想汽车不再吞噬新增资本，组合能逐步建立独立于美团之外的第二增长引擎。 |
+| 复盘触发条件 | 当现金明显低于战略储备、理想汽车投资逻辑改善到足以支持新增资金，或合格的第二增长引擎已具备实际配置条件时复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 组合修复不能只依赖被动等待或对最弱仓位继续摊低成本，必须同时推进成本优化和新增长引擎建设。 |
 
 ### 20260715-01
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260715-01` |
-| Date | `2026-07-15` |
-| Category | `Investment` |
-| Decision Type | `Trade` |
-| Affected Asset | `美团-W（03690）` |
-| What We Decided | `## 2026-07-15 美团 做T（正T）`：卖出`300股`，成交价`84.00港元`。 |
-| Why We Decided It | 日内放量上涨约`5%`，突破近期平台；按交易计划卖出交易仓，锁定部分利润。 |
-| Position Impact | 卖出`300股`后，交易仓位下降，回收约`25,200港元`现金（未扣除费用），核心判断保留，等待更优价格接回。 |
-| Success Criteria | 在不破坏原有持仓框架的前提下，通过高抛低吸提升持仓效率，并避免在放量突破后的短线高位继续追价。 |
-| Review Trigger | 等待`82.5~83.0`附近出现止跌信号接回；若继续强势突破`85`，不追高，等待下一次机会。 |
-| Final Result | `待补充` |
-| Lessons Learned | 做T必须基于预设交易计划与价量条件执行，卖出后不因踏空焦虑追高，接回同样需要等待明确信号。 |
+| 决策 ID | `20260715-01` |
+| 日期 | `2026-07-15` |
+| 类别 | `投资` |
+| 决策类型 | `交易` |
+| 影响资产 | `美团-W（03690）` |
+| 决策内容 | `## 2026-07-15 美团 做T（正T）`：卖出`300股`，成交价`84.00港元`。 |
+| 决策原因 | 日内放量上涨约`5%`，突破近期平台；按交易计划卖出交易仓，锁定部分利润。 |
+| 仓位影响 | 卖出`300股`后，交易仓位下降，回收约`25,200港元`现金（未扣除费用），核心判断保留，等待更优价格接回。 |
+| 成功标准 | 在不破坏原有持仓框架的前提下，通过高抛低吸提升持仓效率，并避免在放量突破后的短线高位继续追价。 |
+| 复盘触发条件 | 等待`82.5~83.0`附近出现止跌信号接回；若继续强势突破`85`，不追高，等待下一次机会。 |
+| 最终结果 | `待补充` |
+| 经验总结 | 做T必须基于预设交易计划与价量条件执行，卖出后不因踏空焦虑追高，接回同样需要等待明确信号。 |
 
 ### 20260708-01
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260708-01` |
-| Date | `2026-07-08` |
-| Category | `Investment` |
-| Decision Type | `Hold` |
-| Affected Asset | `美团-W` |
-| What We Decided | Continue holding Meituan and make no add / no reduce decision while price remains below confirmed breakout territory. |
-| Why We Decided It | The rebound had improved price action, but the move was still judged as repair rather than trend reversal. Intraday price approached `81 HKD`, yet there was still no effective breakout above the `81-82 HKD` resistance zone, and the position was already at core size. |
-| Position Impact | No trade was executed. The Meituan core position was maintained while preserving flexibility for a later add on weakness or a reassessment on confirmed breakout. |
-| Success Criteria | The portfolio avoids chasing an unconfirmed rebound, keeps exposure to the intact Meituan thesis, and waits for a cleaner risk-reward setup before changing size. |
-| Review Trigger | Review if the `81-82 HKD` resistance zone breaks with confirmation, or if price resets below `75 HKD` and a phased add becomes attractive again. |
-| Final Result | `Open` |
-| Lessons Learned | Core holdings should be managed by predefined price zones and thesis quality, not by emotional reaction to a short-term rebound. |
+| 决策 ID | `20260708-01` |
+| 日期 | `2026-07-08` |
+| 类别 | `投资` |
+| 决策类型 | `持有` |
+| 影响资产 | `美团-W` |
+| 决策内容 | 继续持有美团，在价格未进入确认突破区间前，不做加仓或减仓决定。 |
+| 决策原因 | 反弹改善了价格表现，但这轮走势仍更像修复而不是趋势反转。盘中价格接近 `81港元`，但仍未有效突破 `81-82港元` 压力区，且仓位已经达到核心规模。 |
+| 仓位影响 | 未执行交易。美团核心仓位保持不变，同时保留后续在回落时加仓或在确认突破后重新评估的灵活性。 |
+| 成功标准 | 组合避免追逐未经确认的反弹，同时继续保有完整的美团投资逻辑敞口，并在改变仓位前等待更清晰的风险收益机会。 |
+| 复盘触发条件 | 当 `81-82港元` 压力区被有效突破，或价格重新回落至 `75港元` 下方从而出现分批加仓吸引力时复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 核心持仓应由预设价格区间和投资逻辑质量管理，而不是由对短期反弹的情绪反应决定。 |
 
 ### 20260707-01
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260707-01` |
-| Date | `2026-07-07` |
-| Category | `Investment` |
-| Decision Type | `Add` |
-| Affected Asset | `紫金矿业` |
-| Background | The account still has about `¥90,000` available cash. Zijin Mining is being evaluated as a 2026-2028 core resource allocation candidate tied to gold, copper, and portfolio defense. |
-| What We Decided | A probe add in Zijin Mining is acceptable, but not a full-size aggressive chase. |
-| Proposed Buy Amount | `¥10,000-¥20,000`, with `¥15,000` as the preferred first step. |
-| Execution Status | `Executed` |
-| Execution Date | `2026-07-08` |
-| Executed Amount | `¥10,000` |
-| Why We Decided It | Zijin is not only a gold proxy; it is a gold + copper + diversified resource equity. Gold still has a long-term role under central-bank buying, high-debt conditions, and geopolitical risk. Copper has a stronger structural demand case through AI data centers, power grid build-out, EVs, and robotics. A moderate Zijin add can improve diversification versus the portfolio's existing concentration in growth assets such as Meituan and Li Auto. |
-| Position Impact | Resource-equity exposure increased from about `11.8%` to about `14.5%` of total assets, while cash fell from `¥90,000` to `¥80,000`. |
-| Risk Notes | A short-term gold correction can create larger Zijin volatility. A more hawkish Fed or higher real rates could pressure gold logic temporarily. Resource equities remain cyclical and should be added in batches rather than through emotional momentum chasing. |
-| Success Criteria | The first add improves portfolio balance without forcing an oversized resource bet, and leaves enough cash for a second decision if the stock pulls back or the thesis strengthens. |
-| Review Trigger | Review if the first add rises `10%`, if it falls `5%-8%`, or if gold / copper prices or the broader resource thesis change materially. |
-| Final Result | `Executed` |
-| Lessons Learned | Gold allocation and Zijin Mining equity allocation must remain separate decisions even when both benefit from parts of the same macro regime. |
+| 决策 ID | `20260707-01` |
+| 日期 | `2026-07-07` |
+| 类别 | `投资` |
+| 决策类型 | `加仓` |
+| 影响资产 | `紫金矿业` |
+| 背景 | 账户仍有约 `¥90,000` 可用现金。紫金矿业正被评估为与黄金、铜和组合防御相关的 2026-2028 核心资源配置候选。 |
+| 决策内容 | 可以对紫金矿业进行试探性加仓，但不进行满仓式激进追价。 |
+| 拟买入金额 | `¥10,000-¥20,000`，其中 `¥15,000` 为首选第一步。 |
+| 执行状态 | `已执行` |
+| 执行日期 | `2026-07-08` |
+| 实际执行金额 | `¥10,000` |
+| 决策原因 | 紫金不仅仅是黄金代理，它本质上是黄金 + 铜 + 多元资源股。黄金在央行持续买入、高债务环境和地缘风险背景下仍有长期配置价值。铜则因人工智能数据中心、电网建设、电动车和机器人，具备更强的结构性需求逻辑。适度加仓紫金，可以改善组合相对美团和理想汽车等成长资产过度集中的问题。 |
+| 仓位影响 | 资源股配置从总资产的约 `11.8%` 提升至约 `14.5%`，同时现金从 `¥90,000` 降至 `¥80,000`。 |
+| 风险提示 | 短期黄金调整可能带来更大的紫金波动；更偏鹰派的美联储或更高的实际利率，也可能暂时压制黄金逻辑。资源股仍具周期性，因此应分批加仓，而不是情绪化追涨。 |
+| 成功标准 | 首笔加仓能够改善组合平衡，但不会把资源仓位推到过大规模，同时仍为后续回落或投资逻辑进一步加强保留第二次决策空间。 |
+| 复盘触发条件 | 当首笔加仓上涨 `10%`、下跌 `5%-8%`，或黄金 / 铜价格及更广泛的资源投资逻辑出现明显变化时复盘。 |
+| 最终结果 | `已执行` |
+| 经验总结 | 黄金配置与紫金矿业股票配置必须作为两个独立决策处理，即便它们都受益于部分相同的宏观环境。 |
 
 ### 20260703-01
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260703-01` |
-| Date | `2026-07-03` |
-| Category | `Investment` |
-| Decision Type | `Hold` |
-| Affected Asset | `三花智控 / 紫金矿业 / 北京银行` |
-| What We Decided | Continue holding Sanhua, Zijin Mining, and Bank of Beijing while the portfolio optimization process continues. |
-| Why We Decided It | These positions still serve clear roles: Sanhua as monitored industrial upside, Zijin as a stabilizer linked to gold/resources, and Bank of Beijing as defensive yield exposure. None currently require forced exit or aggressive expansion. |
-| Position Impact | The portfolio keeps diversification support around the core Meituan position and the reviewed Li Auto position. |
-| Success Criteria | These positions continue to improve balance, stability, or optional upside without crowding out higher-conviction capital. |
-| Review Trigger | Review if any of the three holdings no longer improves portfolio balance, if thesis quality weakens materially, or if capital is needed for a higher-conviction opportunity. |
-| Final Result | `Open` |
-| Lessons Learned | Not every non-core position should be sold; some should be held because they still perform a defined portfolio role. |
+| 决策 ID | `20260703-01` |
+| 日期 | `2026-07-03` |
+| 类别 | `投资` |
+| 决策类型 | `持有` |
+| 影响资产 | `三花智控 / 紫金矿业 / 北京银行` |
+| 决策内容 | 在组合优化继续推进期间，继续持有三花智控、紫金矿业和北京银行。 |
+| 决策原因 | 这些持仓仍然承担清晰角色：三花作为受监控的制造业成长上行选择，紫金作为与黄金 / 资源相关的稳定器，北京银行作为防御型股息仓位。当前没有一只持仓需要被迫卖出，也没有必要激进扩大。 |
+| 仓位影响 | 组合在核心美团仓位与已复盘的理想汽车仓位之外，继续保留多元化支撑。 |
+| 成功标准 | 这些仓位继续提供平衡、稳定或可选上行，而不会挤占更高信念机会所需的资本。 |
+| 复盘触发条件 | 如果三只持仓中任何一只不再改善组合平衡、投资逻辑质量明显走弱，或资本需要转向更高信念机会时复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 并非所有非核心仓位都应卖出；有些仓位应继续持有，因为它们仍在承担明确的组合角色。 |
 
 ### 20260702-03
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260702-03` |
-| Date | `2026-07-02` |
-| Category | `Investment` |
-| Decision Type | `Rebalance` |
-| Affected Asset | `美团 / Portfolio` |
-| What We Decided | Reframe Meituan as the portfolio's core recovery position. |
-| Why We Decided It | The recovery strategy required one genuine core holding with clearer evidence, better business quality, and stronger relative conviction than legacy positions. |
-| Position Impact | Meituan became the largest holding and the main expression of the recovery thesis. |
-| Success Criteria | The portfolio gains a clear core holding, and subsequent reviews can judge the recovery strategy against one explicit lead position. |
-| Review Trigger | Review if Meituan loses its highest-conviction status or if portfolio concentration becomes unjustified by thesis quality. |
-| Final Result | `Open` |
-| Lessons Learned | A recovery portfolio works better when one deliberate core position is defined explicitly. |
+| 决策 ID | `20260702-03` |
+| 日期 | `2026-07-02` |
+| 类别 | `投资` |
+| 决策类型 | `再平衡` |
+| 影响资产 | `美团 / 组合` |
+| 决策内容 | 将美团重新定义为组合的核心修复仓。 |
+| 决策原因 | 修复策略需要一个真正的核心持仓，它必须比旧仓位拥有更清晰的证据、更好的业务质量和更强的相对信念。 |
+| 仓位影响 | 美团成为最大持仓，也是修复投资逻辑的主要表达。 |
+| 成功标准 | 组合获得一个清晰的核心持仓，后续复盘能够围绕一个明确的主导仓位来判断修复策略是否有效。 |
+| 复盘触发条件 | 如果美团失去最高信念地位，或组合集中度已无法被投资逻辑质量合理支撑时复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 修复型组合在明确设定一个核心仓位后，通常运作得更有效。 |
 
 ### 20260702-02
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260702-02` |
-| Date | `2026-07-02` |
-| Category | `Investment` |
-| Decision Type | `Buy` |
-| Affected Asset | `美团` |
-| What We Decided | Buy Meituan as a higher-quality recovery candidate for the portfolio. |
-| Why We Decided It | Internet-platform exposure offered better thesis clarity than additional EV exposure, and Meituan provided a stronger operating path for rebuilding portfolio quality. |
-| Position Impact | Meituan entered the live portfolio and became a major allocation. |
-| Success Criteria | The position improves portfolio quality, earns a core role through thesis strength, and outperforms lower-conviction capital alternatives over the review period. |
-| Review Trigger | Review if operating evidence weakens, the industry structure deteriorates, or the thesis no longer supports a large position. |
-| Final Result | `Open` |
-| Lessons Learned | New capital should go to the clearest thesis, not to the most painful legacy loss. |
+| 决策 ID | `20260702-02` |
+| 日期 | `2026-07-02` |
+| 类别 | `投资` |
+| 决策类型 | `买入` |
+| 影响资产 | `美团` |
+| 决策内容 | 买入美团，作为组合更高质量的修复候选。 |
+| 决策原因 | 相比继续增加电动车暴露，互联网平台暴露具备更清晰的投资逻辑，而美团提供了更强的经营路径来重建组合质量。 |
+| 仓位影响 | 美团进入实时组合，并成为主要配置之一。 |
+| 成功标准 | 该仓位能够提升组合质量，凭借投资逻辑强度获得核心地位，并在复盘周期内优于低信念的资金替代项。 |
+| 复盘触发条件 | 如果经营证据走弱、行业结构恶化，或投资逻辑不再支持大仓位时复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 新资金应配置给最清晰的投资逻辑，而不是配置给最令人痛苦的历史亏损仓位。 |
 
 ### 20260702-01
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260702-01` |
-| Date | `2026-07-02` |
-| Category | `Investment` |
-| Decision Type | `Reduce` |
-| Affected Asset | `理想汽车` |
-| What We Decided | Reduce Li Auto exposure to lower concentration in a weakening conviction position. |
-| Why We Decided It | Li Auto had become too large relative to current confidence, the EV theme was weaker than the internet-platform opportunity set, and capital needed to be reallocated toward a better recovery candidate. |
-| Position Impact | Capital was released from Li Auto and concentration risk was reduced. |
-| Success Criteria | Position size no longer dominates the portfolio relative to conviction quality, and future allocation decisions are not trapped by sunk-cost bias. |
-| Review Trigger | Review only if operating evidence and thesis quality improve materially or if portfolio concentration changes enough to justify a new allocation decision. |
-| Final Result | `Open` |
-| Lessons Learned | Large losing positions should be reduced when conviction falls below their portfolio weight. |
+| 决策 ID | `20260702-01` |
+| 日期 | `2026-07-02` |
+| 类别 | `投资` |
+| 决策类型 | `减仓` |
+| 影响资产 | `理想汽车` |
+| 决策内容 | 降低理想汽车仓位，以减少对一个信念下降仓位的过度集中。 |
+| 决策原因 | 理想汽车相对于当前信心已经过大，电动车主题的吸引力弱于互联网平台机会集，因此需要把资本重新配置到更优质的修复候选。 |
+| 仓位影响 | 资金从理想汽车中释放出来，集中度风险下降。 |
+| 成功标准 | 仓位规模不再相对于信念质量失衡，后续配置决策也不会被沉没成本偏差绑架。 |
+| 复盘触发条件 | 只有当经营证据和投资逻辑质量明显改善，或组合集中度变化足以支持新的配置决策时才复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 当信念已经低于仓位权重时，大额亏损仓位就应被主动降低。 |
 
-## 2. Risk Decisions
+## 2. 风险决策
 
 ### 20260703-04
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260703-04` |
-| Date | `2026-07-03` |
-| Category | `Risk` |
-| Decision Type | `Risk` |
-| Affected Asset | `理想汽车` |
-| What We Decided | Maintain no-add discipline on Li Auto. |
-| Why We Decided It | Current conviction does not justify increasing a position that already caused large drawdown and still carries unresolved thesis risk. |
-| Position Impact | Li Auto remains capped at the current size and stays under formal review. |
-| Success Criteria | No additional capital is allocated until evidence improves enough to justify a new investment decision. |
-| Review Trigger | Reassess only after a documented thesis improvement, a better operating trend, and a portfolio review that supports renewed sizing. |
-| Final Result | `Open` |
-| Lessons Learned | "Do not add" is a valid decision when evidence quality is below portfolio standards. |
+| 决策 ID | `20260703-04` |
+| 日期 | `2026-07-03` |
+| 类别 | `风险` |
+| 决策类型 | `风险` |
+| 影响资产 | `理想汽车` |
+| 决策内容 | 维持理想汽车禁止加仓纪律。 |
+| 决策原因 | 当前信念不足以支持继续增加一个已经造成较大回撤、且投资逻辑风险仍未解决的仓位。 |
+| 仓位影响 | 理想汽车仓位维持现状上限，并继续处于正式复盘状态。 |
+| 成功标准 | 在证据改善到足以支持新投资决策之前，不向该仓位投入新增资本。 |
+| 复盘触发条件 | 只有在有记录的投资逻辑改善、更好的经营趋势以及支持重新定仓的组合复盘同时出现后，才重新评估。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 当证据质量低于组合标准时，“不加仓”本身就是一个有效决策。 |
 
 ### 20260703-03
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260703-03` |
-| Date | `2026-07-03` |
-| Category | `Risk` |
-| Decision Type | `Risk` |
-| Affected Asset | `美团` |
-| What We Decided | Do not chase Meituan after the rebound. |
-| Why We Decided It | Meituan is already the largest holding, and adding after a rebound would weaken entry discipline and increase concentration without better evidence. |
-| Position Impact | The position stays large, but no additional capital is deployed at the current level. |
-| Success Criteria | Position sizing stays disciplined and new capital is not committed at a worse risk-reward point just because the initial decision worked. |
-| Review Trigger | Review only if price resets to a better entry level or if new evidence improves the risk-reward enough to justify a different sizing decision. |
-| Final Result | `Open` |
-| Lessons Learned | Correct decisions should not automatically lead to larger positions at worse prices. |
+| 决策 ID | `20260703-03` |
+| 日期 | `2026-07-03` |
+| 类别 | `风险` |
+| 决策类型 | `风险` |
+| 影响资产 | `美团` |
+| 决策内容 | 美团反弹后不追高。 |
+| 决策原因 | 美团已经是最大持仓，在反弹后继续加仓会削弱买点纪律，并在缺乏更强证据的情况下进一步提高集中度。 |
+| 仓位影响 | 仓位维持较大，但当前价位不再投入新增资本。 |
+| 成功标准 | 仓位管理保持纪律，不会因为初始决策正确，就在更差的风险收益点位继续投入新资金。 |
+| 复盘触发条件 | 只有当价格回到更优买点，或新证据明显改善风险收益比时才复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 正确的决策不应该自动演变成在更差价格上的更大仓位。 |
 
 ### 20260703-02
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260703-02` |
-| Date | `2026-07-03` |
-| Category | `Risk` |
-| Decision Type | `Risk` |
-| Affected Asset | `Cash` |
-| What We Decided | Keep `¥90,000` cash after the July 2 / July 3 live update. |
-| Why We Decided It | The portfolio is still in optimization, not every holding has equal conviction, and cash preserves optionality for future entries or defense. |
-| Position Impact | Cash remains `¥90,000`, or about `21.3%` of total assets. |
-| Success Criteria | Cash remains deliberate rather than drifting lower through unplanned trades, and any deployment is tied to a written thesis and decision. |
-| Review Trigger | Reassess if a high-conviction thesis becomes actionable, if drawdown risk rises, or if concentration changes require different liquidity. |
-| Final Result | `Open` |
-| Lessons Learned | Cash is only useful when it is protected from forced activity. |
+| 决策 ID | `20260703-02` |
+| 日期 | `2026-07-03` |
+| 类别 | `风险` |
+| 决策类型 | `风险` |
+| 影响资产 | `现金` |
+| 决策内容 | 在 7 月 2 日 / 7 月 3 日实时更新后保留 `¥90,000` 现金。 |
+| 决策原因 | 组合仍处于优化阶段，不是每个持仓都具备同等信念，而现金可以为未来进攻或防守保留选择权。 |
+| 仓位影响 | 现金维持在 `¥90,000`，约占总资产 `21.3%`。 |
+| 成功标准 | 现金保持为主动决策结果，而不是在无计划交易中被动流失；任何部署都必须对应一条书面投资逻辑和决策记录。 |
+| 复盘触发条件 | 当高信念投资逻辑进入可执行状态、回撤风险上升，或集中度变化要求不同流动性水平时复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 只有当现金不被强迫性活动消耗时，现金才真正有价值。 |
 
-## 3. Process Decisions
+## 3. 流程决策
 
 ### 20260703-90
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260703-90` |
-| Date | `2026-07-03` |
-| Category | `Process` |
-| Decision Type | `Process` |
-| Affected Asset | `Repository` |
-| What We Decided | Establish the first live portfolio baseline across dashboard, account, and review files. |
-| Why We Decided It | Weekly review, monthly review, thesis maintenance, and risk control are meaningless without a stable live starting point. |
-| Position Impact | No direct trade impact. The repository became the live operating record. |
-| Success Criteria | Dashboard, account, and operating documents reference one current portfolio baseline. |
-| Review Trigger | Review if dashboard, account, and linked operating documents fall out of sync. |
-| Final Result | `Open` |
-| Lessons Learned | Repository clarity is a portfolio-control issue, not a cosmetic issue. |
+| 决策 ID | `20260703-90` |
+| 日期 | `2026-07-03` |
+| 类别 | `流程` |
+| 决策类型 | `流程` |
+| 影响资产 | `仓库` |
+| 决策内容 | 在仪表盘、账户和复盘文件之间建立首个实时组合基线。 |
+| 决策原因 | 如果没有一个稳定的实时起点，周复盘、月复盘、投资逻辑维护和风险控制都没有意义。 |
+| 仓位影响 | 对交易没有直接影响。仓库自此成为实时运行记录。 |
+| 成功标准 | 仪表盘、账户和运营文档都引用同一个当前组合基线。 |
+| 复盘触发条件 | 如果仪表盘、账户与相关运营文档之间出现不同步，则复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 仓库清晰度不是外观问题，而是组合控制问题。 |
 
 ### 20260703-91
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `20260703-91` |
-| Date | `2026-07-03` |
-| Category | `Process` |
-| Decision Type | `Process` |
-| Affected Asset | `Watchlist` |
-| What We Decided | Restore the watchlist as the long-term investment universe instead of a mirror of current holdings. |
-| Why We Decided It | Research continuity must survive position exits. Current holdings are a subset of the watchlist, not the definition of it. |
-| Position Impact | No direct trade impact. Research continuity and future idea coverage are preserved. |
-| Success Criteria | Exited names remain covered when they still belong in the investment universe. |
-| Review Trigger | Review if watchlist entries disappear when positions are exited or if the watchlist stops functioning as the coverage universe. |
-| Final Result | `Open` |
-| Lessons Learned | Portfolio memory depends on keeping the watchlist broader than the current account. |
+| 决策 ID | `20260703-91` |
+| 日期 | `2026-07-03` |
+| 类别 | `流程` |
+| 决策类型 | `流程` |
+| 影响资产 | `观察池` |
+| 决策内容 | 恢复观察池，使其重新成为长期投资覆盖池，而不是当前持仓的镜像。 |
+| 决策原因 | 研究连续性不能随着持仓退出而中断。当前持仓只是观察池的子集，而不是观察池本身。 |
+| 仓位影响 | 对交易没有直接影响，但研究连续性和未来机会覆盖得以保留。 |
+| 成功标准 | 即使某个标的已经退出，只要它仍属于投资宇宙，就仍应继续被覆盖。 |
+| 复盘触发条件 | 如果退出的标的也从观察池中消失，或观察池不再承担覆盖宇宙功能时复盘。 |
+| 最终结果 | `生效中` |
+| 经验总结 | 组合记忆的前提，是让观察池始终大于当前账户本身。 |
 
-## Decision Entry Template
+## 决策记录模板
 
 ### YYYYMMDD-XX
 
-| Field | Content |
+| 字段 | 内容 |
 | --- | --- |
-| Decision ID | `YYYYMMDD-XX` |
-| Date | `YYYY-MM-DD` |
-| Category | `Investment` / `Risk` / `Process` |
-| Decision Type | `Buy` / `Add` / `Reduce` / `Hold` / `Exit` / `Rebalance` / `Risk` / `Process` |
-| Affected Asset |  |
-| What We Decided |  |
-| Why We Decided It |  |
-| Position Impact |  |
-| Success Criteria |  |
-| Review Trigger |  |
-| Final Result | `Open` / `Successful` / `Partially Successful` / `Unsuccessful` |
-| Lessons Learned |  |
+| 决策 ID | `YYYYMMDD-XX` |
+| 日期 | `YYYY-MM-DD` |
+| 类别 | `投资` / `风险` / `流程` |
+| 决策类型 | `买入` / `加仓` / `减仓` / `持有` / `退出` / `再平衡` / `风险` / `流程` |
+| 影响资产 |  |
+| 决策内容 |  |
+| 决策原因 |  |
+| 仓位影响 |  |
+| 成功标准 |  |
+| 复盘触发条件 |  |
+| 最终结果 | `生效中` / `成功` / `部分成功` / `不成功` |
+| 经验总结 |  |
 
-## Usage Rules
+## 使用规则
 
-- Record actual portfolio decisions before process notes.
-- Use `Investment` for buy, add, reduce, hold, exit, and rebalance actions that affect capital allocation.
-- Use `Risk` for cash discipline, prohibition rules, and guardrails that constrain future actions.
-- Use `Process` only for repository or operating-system decisions that materially improve portfolio memory or operating reliability.
-- Keep `Dashboard.md` as the live state, and keep this file as the historical decision trail behind that state.
+- 先记录真实的组合决策，再记录流程性说明。
+- 影响资本配置的买入、加仓、减仓、持有、退出和再平衡动作，使用 `投资` 类别。
+- 约束未来行动的现金纪律、禁止规则和防线要求，使用 `风险` 类别。
+- 只有当仓库或操作系统层面的决定，能够明显提升组合记忆或运行可靠性时，才使用 `流程` 类别。
+- `Dashboard.md` 负责记录实时状态，而本文件负责保存这些状态背后的历史决策轨迹。
