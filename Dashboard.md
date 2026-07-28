@@ -4,18 +4,18 @@ This file now routes current portfolio review to the dedicated portfolio dashboa
 
 This is the single entry point for current portfolio review in Rachel Capital.
 
-Last Updated: `2026-07-24`
+Last Updated: `2026-07-28`
 
 ## Summary
 
 | Field | Value | Notes |
 | --- | ---: | --- |
-| Total Assets | ¥460,000 | Latest synchronized portfolio baseline from the July 24 holdings snapshot. |
-| Cash | ¥85,000 | Cash remains flexible after Tencent entered the live portfolio. |
-| Stock Assets | ¥375,000 | Sum of live holdings across the six active positions. |
+| Total Assets | ¥460,000 | Latest synchronized portfolio baseline from the July 24 holdings snapshot; the July 28 Inspur starter position is recorded below, while full account totals remain pending the next reconciliation. |
+| Cash | ¥85,000 | Cash baseline remains unchanged here because the latest reliable post-trade cash figure and actual transaction fees are not yet confirmed. |
+| Stock Assets | ¥375,000 | July 24 synchronized stock-asset baseline; the July 28 Inspur starter position is recorded as a new holding, not yet folded into the next full account snapshot. |
 | Cash Ratio | 18.5% | Cash / total assets. |
 | Equity Exposure | 81.5% | Stock assets / total assets. |
-| Number of Holdings | 6 | Current live holdings. |
+| Number of Holdings | 7 | Current live holdings, including the new Inspur starter position. |
 | Largest Position | 美团 (`33.9%` of total assets) | Continues as the first portfolio repair engine. |
 | Biggest Unrealized Loss | 理想汽车 (`-¥105,000`) | Still the largest unresolved drawdown. |
 | Best Performer | 紫金矿业 (`+¥10,000`) | Largest current profit contributor. |
@@ -30,6 +30,7 @@ Last Updated: `2026-07-24`
 | 紫金矿业 | ¥56,000 | +¥10,000 | +22.5% | 12.2% | 资源配置仓 | Continue holding as the portfolio stabilizer; add only if thesis stays intact and pullback improves entry. |
 | 北京银行 | ¥25,000 | +¥1,700 | +7% | 5.4% | 防御收益仓 | Continue holding as a defensive yield balance position. |
 | 腾讯控股 (`0700.HK`) | ¥37,000 | -¥1,000 | -3% | 8.0% | 第二增长引擎 | Base position is live; combine trend confirmation, phased adds, and future T-trading rather than chasing strength. |
+| 浪潮信息 (`000977.SZ`) | 建仓金额 ¥16,440 | 待更新 | 待更新 | 待更新 | 第二增长引擎 / 初始观察仓 | 持有中；`2026-07-28` 以 `82.20元` 买入 `200股`，当前仅作为初始观察仓/试仓，不属于做T交易。 |
 
 ## Current Allocation
 
