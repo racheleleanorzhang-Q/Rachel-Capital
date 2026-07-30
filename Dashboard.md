@@ -4,52 +4,52 @@ This file now routes current portfolio review to the dedicated portfolio dashboa
 
 This is the single entry point for current portfolio review in Rachel Capital.
 
-Last Updated: `2026-07-28`
+Last Updated: `2026-07-30`
 
 ## Summary
 
 | Field | Value | Notes |
 | --- | ---: | --- |
-| Total Assets | ¥460,000 | Latest synchronized portfolio baseline from the July 24 holdings snapshot; the July 28 Inspur starter position is recorded below, while full account totals remain pending the next reconciliation. |
-| Cash | ¥85,000 | Cash baseline remains unchanged here because the latest reliable post-trade cash figure and actual transaction fees are not yet confirmed. |
-| Stock Assets | ¥375,000 | July 24 synchronized stock-asset baseline; the July 28 Inspur starter position is recorded as a new holding, not yet folded into the next full account snapshot. |
-| Cash Ratio | 18.5% | Cash / total assets. |
-| Equity Exposure | 81.5% | Stock assets / total assets. |
-| Number of Holdings | 7 | Current live holdings, including the new Inspur starter position. |
-| Largest Position | 美团 (`33.9%` of total assets) | Continues as the first portfolio repair engine. |
-| Biggest Unrealized Loss | 理想汽车 (`-¥105,000`) | Still the largest unresolved drawdown. |
-| Best Performer | 紫金矿业 (`+¥10,000`) | Largest current profit contributor. |
+| Total Assets | ¥480,500 | Latest synchronized portfolio snapshot after the July 30 holdings update. |
+| Cash | ¥57,000 | Cash has declined as new positions and T-trading buybacks absorbed more capital. |
+| Stock Assets | ¥423,500 | Seven live holdings are now fully reflected in the latest account totals. |
+| Cash Ratio | 11.9% | Cash / total assets. |
+| Equity Exposure | 88.1% | Stock assets / total assets. |
+| Number of Holdings | 7 | Current live holdings. |
+| Largest Position | 美团 (`34.8%` of total assets) | Continues as the core repair position. |
+| Biggest Unrealized Loss | 理想汽车 (`-¥95,000`) | Still the largest unresolved drawdown. |
+| Best Performer | 紫金矿业 (`+¥12,000`) | Continues as the largest current profit contributor. |
 
 ## Holdings
 
 | Holding | Market Value | Accumulated P/L | Return Rate | Weight In Total Assets | Role | Current View |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 美团 | ¥156,000 | -¥39,000 | -20% | 33.9% | 核心修复仓 | Continue holding as the first repair engine and keep using T-trading to lower cost. |
-| 理想汽车 | ¥70,000 | -¥105,000 | -60% | 15.2% | 观察修复仓 | Hold only; no active averaging down until thesis quality improves. |
-| 三花智控 | ¥31,000 | -¥8,400 | -20% | 6.7% | 制造成长仓 | Position size has declined; there is no thesis change at this stage. |
-| 紫金矿业 | ¥56,000 | +¥10,000 | +22.5% | 12.2% | 资源配置仓 | Continue holding as the portfolio stabilizer; add only if thesis stays intact and pullback improves entry. |
-| 北京银行 | ¥25,000 | +¥1,700 | +7% | 5.4% | 防御收益仓 | Continue holding as a defensive yield balance position. |
-| 腾讯控股 (`0700.HK`) | ¥37,000 | -¥1,000 | -3% | 8.0% | 第二增长引擎 | Base position is live; combine trend confirmation, phased adds, and future T-trading rather than chasing strength. |
-| 浪潮信息 (`000977.SZ`) | 建仓金额 ¥16,440 | 待更新 | 待更新 | 待更新 | 第二增长引擎 / 初始观察仓 | 持有中；`2026-07-28` 以 `82.20元` 买入 `200股`，当前仅作为初始观察仓/试仓，不属于做T交易。 |
+| 美团 | ¥167,000 | -¥28,000 | -14.4% | 34.8% | 核心修复仓 | Continue holding as the first repair engine and keep using T-trading to lower cost. |
+| 理想汽车 | ¥80,000 | -¥95,000 | -54.3% | 16.6% | 观察修复仓 | Hold only; no active averaging down until thesis quality improves. |
+| 腾讯控股 (`0700.HK`) | ¥40,000 | +¥2,000 | +5.3% | 8.3% | 第二增长引擎 | Tencent has turned profitable and the second growth engine is starting to prove itself in live capital. |
+| 紫金矿业 | ¥58,000 | +¥12,000 | +26.1% | 12.1% | 资源配置仓 | Continue holding as the portfolio stabilizer while executing disciplined T-trading on the trading tranche. |
+| 浪潮信息 (`000977.SZ`) | ¥27,500 | -¥5,000 | -15.4% | 5.7% | 第二增长引擎（AI） | Inspur is now in the live portfolio as an important AI observation target; keep position sizing cautious. |
+| 北京银行 | ¥26,000 | +¥2,000 | +8.3% | 5.4% | 防御收益仓 | Continue holding as a defensive yield balance position. |
+| 三花智控 | ¥25,000 | -¥8,000 | -24.2% | 5.2% | 制造成长仓 | Continue holding while using partial T-trading to improve capital efficiency and lower cost. |
 
 ## Current Allocation
 
 | Asset Class | Current Weight | Target Weight | Gap |
 | --- | ---: | ---: | ---: |
-| Technology | 30.0% | 30.0% | 0.0% |
-| Consumer Internet | 33.9% | 30.0% | +3.9% |
-| Resource Equities | 12.2% | 15.0% | -2.8% |
+| Technology | 27.6% | 30.0% | -2.4% |
+| Consumer Internet | 43.1% | 30.0% | +13.1% |
+| Resource Equities | 12.1% | 15.0% | -2.9% |
 | Gold (`积存金` / Gold ETF) | 0.0% | 10.0% | -10.0% |
 | Banks / High Dividend | 5.4% | 10.0% | -4.6% |
-| Cash | 18.5% | 5.0% | +13.5% |
+| Cash | 11.9% | 5.0% | +6.9% |
 
 ## Investment Committee Comment
 
-- 腾讯正式进入组合，成为第二增长引擎首个核心资产。
-- 美团继续作为组合第一修复引擎，做T策略继续有效。
-- 紫金矿业继续承担组合稳定器角色。
-- 现金下降至 `¥85,000`，但仍保持良好的资金灵活性。
-- 理想汽车仍为组合最大风险来源，维持观察策略。
+- 总资产恢复至约48万元，组合继续修复。
+- 腾讯已由浮亏转为盈利，第二增长引擎开始发挥作用。
+- 浪潮信息已进入组合，作为AI方向的重要观察标的。
+- 紫金矿业与三花智控继续执行做T策略。
+- 现金降至5.7万元，后续新增仓位需更加谨慎，优先保障做T资金。
 
 ## Pending Decisions
 
@@ -57,8 +57,8 @@ Last Updated: `2026-07-28`
 | --- | --- | --- |
 | Direct gold accumulation first entry | Open | Gold target remains unfilled even after the latest portfolio repair. |
 | Li Auto review | Open | It remains the biggest unrealized loss and weakest current role. |
-| Meituan T-trading execution | Open | The core holding should keep lowering cost without weakening the base position. |
-| Second growth engine scaling | Open | Tencent is now the first live growth-engine core asset; the next decision is how to add and trade it without weakening portfolio liquidity. |
+| Meituan / Zijin / Sanhua T-trading execution | Open | Three active repair or cost-reduction positions still require disciplined execution quality and capital protection. |
+| Second growth engine scaling | Open | Tencent has turned profitable and Inspur is now live, but future adds must stay consistent with liquidity constraints. |
 
 ## Source Documents
 
