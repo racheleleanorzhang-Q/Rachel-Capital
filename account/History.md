@@ -10,6 +10,7 @@
 
 | Date | Total Assets | Stock Assets | Cash | Cash Ratio | Notes |
 | --- | ---: | ---: | ---: | ---: | --- |
+| 2026-07-30 | ¥480,500 | ¥423,500 | ¥57,000 | 11.9% | 总资产继续恢复；腾讯实现由亏转盈；新增浪潮信息仓位，第二增长引擎进一步完善；继续执行美团、紫金矿业、三花智控等标的的做T策略。 |
 | 2026-07-24 | ¥460,000 | ¥375,000 | ¥85,000 | 18.5% | 腾讯正式纳入核心组合；第二增长引擎开始进入实盘阶段；美团继续通过做T修复成本；紫金矿业继续保持盈利；组合总资产恢复至46万元。 |
 | 2026-07-10 | ¥447,400 | ¥362,400 | ¥85,000 | 19.0% | Portfolio repair continued as Meituan and Zijin improved marks while cash remained strong. |
 | 2026-07-03 | ¥419,000 | ¥329,000 | ¥90,000 | 21.5% | First live portfolio baseline entered. |
