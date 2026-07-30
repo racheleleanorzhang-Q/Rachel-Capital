@@ -22,15 +22,15 @@ Last Updated: `2026-07-30`
 
 ## Holdings
 
-| Holding | Market Value | Accumulated P/L | Return Rate | Weight In Total Assets | Role | Current View |
-| --- | ---: | ---: | ---: | ---: | --- | --- |
-| 美团 | ¥167,000 | -¥28,000 | -14.4% | 34.8% | 核心修复仓 | Continue holding as the first repair engine and keep using T-trading to lower cost. |
-| 理想汽车 | ¥80,000 | -¥95,000 | -54.3% | 16.6% | 观察修复仓 | Hold only; no active averaging down until thesis quality improves. |
-| 腾讯控股 (`0700.HK`) | ¥40,000 | +¥2,000 | +5.3% | 8.3% | 第二增长引擎 | Tencent has turned profitable and the second growth engine is starting to prove itself in live capital. |
-| 紫金矿业 | ¥58,000 | +¥12,000 | +26.1% | 12.1% | 资源配置仓 | Continue holding as the portfolio stabilizer while executing disciplined T-trading on the trading tranche. |
-| 浪潮信息 (`000977.SZ`) | ¥27,500 | -¥5,000 | -15.4% | 5.7% | 第二增长引擎（AI） | Inspur is now in the live portfolio as an important AI observation target; keep position sizing cautious. |
-| 北京银行 | ¥26,000 | +¥2,000 | +8.3% | 5.4% | 防御收益仓 | Continue holding as a defensive yield balance position. |
-| 三花智控 | ¥25,000 | -¥8,000 | -24.2% | 5.2% | 制造成长仓 | Continue holding while using partial T-trading to improve capital efficiency and lower cost. |
+| Holding | Asset Class | Market Value | Accumulated P/L | Return Rate | Weight In Total Assets | Role | Current View |
+| --- | --- | ---: | ---: | ---: | ---: | --- | --- |
+| 美团 | Consumer Internet | ¥167,000 | -¥28,000 | -14.4% | 34.8% | 核心修复仓 | Continue holding as the first repair engine and keep using T-trading to lower cost. |
+| 理想汽车 | Technology | ¥80,000 | -¥95,000 | -54.3% | 16.6% | 观察修复仓 | Hold only; no active averaging down until thesis quality improves. |
+| 腾讯控股 (`0700.HK`) | Consumer Internet | ¥40,000 | +¥2,000 | +5.3% | 8.3% | 第二增长引擎 | Tencent has turned profitable and the second growth engine is starting to prove itself in live capital. |
+| 紫金矿业 | Resource Equities | ¥58,000 | +¥12,000 | +26.1% | 12.1% | 资源配置仓 | Continue holding as the portfolio stabilizer while executing disciplined T-trading on the trading tranche. |
+| 浪潮信息 (`000977.SZ`) | Technology | ¥27,500 | -¥5,000 | -15.4% | 5.7% | 第二增长引擎（AI） | Inspur is now in the live portfolio as an important AI observation target; keep position sizing cautious. |
+| 北京银行 | Banks / High Dividend | ¥26,000 | +¥2,000 | +8.3% | 5.4% | 防御收益仓 | Continue holding as a defensive yield balance position. |
+| 三花智控 | Technology | ¥25,000 | -¥8,000 | -24.2% | 5.2% | 制造成长仓 | Continue holding while using partial T-trading to improve capital efficiency and lower cost. |
 
 ## Current Allocation
 
@@ -42,6 +42,8 @@ Last Updated: `2026-07-30`
 | Gold (`积存金` / Gold ETF) | 0.0% | 10.0% | -10.0% |
 | Banks / High Dividend | 5.4% | 10.0% | -4.6% |
 | Cash | 11.9% | 5.0% | +6.9% |
+
+Allocation mapping: `Technology = 理想汽车 + 浪潮信息 + 三花智控`; `Consumer Internet = 美团 + 腾讯控股`.
 
 ## Investment Committee Comment
 
