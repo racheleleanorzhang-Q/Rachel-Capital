@@ -13,4 +13,12 @@ Rachel Capital 每周固定举行两场投资委员会会议。
 - 周五负责管理现在
 - Weekly 只记录每周结论，不重复 Thesis、Dashboard、Trade Playbook 中的长期内容。
 - **周一**：直接新增 weekly/YYYY-Wxx_2GE.md
-  **周五**：直接新增 weekly/YYYY-Wxx_Investment.md
+- **周五**：直接新增 weekly/YYYY-Wxx_Investment.md
+
+命名规范：
+
+```text
+weekly/
+├── YYYY-Wxx_2GE.md            # 周一：第二增长引擎
+├── YYYY-Wxx_Investment.md     # 周五：投资委员会
+```
