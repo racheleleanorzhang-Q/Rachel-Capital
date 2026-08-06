@@ -8,15 +8,6 @@ Current holdings should always be a subset of this document.
 
 Exited names should remain here when research continuity still matters.
 
-## Core Holdings
-
-| Name | Holding Status | Role | Research State | Why Covered | Add Trigger | Reduce / Remove Trigger | Target Position | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `美团` | `Held` | `Core Holding` | `Live Thesis` | Current core position and strongest live internet-platform exposure. | Core thesis remains intact and size can be increased without breaking concentration discipline. | Internet-platform view weakens materially or Meituan no longer deserves core status. | `35%–40% of total assets` | Current largest position. |
-| `紫金矿业` | `Held` | `Portfolio Stabilizer` | `Live Thesis` | Current resource-equity stabilizer after the first executed add. | Gold / resources become more useful and diversification need rises. | Cash becomes the better hedge or the stabilizer role no longer adds value. | `12%–15% of total assets` | Direct gold allocation remains separate. |
-| `三花智控` | `Held` | `Observation` | `Live Thesis` | Current observation position with potential to upgrade if AI-manufacturing evidence strengthens. | Theme moves from watch to stronger conviction and the thesis supports a larger role. | AI-manufacturing relevance fades and the name no longer improves the research universe. | `10%–12% of total assets` | No add while the role remains observation-only. |
-| `北京银行` | `Held` | `Defensive Holding` | `Live Thesis` | Current defensive holding that supports portfolio balance. | Only add if defensive exposure clearly improves portfolio construction. | Defensive role can be replaced by cash or better alternatives. | `5%–8% of total assets` | Defensive names remain in the universe even when not top priority. |
-| `理想汽车` | `Held` | `Optimization Candidate` | `Live Thesis` | Large existing position that still requires active review. | Only reconsider adding if EV conditions and thesis quality improve materially. | Explicit decision to exit and stop coverage, or a long period with no research relevance. | `0% until review status changes` | Held, but not a default add candidate. |
 
 ## Candidate List
 
@@ -39,6 +30,19 @@ These names are under research coverage only. They are not `Candidate` entries a
 | `新易盛` | `300502.SZ` | `Not Held` | `Active` | `Research（研究中）` | `光模块` | 高波动，适合波段研究。 |
 | `胜宏科技` | `300476.SZ` | `Not Held` | `Active` | `Research（研究中）` | `AI PCB` | 持续跟踪资金趋势。 |
 | `沪电股份` | `002463.SZ` | `Not Held` | `Active` | `Research（研究中）` | `AI PCB` | 稳健型观察标的。 |
+
+## AI 基础设施和硬件
+| 排名 | 股票   | 赛道    | 综合 |
+| -- | ---- | ----- | -- |
+| ①  | 中际旭创 | 光模块   | A+ |
+| ②  | 深南电路 | PCB   | A+ |
+| ③  | 新易盛  | 光模块   | A  |
+| ④  | 中科曙光 | AI服务器 | A  |
+| ⑤  | 胜宏科技 | PCB   | A- |
+| ⑥  | 沪电股份 | PCB   | A- |
+| ⑦  | 紫光股份 | 企业IT  | B+ |
+
+
 
 ## Institution Tracker
 
