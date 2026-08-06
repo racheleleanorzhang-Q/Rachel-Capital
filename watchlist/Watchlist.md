@@ -36,11 +36,13 @@ These names are under research coverage only. They are not `Candidate` entries a
 | -- | ---- | ----- | -- |
 | ①  | 中际旭创 | 光模块   | A+ |
 | ②  | 深南电路 | PCB   | A+ |
-| ③  | 新易盛  | 光模块   | A  |
-| ④  | 中科曙光 | AI服务器 | A  |
-| ⑤  | 胜宏科技 | PCB   | A- |
-| ⑥  | 沪电股份 | PCB   | A- |
-| ⑦  | 紫光股份 | 企业IT  | B+ |
+| ③  | 浪潮信息 | AI服务器 | A  |
+| ④  | 新易盛  | 光模块   | A  |
+| ⑤  | 中科曙光 | AI服务器 | A  |
+| ⑥  | 胜宏科技 | PCB   | A- |
+| ⑦  | 沪电股份 | PCB   | A- |
+| ⑧  | 紫光股份 | 企业IT  | B+ |
+
 
 
 
