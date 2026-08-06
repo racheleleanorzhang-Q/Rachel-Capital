@@ -1,12 +1,12 @@
 # Watchlist
 
-The watchlist is the continuously covered investment universe for Rachel Capital.
+The watchlist represents the entire range of investments that Rachel Capital continuously monitors and analyzes.
 
-It is not the portfolio.
+It’s not the portfolio at all.
 
-Current holdings should always be a subset of this document.
+The current holdings should always be a subset of the information contained in this document.
 
-Exited names should remain here when research continuity still matters.
+Names of those who have left should remain here when the continuity of research is still important.
 
 
 ## Candidate List
@@ -43,8 +43,12 @@ These names are under research coverage only. They are not `Candidate` entries a
 | ⑦  | 沪电股份 | PCB   | A- |
 | ⑧  | 紫光股份 | 企业IT  | B+ |
 
-
-
+**考虑这个组合比较完整：**
+AI应用：腾讯
+新消费：泡泡玛特
+AI服务器：浪潮信息、中科曙光
+AI光模块：中际旭创、新易盛
+AI PCB：深南电路
 
 ## Institution Tracker
 
