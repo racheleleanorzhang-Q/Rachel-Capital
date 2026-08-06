@@ -28,6 +28,18 @@ Exited names should remain here when research continuity still matters.
 | `Gold ETF` | `Not Held` | `Active` | `Research Continuity` | Direct gold allocation remains part of the intended stabilizer toolkit even before first implementation. | Hedge demand rises and direct gold becomes preferable to adding more resource-equity exposure. | Explicit investment committee decision to remove direct gold from the asset-allocation toolkit. | `Up to strategic gold target` | Complements rather than replaces `紫金矿业`. |
 | `泡泡玛特 (9992.HK)` | `Not Held` | `Active` | `Research Draft` | Global IP operator with strong overseas growth, high margin / cash flow, and active Hong Kong liquidity suitable for swing trading and T strategy observation. | Wait for a pullback to major support or a volume-backed breakout, then build the position in phases. | Explicit investment committee decision to stop coverage, or clear evidence that overseas growth, new IP incubation, and trading quality have weakened materially. | `Initial position capped at 5% of total assets` | Priority `★★★★☆`; consumer growth / swing / T-trading watch. Focus over the next 3 months: overseas revenue growth, new IP incubation, volume change, southbound flows, and quarterly earnings. |
 
+## AI Hardware（A股）
+
+These names are under research coverage only. They are not `Candidate` entries and not `Growth Engine` allocations at this stage.
+
+| Name | Code | Holding Status | Coverage Status | Research State | Track | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| `深南电路` | `002916.SZ` | `Not Held` | `Active` | `Research（研究中）` | `AI PCB` | 龙头，等待更好的建仓时机。 |
+| `中际旭创` | `300308.SZ` | `Not Held` | `Active` | `Research（研究中）` | `光模块` | 第一重点研究对象。 |
+| `新易盛` | `300502.SZ` | `Not Held` | `Active` | `Research（研究中）` | `光模块` | 高波动，适合波段研究。 |
+| `胜宏科技` | `300476.SZ` | `Not Held` | `Active` | `Research（研究中）` | `AI PCB` | 持续跟踪资金趋势。 |
+| `沪电股份` | `002463.SZ` | `Not Held` | `Active` | `Research（研究中）` | `AI PCB` | 稳健型观察标的。 |
+
 ## Institution Tracker
 
 Institution tracking is now a formal input into watchlist maintenance rather than an isolated note set.
