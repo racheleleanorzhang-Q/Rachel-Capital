@@ -163,3 +163,14 @@ This repository is intentionally conservative.
 Future versions may add automation, structured data extraction, or reporting support, but only after the manual workflow proves stable.
 
 The foundation rule is simple: process first, tooling second.
+
+## 需要加载的 Context 文件
+docs/session_summary.md
+→ 记录 Session 中的重要结论、交易、上下文和阶段性判断。
+
+thesis/trade_playbook/
+→ 记录长期有效、可重复执行的交易规则。
+
+decisions/decision_framework.md
+→ 记录 Rachel Capital 顶层决策流程，只在框架变化时更新。
+
